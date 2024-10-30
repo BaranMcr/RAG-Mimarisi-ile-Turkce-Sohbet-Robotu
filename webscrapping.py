@@ -1,14 +1,14 @@
 import requests
 from bs4 import BeautifulSoup
 
-# 1. Wikipedia sayfasına istek gönderen kod kısmı
+# Wikipedia sayfasına istek gönderen kod kısmı
 url = "https://tr.wikipedia.org/wiki/Merkez%C3%AE_i%C5%9Flem_birimi"
 response = requests.get(url)
 
-# 2. Sayfanın HTML içeriğini parse ederek okunabilir ve yazıları çekebilir hale getiriyoruz
+# Sayfanın HTML içeriğini parse ederek okunabilir ve yazıları çekebilir hale getiriyoruz
 soup = BeautifulSoup(response.content, "html.parser")
 
-# 3. Wikipedia da başlık ve paragrafların tutulduğu id nin ismi mv-content-text tir.
+# Wikipedia da başlık ve paragrafların tutulduğu id nin ismi mv-content-text tir.
 content = soup.find(id="mw-content-text")
 
 data = []  # Başlık ve paragrafları sıra ile eklemek için oluşturulan liste
