@@ -1,34 +1,58 @@
-import requests
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options as ChromeOptions
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
 from bs4 import BeautifulSoup
+import time
 
-# Wikipedia sayfasına istek gönderen kod kısmı
-url = "https://tr.wikipedia.org/wiki/Merkez%C3%AE_i%C5%9Flem_birimi"
-response = requests.get(url)
+def scrape_website(url):
+    # Chrome tarayıcıyı headless (arka planda) modda açma
+    chrome_options = ChromeOptions()
+    chrome_options.add_argument("--headless")  # Tarayıcıyı arka planda çalıştırır
+    driver = webdriver.Chrome(options=chrome_options)
+    
+    driver.get(url)
+    
+    # Sayfanın tamamen yüklenmesini beklemek için document.readyState kontrolü
+    WebDriverWait(driver, 30).until(
+        lambda driver: driver.execute_script('return document.readyState') == 'complete'
+    )
 
-# Sayfanın HTML içeriğini parse ederek okunabilir ve yazıları çekebilir hale getiriyoruz
-soup = BeautifulSoup(response.content, "html.parser")
+    # Sayfa kaynağını al ve BeautifulSoup ile analiz et
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+    
+    # Verileri toplamak için bir liste oluştur
+    data = []
+    
+    # Sayfadaki tüm başlık ve paragrafları sırasıyla bul
+    for element in soup.find_all(['h1', 'h2', 'h3', 'h4', 'p', 'figcaption']):
+        if element.name in ['h1', 'h2', 'h3', 'h4']:
+            title = element.get_text().strip()
+            if title:
+                data.append(f"\n\n### {title} ###\n")
+        elif element.name == 'p':
+            paragraph = element.get_text().strip()
+            if paragraph:
+                data.append(paragraph)
+        elif element.name == 'figcaption':
+            caption = element.get_text().strip()
+            if caption:
+                data.append(f"\n\n**Figcaption:** {caption}\n")
 
-# Wikipedia da başlık ve paragrafların tutulduğu id nin ismi mv-content-text tir.
-content = soup.find(id="mw-content-text")
+    # Tarayıcıyı kapat
+    driver.quit()
+    
+    # Tüm verileri birleştir
+    full_text = "\n".join(data)
+    
+    # Veriyi bir dosyaya kaydet
+    with open("sayfa_icerik.txt", "w", encoding="utf-8") as file:
+        file.write(full_text)
 
-data = []  # Başlık ve paragrafları sıra ile eklemek için oluşturulan liste
+    print("\nVeri 'sayfa_icerik.txt' dosyasına başarıyla kaydedildi!")
 
-# For döngüsü içinde tüm başlık ve paragrafları data listesine ekleyen kod
-for element in content.find_all(['h2', 'h3', 'h4', 'p']):
-    # Başlıkları alan kısım (h2,h3,h4 sırasıyla birbirlerinin alt başlıklarıdır).
-    if element.name in ['h2', 'h3', 'h4']:
-        title = element.get_text().strip()
-        data.append(f"\n\n### {title} ###\n")
-    # Paragraf olup olmadığına bakmak için 'p' kullanılır.
-    elif element.name == 'p':
-        paragraph = element.get_text().strip()
-        data.append(paragraph)
-
-# data listesindeki yazıları birleştirip full_text adlı string dosyasına aktar
-full_text = "\n".join(data)
-
-# text dosyası oluşturup yazma
-with open("sayfa_icerik.txt", "w", encoding="utf-8") as file:
-    file.write(full_text)
-
-print("\nVeri 'sayfa_icerik.txt' dosyasına başarıyla kaydedildi!")
+# URL girin
+url = "https://hasdata.com/blog/how-to-scrape-dynamic-content-in-python"
+scrape_website(url)

@@ -1,0 +1,185 @@
+
+
+### No-Code Scrapers ###
+
+
+
+### Scraper APIs ###
+
+
+
+### How to Scrape Dynamic Content in Python ###
+
+Python stands out as one of the best programming languages for web scraping. When embarking on scraping endeavors and crafting your scripts, the choice of library often boils down to personal preference and capabilities. However, it’s crucial to consider whether the selected library aligns with the task at hand.
+This article delves into the realm of dynamic content, differentiating it from static content and highlighting why not all libraries in your arsenal are suitable for scraping dynamic websites. Additionally, we’ll explore code examples that empower you to gather data from any website, along with several techniques and advanced concepts to refine your scraper.
+Effortlessly integrate web scraping into your Node.js projects with HasData's Node.js SDK, leveraging headless browsers, proxy rotation, and JavaScript rendering capabilities.
+The HasData Python SDK simplifies web scraping by handling complex tasks like browser rendering, proxy management, and CAPTCHA avoidance, allowing you to focus on extracting the data you need.
+
+
+### Understanding Dynamic Content ###
+
+Before we dive into examples of dynamic web scraping, let’s break down what it is and how it differs from static content. Understanding this distinction will empower us to make more informed decisions when choosing the right scraping tool and streamline the development process.
+
+
+### Static vs. Dynamic Content ###
+
+Static web pages have content that remains the same for all users, regardless of their actions or the time of day. They are typically written in HTML, CSS, and JavaScript, and they are stored as pre-generated files on the web server. This makes them easy to create and maintain, and they tend to load quickly. However, static web pages cannot display personalized content or real-time information.
+Dynamic web pages, on the other hand, generate content on the fly, based on user input or other factors. They are typically written in server-side programming languages like PHP, Python, or Node.js, and they use a database to store data. This makes them more complex to develop and maintain, but they offer a wider range of possibilities, such as personalized content, real-time updates, and interactive elements.
+
+
+### Common Technologies ###
+
+As we’ve discussed, static content on a page refers to fixed text, images, and other elements that are predetermined and don’t change after the page loads. It’s typically displayed using plain HTML, CSS, and JavaScript.
+Dynamic content, on the other hand, is generated or modified based on various factors, such as user actions, time of day, or external data. Let’s explore some common ways to implement dynamic content:
+PHP. A server-side scripting language that generates HTML code on the fly in response to user requests.
+AJAX. A technique for loading portions of a page without reloading the entire page.
+JavaScript. A client-side scripting language that allows you to modify page content within the user’s browser.
+Despite the differences in technologies used for dynamic content, the general principle behind its retrieval and display is the same: to change and update data in real-time. We’ll delve deeper into these principles and their implementation methods in the following sections.
+
+
+### Tools and Libraries for Scraping Dynamic Pages in Python ###
+
+Typically, the content of a dynamic web page can only be obtained after it has fully loaded. Therefore, the methods by which it can be obtained are limited to those that allow the web page to fully load before its content is retrieved.
+Let’s consider the most popular Python libraries for scraping and parsing data and see if they can provide the ability to scrape a dynamic website. If so, we will provide examples of their use.
+
+
+### Beautiful Soup and Dynamic Content ###
+
+The first library that comes to mind when it comes to scraping is BeautifulSoup. However, as we mentioned in other our articles, BS4 only allows you to parse the HTML code of a page and cannot get it on its own.
+Typically, in this case, simple request libraries such as requests or urllib are used to fetch the initial HTML code from a web page. Unfortunately, this traditional approach falls short when dealing with dynamic content that is continuously loaded and updated via JavaScript or AJAX requests.
+To scrape dynamic websites, where interactions and updates occur post-initial page load, tools like Selenium, Pyppeteer, or Playwright are essential. These libraries enable automated browsing and interaction with web pages, allowing for the retrieval of content that appears only after user actions or real-time updates.
+Therefore, while BeautifulSoup remains invaluable for static HTML parsing — you can learn more about how to use beautiful soup for web scraping — leveraging Selenium or similar tools becomes necessary for scraping modern web applications that heavily rely on dynamic content.
+Web Scraping API allows you to scrape web pages without the hassle of managing proxies, headless browsers, and captchas. Simply send the URL and get the HTML response in return.
+Get real-time access to Google search results, structured data, and more with our powerful SERP API. Streamline your development process with easy integration of our API. Start your free trial now!
+
+
+### Selenium, Pyppeteer or Playwright ###
+
+As we’ve mentioned before, the solution to this problem lies in utilizing headless browser libraries like Selenium, Puppeteer (a wrapper for Puppeteer), or Playwright. We’ve already compared Python libraries for headless browsers and discussed their installation, so we won’t delve deep into that here.
+The general process for scraping dynamic content using headless browsers is as follows:
+Configure a headless browser. Set up the headless browser parameters, such as window size and user agent.
+Navigate to the target page. Load the web page you want to scrape.
+Wait for the page to load. Wait for the entire web page to fully load, including any dynamic content generated by JavaScript.
+Scrape the data. Extract the desired data from the rendered web page.
+Close the browser. Close the headless browser instance.
+Once the web page has fully loaded, all the necessary data will be loaded and generated, making it easy to collect. Moreover, these libraries allow you to fully emulate the actions of a real user on the page. This gives you the ability to set the necessary parameters and get exactly the data you need.
+Now let’s look at examples and implement the algorithm discussed earlier for the three most popular libraries that support headless browsers. Let’s start with Selenium and create a new script for this, importing all the necessary modules and setting up the headless browser:
+Navigate to the desired web page using the driver.get() method:
+When scraping dynamic web pages, it’s crucial to wait for the target elements to load before attempting to interact with or extract data from them. Selenium provides various methods for implementing waits, each with its advantages. The simplest way to add wait is to set time.sleep():
+Or, you can use Selenium to make the same:
+The last way is to wait for a specific element to load. This method is particularly useful when you know which element is dynamically generated. You can simply wait for it to appear and then proceed with scraping the data. Here’s an example of how to do this using Selenium:
+Next, we need to extract the required data from the page and either process it, save it or display it on the screen:
+And finally, be sure to close the web browser:
+In this way, using this algorithm, you can get absolutely any data from the page, even if this content is generated dynamically.
+Let’s replicate the same process for the remaining two libraries. Now we will demonstrate how to use Pyppeteer to gather dynamic content from a webpage. Pyppeteer is an asynchronous library, so we’ll need the Asyncio library to facilitate its operation. We’ll encapsulate the entire data collection process within an asynchronous function:
+Let’s refine the main() function and set up the web driver:
+Next, proceed to the page and wait it to fully load:
+Get and process the data:
+At the end, close the web driver:
+The last library is Playwright. It is not as popular as Selenium or Puppeteer, which compete with each other due to different approaches, however, it is also used quite often.
+In terms of how to work with it, it is very similar to Selenium, although it has less functionality. To start, we import the necessary modules and set the link:
+Import the necessary library and create an instance of the web driver. Then use the goto() method of the web driver to access the specified web page:
+Use wait_for_selector_all() to wait until the desired element becomes visible on the page. This ensures that the element is fully loaded and ready for interaction:
+Process the extracted data:
+Once all data extraction tasks are complete, call the quit() method of the web driver to properly close the browser window and release associated resources:
+Despite having fewer features than Selenium, Playwright also has its supporters and is quite successful in collecting data from dynamic websites. Therefore, the choice of library depends not so much on which one is better, but on which one is more convenient for you.
+
+
+### Scrapy ###
+
+Scrapy, unlike the previously discussed options, is not just a library but a full-fledged framework for web scraping. We have previously covered how to use Scrapy in Python, but let’s delve deeper into its application for scraping dynamic website.
+Firstly, it’s important to note that Scrapy does not include its headless browser, meaning it cannot load web pages before processing them. However, referring to Scrapy’s official documentation reveals a dedicated section on scraping dynamic websites.
+This might seem peculiar until we explore the method proposed in the documentation. In reality, as you might have guessed, Scrapy does not support scraping dynamic web pages because it primarily executes simple requests and does not emulate browser behavior.
+Therefore, the official Scrapy website suggests using additional libraries that provide this functionality. In this particular example, the library Playwright, previously discussed, is recommended as an alternative.
+Unfortunately, this leads us to conclude that the Scrapy framework does not facilitate scraping dynamic pages, much like the BeautifulSoup library.
+
+
+### HasData’s Web Scraping API ###
+
+The last and easiest method is to use a web scraping API, which will collect the dynamic content for you and either provide a ready-made dataset or the HTML code of the fully loaded web page. As an example, we will use HasData’s web scraping API.
+To use it, register on our website and go to your account. On the Dashboard tab, you will find your personal API key, which you will need later.
+
+
+**Figcaption:** Sign up and go to the dashboard
+
+We can either retrieve data using the web scraping API through the API Playground, or we can use the documentation to create our own Python script. Let’s start with the simpler option and go to the API Playground:
+
+
+**Figcaption:** Research our API Playground
+
+You can then choose an API for a specific website or the general Web Scraping API, which allows you to collect data from any resource. As an example, we will consider the most versatile option.
+
+
+**Figcaption:** Try our Web Scraping API
+
+As you can see, there are many different parameters on the page that you can configure, and it would take a long time to dwell on each of them. In addition, the screenshot does not show all possible parameters, but only half of them. However, the most important thing you will need to scrape dynamic website is to specify the URL of the website from which you want to collect data and check the box next to the JS Rendering item.
+You can either set your parameters for the rest of the options, such as location, proxy, extraction rules, email extraction, and much more, or you can leave them untouched. Then you can either run the script by clicking the “Execute Request” button, copy the code in one of the programming languages, or the cURL request at the top of the screen.
+We will write a script that collects data from dynamic websites using Python. First, create a new *.py file and import the requests library into your project:
+Next, specify the endpoint URL of the web scraping API:
+Define the parameters you want to pass to the API. For example, specify the website URL, enable JS rendering, take a screenshot, and include email scraping from the page:
+Then, set the request headers and include your personal API key obtained earlier:
+Now, make the API request to retrieve the desired parameters:
+You can process the result in any way you prefer. But remember, the API returns data in JSON format, with one of the attributes containing the entire source code of the page.
+
+
+### Advanced Techniques ###
+
+Since Selenium remains the most popular library for scraping dynamic websites, we will use it for all examples in this section. However, both remaining libraries support similar functionality, so you can adapt the examples discussed to your project if necessary.
+We will build on the previously written script, which we will modify:
+We will discuss various additional features and techniques that can be useful when collecting dynamic content from pages.
+
+
+### Using Headless Mode in Selenium ###
+
+To enhance the performance of your web scraping script, consider utilizing Headless mode, which runs your web browser in the background without rendering the graphical interface. Additionally, disable GPU usage to further optimize performance in Headless mode.
+To achieve this, simply specify additional options when configuring the web driver:
+Other than these adjustments, the script remains unchanged, yet these modifications significantly enhance the speed and efficiency of your dynamic web page scraper.
+
+
+### Handling Infinite Scroll ###
+
+Infinite scrolling is a popular technique used to load content progressively as users scroll down a page, eliminating the need for pagination. This approach enhances the user experience by providing a seamless and dynamic interaction.
+It’s particularly useful for displaying large amounts of data, such as social media feeds or search results and for displaying large amounts of data without requiring pagination or page reloads. It enhances the user experience by providing a seamless and fluid browsing experience.
+To implement infinite scrolling, we need to follow these steps:
+Identify the end of the page. Upon loading the page, determine the location of the page’s bottom.
+Scroll to the end of the page. Move the viewport to the end of the page’s content.
+Check if the current position is at the end of the page. Determine if the current viewport position has reached the bottom of the page. If not, identify the new end of the page.
+Repeat steps 2-3. Continuously scroll to the end of the page and check the current position until the viewport reaches the actual bottom of the page.
+Let’s enhance our initial script by adding the the following python code to perform scrolling after loading the page but before collecting data from the page:
+This enhanced script effectively implements the infinite scrolling algorithm, making it applicable to various websites with similar requirements.
+
+
+### Evaluate JavaScript ###
+
+In web scraping scenarios, it’s often necessary to execute JavaScript code directly on a webpage before extracting data. This is particularly useful for handling dynamic web page loading, activating UI elements, or performing data preprocessing tasks. Additionally, JavaScript can be employed to automate complex tasks like captcha solving or interacting with page elements that require specific actions.
+Selenium provides the execute_script() method to seamlessly execute JavaScript code within a webpage. Simply pass the JavaScript code as a string to this method, and Selenium will execute it on the currently loaded page:
+Leveraging JavaScript within Selenium expands the possibilities for data scraping, especially when standard Selenium methods fall short or prove inefficient. This approach enhances scraping flexibility, enabling data extraction from diverse sources and circumventing dynamic website limitations.
+
+
+### Conclusion ###
+
+In conclusion, scraping dynamic web pages is a significant topic that has gained considerable attention. This article aimed to shed light on the distinction between static website and dynamic content, the implementation of dynamic content, and methods for gathering data from dynamic websites.
+We delved into the most popular tools and libraries for scraping dynamic web pages using Python, including BeautifulSoup, Selenium, Pyppeteer, Playwright, and Scrapy. Additionally, we explored the principles of utilizing web scraping APIs to collect dynamic content.
+Based on the analysis, BeautifulSoup and Scrapy are not suitable for scraping dynamic websites due to their functional limitations. Instead, Selenium, Pyppeteer, or web scraping APIs are more appropriate choices.
+
+
+### Might Be Interesting ###
+
+Oct 29, 2024
+
+
+### How to Scrape YouTube Data for Free: A Complete Guide ###
+
+Learn effective methods for scraping YouTube data, including extracting video details, channel info, playlists, comments, and search results. Explore tools like YouTube Data API, yt-dlp, and Selenium for a step-by-step guide to accessing valuable YouTube insights.
+Oct 16, 2024
+
+
+### Scrape Etsy.com Product, Shop and Search Results Data ###
+
+Learn how to scrape Etsy product, shop, and search results data with methods like Requests, BeautifulSoup, Selenium, and web scraping APIs. Explore strategies for data extraction and storage from Etsy's platform.
+Sep 9, 2024
+
+
+### How to Scrape Immobilienscout24.de Real Estate Data ###
+
+Learn how to scrape real estate data from Immobilienscout24.de with step-by-step instructions, covering website analysis, choosing the right tools, and storing the collected data.
