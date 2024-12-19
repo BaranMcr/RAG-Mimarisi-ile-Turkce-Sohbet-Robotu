@@ -1,0 +1,619 @@
+**************https://www.elitmuzik.com.tr***********************
+
+İşlemci Nedir? Ne Demek? Açıklama
+İşlemci, bilgisayar sistemlerinde temel hesaplama ve veri işleme işlevlerini yerine getiren önemli bir donanım bileşenidir. Aynı zamanda "merkezi işlem birimi" veya kısaca "CPU" olarak da adlandırılır. Bilgisayarın beyni olarak düşünülebilir, çünkü tüm hesaplama görevleri burada gerçekleştirilir. İşlemciler, bir dizi elektronik devre ve transistörden oluşur ve bilgisayarın performansını belirleyen en önemli faktörlerden biridir. Bu blog yazısında, işlemci nedir, nasıl çalışır, işlemci türleri ve bilgisayar performansı üzerindeki etkileri gibi konuları detaylı bir şekilde ele alacağız.
+
+İşlemcinin Temel İşlevi
+İşlemcinin temel işlevi, bilgisayarın gerçekleştirdiği her türlü hesaplama, veri işleme ve komutları yürütme görevlerini yerine getirmektir. İşlemci, bilgisayarın tüm bileşenleri arasında veri akışını düzenler ve kontrol eder. Örneğin, kullanıcının klavyeden girdiği karakterler işlemci tarafından alınır, işlenir ve ekranda görüntülenir.
+
+1. Komut Yürütme
+İşlemci, bilgisayarın belleğindeki komutları alır, yürütür ve sonuçları diğer bileşenlere ileterek işlemi tamamlar. Her komut, işlemcinin mikro işlemcileri tarafından küçük adımlara bölünerek işlenir.
+
+2. Veri İşleme
+İşlemci, bellekteki verileri alır, matematiksel işlemler veya mantıksal operasyonlar uygular ve sonuçları belleğe veya diğer bileşenlere gönderir. Örneğin, iki sayıyı toplama veya mantıksal bir ifadenin doğruluğunu kontrol etme işlemleri işlemci tarafından gerçekleştirilir.
+
+3. Adresleme
+İşlemci, bellekteki verilere erişmek için adresleme mekanizmalarını kullanır. Her bellek hücresi, işlemcinin erişebileceği benzersiz bir adresle tanımlanır ve işlemci bu adresleri kullanarak verilere ulaşır.
+
+4. Kontrol
+İşlemci, bilgisayarın diğer bileşenlerini kontrol eder ve yönlendirir. Örneğin, ekran kartına görüntüyü gönderir, sabit diske veri yazdırır veya klavyeden gelen komutları alır.
+
+İşlemci Nasıl Çalışır?
+İşlemci, elektronik devreler ve tranzistörlerden oluşan oldukça karmaşık bir yapıya sahiptir. İşlemcinin çalışma prensibi şu şekildedir:
+
+1. Komut Alınması
+İşlemci, bilgisayarın belleğinden komutları alır. Bellek, işlemcinin komutları ve verileri işlemesi için gerekli olan bilgileri saklar. İşlemci, komutları bellek hücrelerinden alarak yürütme birimine gönderir.
+
+2. Yürütme Birimi
+Yürütme birimi, işlemcinin temel işlemleri gerçekleştirdiği bölümdür. Komutlar, yürütme biriminde küçük adımlara bölünür ve işlemci tarafından bu adımlar sırasında işlenir.
+
+3. Kaydedici (Register) Kullanımı
+İşlemci, geçici verileri ve sonuçları saklamak için kaydediciler (register) adı verilen küçük hafıza birimlerini kullanır. Bu kaydediciler, işlemci içinde bulunur ve hızlı erişim sağlayarak işlem hızını artırır.
+
+4. Veri ve Kontrol Sinyalleri
+İşlemci, veri ve kontrol sinyalleri kullanarak komutları diğer bileşenlere ileterek işlemi tamamlar. Veri sinyalleri, işlemcinin bellek ve diğer bileşenlerle veri alışverişini sağlar. Kontrol sinyalleri ise diğer bileşenlerin ne zaman işlemciyle etkileşime gireceğini belirler.
+
+İşlemci Türleri
+İşlemciler, çeşitli faktörlere göre farklı türlerde olabilir. İşte yaygın olarak kullanılan işlemci türlerinden bazıları:
+
+1. Tek Çekirdekli İşlemciler
+Tek çekirdekli işlemciler, yalnızca bir işlem çekirdeğine sahip olan işlemcilerdir. Tek çekirdekli işlemciler, temel hesaplama görevlerini seri olarak yürütürler. Bu nedenle, çoklu görevleri aynı anda yürütmek için uygun değillerdir.
+
+2. Çok Çekirdekli İşlemciler
+Çok çekirdekli işlemciler, birden fazla işlem çekirdeğine sahip olan işlemcilerdir. Bu çekirdekler, bağımsız olarak çalışabilir ve birden fazla işlemi aynı anda yürütebilir. Bu sayede, çoklu görevlerde daha iyi performans sağlarlar.
+
+3. APU (Accelerated Processing Unit)
+APU, bir işlemci ve bir grafik işlem biriminin (GPU) birleştirilmiş halidir. Bu tür işlemciler, grafik yoğun uygulamaları daha iyi işlemek için özel olarak tasarlanmıştır.
+
+4. İntegrated Graphics
+Integrated Graphics, ayrı bir grafik kartı olmadan işlemci içine entegre edilmiş grafik işlem birimidir. Bu tür işlemciler, temel grafik ihtiyaçlarını karşılamak için yeterli olabilir, ancak yüksek performanslı oyunlar ve grafik yoğun uygulamalar için yeterli olmayabilir.
+
+İşlemcinin Bilgisayar Performansı Üzerindeki Etkisi
+İşlemci, bilgisayarın performansını büyük ölçüde etkileyen önemli bir faktördür. İyi bir işlemci, bilgisayarın hızlı çalışmasını ve görevleri hızlı bir şekilde tamamlamasını sağlar. Özellikle çoklu çekirdekli işlemciler, çoklu görevleri aynı anda yürüterek daha yüksek performans sunarlar. Ayrıca, işlemcinin saat hızı, veri işleme hızını belirleyen diğer bir önemli faktördür. Yüksek saat hızına sahip işlemciler, daha hızlı hesaplamalar yapabilir ve uygulamaları daha hızlı başlatabilir.
+
+Sonuç
+İşlemci, bilgisayarların temel hesaplama ve veri işleme işlevlerini yerine getiren önemli bir donanım bileşenidir. Bilgisayarın beyni olarak düşünülebilecek işlemci, komutları alır, yürütür ve sonuçları diğer bileşenlere iletir. İşlemci türleri ve performansı, bilgisayarın genel performansını etkileyen önemli faktörlerden biridir. Doğru işlemci seçimi, bilgisayarınızın performansını artırabilir ve daha iyi bir kullanıcı deneyimi sağlayabilir. Bu nedenle, bilgisayar satın alırken veya yükseltirken işlemci seçimine dikkat etmek önemlidir.
+
+*************************https://hopi.com.tr**************************
+
+İşlemci nedir, ne işe yarar, nasıl çalışır ve özellikleri nelerdir, merak ediyorsan bu yazı tam sana göre. Hemen okumaya başla!
+Günlük olarak sıklıkla kullandığın bilgisayarlar, tabletler ve telefonlar belli kapasitedeki işlemciler ile çalışıyor.  Bu tür elektronik ürünlerin merkezi işlem birimi olarak görev yapan işlemci nedir, sorusu, bu yazının ana temasını oluşturuyor. İşlemci nasıl açılır, en temel özellikleri nelerdir; işlemci nesilleri, frekansı ne anlama geliyor ve işlemci almadan önce nelere dikkat edilmelidir, hepsinin cevabı burada. Okumaya devam ederek sen de işlemci hakkında detaylı bilgilere sahip olabilirsin.
+
+
+İşlemci Nedir?
+Yukarıda da kısaca bahsettiğimiz gibi işlemci, bir bilgisayar veya elektronik cihazın merkezi işlem birimidir. Diğer bir deyişle işlemci, bilgisayardaki "beyin" olarak düşünülebilir. Bu birim veri işleme, hesaplama ve komutları yürütme görevlerinden sorumludur. Ayrıca Bir işlemci, bir veya daha fazla işlemci çekirdeği (core) içerebilir. Her çekirdek, işlemci üzerinde bağımsız olarak çalışabilen ve komutları işleyebilen bir işlemci birimidir. Çok çekirdekli işlemciler, aynı anda birden fazla işlemi paralel olarak gerçekleştirebilir. Böylece her biri daha hızlı ve daha verimli bir şekilde çalışabilir.
+İşlemci nedir ne işe yarar, kısaca öğrendikten sonra aşağıda işlemcilerin genel özelliklerini görmek de mümkün.
+
+
+
+İşlemci Özellikleri
+İşlemci özelliklerini aşağıda maddeler halinde görebilirsin.
+İşlemcinin üzerinde bulunan bağımsız işlem birimi sayısını ifade eder. Çok çekirdekli işlemciler, aynı anda birden fazla işlemi paralel olarak gerçekleştirme yeteneğine sahiptir. Bu, çoklu görevlerin daha verimli bir şekilde işlenebilmesini sağlar.
+Önbellek, işlemcinin sık kullanılan verilere daha hızlı erişmesini sağlar ve işlemcinin hızını artırmak ve bellek erişim süresini azaltmak için kullanılan hızlı bir bellek türüdür.
+İşlemci mimarisi ise işlemcinin iç yapısını ve çalışma prensiplerini ifade eder. Mimariler, işlemcinin performansını, enerji verimliliğini ve diğer özelliklerini belirleyebilir. Örnekler arasında x86, x86-64, ARM, PowerPC gibi mimariler bulunur.
+İşlemcilerin azami ısınma kapasitesi de bulunur. İşlemcilerin maksimum ısınma gücünü ifade eden TDP değeri, işlemcinin tipik olarak ne kadar güç tüketeceğini ve buna bağlı olarak ne kadar ısı üreteceğini gösterir.
+Simultaneous Multi-Threading – SMT olarak belirtilen bir diğer özellikleri ise işlemcilerin işlemcinin paralel işlem yeteneklerini artırır ve daha verimli çoklu görev işleme sağlar. Bu özellik, her fiziksel çekirdeği birden fazla sanal çekirdek gibi davranabilen işlemcilerde bulunur.
+Saat hızı ise işlemcinin bir saniyedeki döngü sayısını ifade eder. Ölçüm birimi genellikle gigahertz (GHz) şeklindedir. Daha yüksek saat hızı, işlemcinin daha hızlı çalışmasını sağlar ve işlemci performansını etkiler.
+
+
+İşlemcilerin Çalışma Prensibi
+Konu işlemciler olunca akla ilk gelen sorular arasında “işlemci nasıl çalışır” da yer alıyor. İşlemciler, veri işleme ve komut yürütme gibi temel görevleri gerçekleştirmek için karmaşık bir çalışma prensibine sahip. İşlemcinin çalışma prensibi genel olarak şu adımlardan oluşur:
+
+İşlemci, bir program tarafından gönderilen komutları alır. Komutlar, işlemcinin anladığı komut setine (instruction set architecture) göre biçimlendirilmiş olmalıdır.
+
+İşlemci, aldığı komutları deşifre eder ve komutun işlem tipini ve gerektirdiği verileri belirler. Bu adımda, işlemcinin kontrol devresi komutu doğru bir şekilde yürütmek için gerekli işlem bilgilerini belirler.
+
+İşlemcinin bellek ve kaynaklara erişmesi gerekebilir. Bellekten veya önbellekten gerekli verileri alır veya gerekli hesaplama veya işlem yapmak için giriş çıkış aygıtlarına erişim sağlar.
+
+İşlemcinin ana işlem birimi, komutun gerektirdiği işlemi gerçekleştirir. Bu adım, matematiksel hesaplamaları, mantıksal işlemleri veya diğer veri işleme operasyonlarını içerir. İşlemcinin içindeki çekirdekler, komutları paralel olarak işleyebilir. Böylece daha hızlı ve verimli bir işlem gerçekleştirilebilir.
+
+İşlemci, yürütülen işlem sonucunu ilgili birime veya bellek hücresine kaydeder. Bu, işlem sonuçlarının saklandığı ve gelecekteki işlemlerde kullanılabileceği bir depolama alanıdır.
+
+İşlemcin, bir programın akışını kontrol etmek için karar verme ve yönlendirme işlemlerini gerçekleştirir. Koşulların kontrolü, döngülerin işlenmesi ve programın akışının belirlenmesi gibi işlemler bu adımda gerçekleştirilir.
+
+
+Bu adımlar sürekli olarak tekrarlanır ve işlemci, komutları hızlı bir şekilde işleyerek programın çalışmasını sağlar. İşlemcinin içindeki kontrol devresi ve zamanlama mekanizmaları, bu adımları düzenler ve işlemci bileşenlerinin senkronize bir şekilde çalışmasını sağlar. Unutulmamalıdır ki bu temel çalışma prensibi, işlemcinin mimarisi ve tasarımına bağlı olarak değişebilir ve farklı işlemci mimarileri, farklı adımlar ve işlem mantığı kullanabilir. Şimdi ise sırada işlemci nesilleri var. Bakalım farklı işlemci nesilleri nelermiş.
+
+
+
+İşlemci Nesilleri Hakkında
+İster bilgisayar ister telefon ister tablet satın alırken gördüğünüz işlemci nesilleri bilgisi, ürünün farklı özelliklerine göre çeşitlenmekte. İşlemci teknolojisinin zamanla ilerlemesiyle ortaya çıkan farklı gelişim aşamalarını ifade eden bu nesillerden bazıları hemen aşağıda:
+
+İlk Nesil İşlemciler: 1970'lerin başında ortaya çıkan ilk mikroişlemciler, genellikle 4-bit veya 8-bit işlemcilere sahipti. Örnek olarak Intel 4004 ve Intel 8008 sayılabilir.
+
+8-bit ve 16-bit İşlemciler: 1980'lerde 8-bit ve 16-bit işlemci mimarileri popüler hale geldi. Örneğin Intel 8080, Zilog Z80 ve Motorola 68000 bu dönemde yaygın olarak kullanılan işlemcilerden sadece birkaçı.
+
+32-bit İşlemciler: 1980'lerin sonu ve 1990'ların başında 32-bit işlemcilerin yükselişi söz konusuydu. Bu dönemde Intel 386, Motorola 68020 ve IBM POWER mimarisi gibi işlemciler ortaya çıktı ve büyük sükse yaptı.
+
+64-bit İşlemciler: 2000'lerin başında 64-bit işlemciler yaygınlaştı. Bu nesil işlemciler, daha geniş veri yolları ve daha büyük bellek adresleme kapasiteleri sunar. Örnek olarak Intel Core 2 Duo ve AMD Athlon 64 sayılabilir.
+
+Çok Çekirdekli İşlemciler: 2000'lerin ortalarından itibaren çok çekirdekli işlemciler önem kazandı. Bu işlemciler, bir işlemcinin içinde birden fazla işlem birimi (çekirdek) bulundurarak paralel işleme yeteneklerini artırdı. Intel Core i7 ve AMD Ryzen işlemci ailesi bu nesle örnek olarak verilebilir.
+
+Gelişmiş Mikro mimariler: Günümüzde işlemci nesilleri, gelişmiş mikro mimarilerle birlikte gelir. Örneğin Intel'in Core serisi işlemcileri (Core i3, i5, i7, i9), AMD'nin Zen mimarisi (Ryzen serisi) bu nesle örnek olarak gösterilebilir.
+
+
+
+
+
+İşlemci Frekansı Ne Anlama Geliyor?
+
+Tüm bunların yanı sıra işlemci frekansı nedir, diye merak edenlerin de merakı da burada gideriliyor. Okumaya devam ederek işlemci frekansı hakkında detaylı bilgiye sahip olman mümkün.
+İşlemci frekansı veya saat hızı, bir işlemcinin bir saniyedeki döngü sayısını ifade eder. Ölçüm birimi genellikle gigahertz (GHz) olarak kullanılır.  Daha yüksek frekans değeri, işlemcinin daha hızlı çalışmasını sağlar ve komutları daha hızlı işleyebilir. Yüksek frekans ise işlemcinin veri işleme, hesaplama ve komut yürütme hızını artırır. Bununla birlikte işlemcinin frekansı, performansı etkileyen tek faktör değildir. İşlemcinin çekirdek sayısı, önbellek boyutu, işlem mimarisi ve diğer faktörler de önemlidir. Ayrıca frekans, işlemcinin saat sinyalleri ile belirlenir. İşlemcinin kontrol devresi, belirli bir frekansta sinyal üreterek işlemcinin döngüsünü senkronize eder. Bu saat sinyali, işlemcinin tüm bileşenlerinin işlemleri eş zamanlı olarak gerçekleştirmesini sağlar.
+
+
+İşlemci Alırken Dikkat Edilecekler
+Bilgi işlemci nedir, sorusunu cevaplamaya çalıştığımız bu yazının son bölümünü işlemci alırken dikkat edilecekler konusuna ayırıyoruz. Aşağıda işlemci satın almadan önce nelere dikkat etmen gerektiğini beş madde halinde bulabilirsin.
+Performans: İşlemcinin performansı, hızlı ve verimli bir şekilde işlem yapma yeteneğini belirler. İşlemcinin saat hızı (frekans), çekirdek sayısı ve önbellek boyutu gibi faktörler performansı etkiler. Planladığın kullanım senaryosuna ve ihtiyaçlarına uygun bir performans düzeyine sahip bir işlemci seçmeni tavsiye ederiz.
+İşlemci Mimarisi: İşlemci mimarisi, işlemcinin iç yapısını ve çalışma prensiplerini belirler. Farklı işlemci mimarileri; performans, enerji verimliliği ve özellikler açısından farklılık gösterir. Örneğin Intel'in x86 mimarisi ve AMD'nin Zen mimarisi farklı tasarımlara sahiptir. İşlemci mimarisi, işlemcinin desteklediği komut seti, önbellek yapısı ve paralel işleme yetenekleri gibi özellikleri de etkiler.
+Bellek Desteği: İşlemcinin desteklediği bellek tipi, hızı ve maksimum bellek kapasitesi gibi faktörler önemlidir. Bellek hızı ve kapasitesi, işlemcinin veri erişimi ve işlem performansını etkiler. İşlemcinin desteklediği bellek türleri (DDR3, DDR4, DDR5) ve bellek hızı desteği gibi özelliklere dikkat etmek yararlı olacaktır.
+Uyumluluk: İşlemci, seçtiğin anakart ve diğer sistem bileşenleriyle uyumlu olmalı. Anakartın işlemci soketi ve desteklediği işlemci türleriyle uyumlu bir işlemci seçmek oldukça önemli. Ayrıca işletim sistemi ve diğer yazılımlarla da uyumlu olmasına dikkat etmek gerekir.
+Bütçe: İşlemci fiyatları farklı seviyelerde olabilir. İhtiyaçlarına ve bütçene uygun bir işlemci seçerek tasarruf etmen mümkün. Performans gereksinimlerini karşılayacak en iyi fiyat/performans oranına sahip işlemciyi bulmaya çalış.
+
+**********************https://www.gaming.gen.tr***********************************
+
+Bilgisayarların hayatımızın vazgeçilmez bir parçası haline geldiği bu çağda, onları çalıştıran ve verimli hale getiren temel bileşenlerin önemi de artmıştır. Bu noktada, bilgisayarların beyni olarak adlandırılan işlemciler devreye giriyor. Bu yazıda, işlemcilerin ne olduğunu, işlevlerini, türlerini ve seçim kriterlerini detaylı bir şekilde ele alacağız.
+İşlemci Nedir?
+İşlemci, bilgisayarın merkezi işlem birimi (CPU) olarak tanımlanır. Bilgisayarın tüm işlemlerini gerçekleştiren, veri işleyen ve komutları yürüten bir çip veya çip setidir.
+
+İşlemcinin İşlevi Nedir?
+İşlemcinin temel işlevleri şunlardır:
+
+Komut İşleme: İşlemci, bilgisayarın işletim sistemi veya kullanıcı tarafından gönderilen komutları işler. Bu komutlar, aritmetiksel veya mantıksal operasyonlar, veri transferi veya diğer işlemleri içerir.
+
+Veri İşleme: İşlemci, veriyi işleyerek matematiksel işlemleri gerçekleştirir. Bu işlemler sayıları toplama, çıkarma, çarpma, bölme gibi temel aritmetik operasyonlarını ve mantıksal operasyonları kapsar.
+
+Bellek Yönetimi: İşlemci, bilgisayarın belleğini yönetir. Veri ve talimatlar bellekten işlenir ve belleğe yazılır. İşlemci, bellekteki veriye erişerek gerekli işlemleri gerçekleştirir.
+
+Yönetim ve Kontrol: İşlemci, bilgisayarın tüm parçalarını yönetir ve koordine eder. Komutları sıralar, zamanlama işlemlerini sağlar, diğer donanım bileşenleriyle iletişim kurar ve bilgisayarın düzgün çalışmasını sağlar.
+
+Güç Yönetimi: Modern işlemciler, enerji verimliliği açısından optimize edilmiştir. İşlemci performansını artırırken enerji tüketimini minimize etmeyi amaçlar. İşlemciler genellikle güç tasarrufu modlarına sahiptir.
+
+Bilgisayarda İşlemcinin Yeri
+Bilgisayarda işlemci, genellikle anakartın üzerindedir. Anakart, bilgisayarın diğer tüm bileşenlerini barındıran ve bunların birbiriyle iletişim kurmasını sağlayan bir temel bileşendir. İşlemci, anakart üzerindeki bir sokete takılır ve buradan diğer bileşenlerle veri alışverişi yapar.
+
+İşlemci Türleri
+Merkezi İşlem Birimi (CPU): Bilgisayarın genel işlem ve hesaplama işlevlerini gerçekleştiren temel işlemci türüdür.
+
+Grafik İşlem Birimi (GPU): Grafik işleme ve 3D hesaplama için tasarlanmış işlemcilerdir. Bilgisayar oyunları, grafik tasarımı, video düzenleme ve yapay zeka gibi alanlarda kullanılır.
+
+Hızlandırıcılar (FPGA, ASIC): Belirli bir uygulama veya algoritma için optimize edilmiş özel amaçlı işlemcilerdir.
+
+Mobil İşlemciler: Akıllı telefonlar, tabletler ve diğer taşınabilir cihazlarda kullanılan işlemcilerdir. Düşük güç tüketimi ve yüksek verimlilik için optimize edilmiştir.
+
+Sunucu İşlemcileri: Veri merkezleri ve büyük ölçekli bilgi işlem uygulamaları için tasarlanmış yüksek performanslı işlemcilerdir.
+
+Entegre İşlemciler (APU, SoC): Merkezi işlem birimi ve grafik işlem birimini tek bir yonga üzerinde birleştiren işlemcilerdir.
+
+İşlemci Seçerken Dikkat Edilmesi Gerekenler
+Performans: İşlemcinin hızı, çekirdek sayısı ve mimarisi performansı belirler. Daha yüksek saat hızları ve çekirdek sayıları genellikle daha iyi performans sağlar.
+Kullanım Amacı: Bilgisayarın hangi amaçlarla kullanılacağını dikkate almak önemlidir. Oyun oynamak, video düzenlemek, programlama yapmak veya ofis işleri gibi farklı kullanım senaryoları farklı işlemci gereksinimleri ortaya koyar.
+Soket Uyumluluğu: İşlemcinin anakartın soketiyle uyumlu olması gerekir. Bu, sorunsuz bir kurulum sağlar.
+Enerji Tüketimi ve Isı Yönetimi: İşlemci seçerken enerji tüketimi ve ısı üretimi gibi faktörler de göz önünde bulundurulmalıdır.
+Fiyat ve Performans Oranı: Bütçenize uygun bir işlemci seçmek önemlidir. En pahalı işlemci her zaman en iyi performansı sunmayabilir.
+Gelecek Güvenlik ve Uyumluluk: İşlemciyi seçerken gelecekteki güvenlik güncellemeleri ve uyumluluk desteği gibi faktörler de göz önünde bulundurulmalıdır.
+
+İşlemci Hızı Nedir?
+İşlemci hızı, bir işlemcinin birim zamanda gerçekleştirebildiği işlem sayısını ifade eder ve genellikle gigahertz (GHz) cinsinden belirtilir. Yüksek işlemci hızı, işlemcinin daha hızlı çalıştığı ve daha fazla işlemi birim zamanda gerçekleştirebildiği anlamına gelir. Ancak, işlemci hızı tek başına performansı belirleyen bir faktör değildir.
+
+Gelişmiş CPU Özellikleri
+Çoklu Çekirdek Desteği: İşlemciler, birden fazla çekirdek içerebilir, bu da aynı anda birden fazla işi yapabilme anlamına gelir.
+Hiper-Threading Teknolojisi: İşlemci çekirdekleri, aynı anda birden fazla iş parçacığını işleme yeteneğine sahiptir.
+Bellek Yönetim Birimleri (MMU): Bellek erişimini optimize eden donanım bileşenleridir.
+Bellek Önbellekleri: Hızlı belleklerdir ve işlemcinin daha hızlı veri erişimini sağlarlar.
+Güç Yönetimi Teknolojileri: Enerji tüketimini azaltarak ve ısı üretimini optimize ederek işlemciyi daha verimli hale getirirler.
+Grafik İşlem Birimi (GPU) Entegrasyonu: İşlemci, entegre grafik işlem birimleri içerebilir, bu sayede ayrı bir grafik kartına gerek kalmadan temel grafik işlemleri gerçekleştirilebilir.
+Bileşen Entegrasyonu (SoC): İşlemci, diğer bileşenleri (bellek denetleyicisi, grafik işlem birimi vb.) entegre edebilir, bu da sistem maliyetini düşürür ve entegrasyonu artırır.
+
+Bu özellikler, işlemcilerin performansını artıran ve işlevselliğini geliştiren temel unsurlardır.
+Bu bilgiler ışığında, bilgisayarınız için en uygun işlemciyi seçerek performansınızı maksimize edebilir ve bilgisayar kullanım deneyiminizi iyileştirebilirsiniz.
+
+**********************************https://aws.amazon.com/tr/*******************************
+
+CPU nedir?
+Merkezi işlem birimi (CPU), sunucudaki temel bilgi işlem birimi olan donanım bileşenidir. Sunucular ve diğer akıllı cihazlar, verileri dijital sinyallere dönüştürür ve bunlar üzerinde matematiksel işlemler gerçekleştirir. CPU, sinyalleri işleyen ve bilgi işlem olanağı sağlayan birincil bileşendir. Bir bilgi işlem cihazının beyni olarak görev yapar. Bellekten talimatları getirir, gerekli görevleri gerçekleştirir ve çıktıyı belleğe geri gönderir. İşletim sistemini ve uygulamaları çalıştırmak için gereken tüm bilgi işlem görevlerini yerine getirir.
+
+CPU teknolojisi zaman içinde nasıl gelişti?
+En eski bilgisayarlar işleme için vakum tüplerini kullanıyordu. ENIAC ve UNIVAC gibi makineler büyük ve hacimliydi. Çok fazla güç tüketiyor ve önemli miktarda ısı üretiyorlardı. 1940'ların sonlarında transistörlerin icadı, CPU teknolojisinde devrim yarattı. Transistörlerin vakum tüplerinin yerini almasıyla bilgisayarlar küçüldü, daha güvenilir ve daha enerji tasarruflu hale geldi. 1960'ların ortalarında, birden fazla transistörü ve diğer bileşenleri tek bir bilgisayar çipinde birleştiren entegre devreler (IC'ler) geliştirildi. CPU'lar daha da küçüldü ve daha hızlı hale gelerek mikroişlemcilerin ortaya çıkmasını sağladı.
+
+Bilgisayar çipleri hakkında bilgi edinin »
+
+Mikroişlemciler
+Mikroişlemciler, tüm CPU'yu tek bir IC çipinde birleştirerek bilgisayarları daha erişilebilir hale getirdi ve kişisel bilgisayarların geliştirilmesinin önünü açtı. Başlangıçta, CPU'lar bir seferde 16 ila 32 bit veriyi işleyebiliyordu. 2000'lerin başında, daha büyük bellek adreslemesine olanak tanıyan ve daha geniş çaplı veri işlemeyi destekleyen 64 bit CPU'lar ortaya çıktı.
+
+Transistör yoğunluğu arttıkça, tek çekirdekli CPU performansını daha da artırmak zorlaştı. Bunun yerine, CPU üreticileri birden fazla çekirdeği tek bir çipe entegre etmek için çok çekirdekli işlemci mimarilerini kullanmaya başladı.
+
+Günümüzdeki işlemciler
+Mobil cihazların yükselişiyle güç verimliliği çok önemli hale geldi. CPU üreticileri, artık akıllı telefonlar ve tabletler gibi modern taşınabilir cihazlar için düşük güç tüketimli ve enerji tasarruflu CPU'lar geliştiriyor.
+
+Yapay zeka (AI) ve yoğun grafik kullanımlı görevlerin daha yaygın hale gelmesiyle, iş yüklerini ele almak için artık grafik işleme birimleri (GPU'lar) ve AI hızlandırıcılar gibi özel CPU'lar kullanılıyor.
+
+Nanoteknoloji ve malzeme biliminde devam eden araştırma ve geliştirme, mikroskobik transistörlerin ve daha güçlü CPU'ların önünü açtı. Kuantum bilgi işlem ve diğer gelişmekte olan teknolojiler, bilgisayar işlemcisi teknolojisini daha da geliştirme potansiyeli taşıyor.
+
+CPU'nun bileşenleri nelerdir?
+CPU, verileri işleyip talimatları çalıştıran birkaç temel bileşenden oluşan karmaşık bir elektronik devredir. Bir CPU'nun ana bileşenleri aşağıda verilmiştir.
+
+Kontrol birimi
+Kontrol birimi komut işlemeyi yönetip CPU içindeki ve diğer bilgisayar bileşenleri arasındaki veri akışını koordine eder. Bellekten getirilen talimatları yorumlayıp bunları CPU'nun çalıştırabileceği mikro işlemlere dönüştüren bir komut kod çözücü bileşenine sahiptir. Kontrol birimi, diğer CPU bileşenlerini gerekli işlemleri gerçekleştirmeleri için yönlendirir.
+
+Yazmaçlar
+Yazmaçlar, CPU içindeki küçük, yüksek hızlı bellek depolama konumlarıdır. CPU'nun o an üzerinde çalıştığı verileri tutup bunlara hızlı erişimi kolaylaştırırlar. CPU'lar farklı türlerde yazmaçlara sahiptir, örneğin:
+
+Operasyonel verileri tutan genel amaçlı yazmaçlar
+İşlenmekte olan mevcut komutu tutan komut yazmaçları
+Getirilecek bir sonraki komutun bellek adresini tutan bir program sayacı
+Yazmaçlar, RAM veya önbellek gibi diğer bellek düzeylerine kıyasla daha hızlı erişim süreleri sağlar.
+
+ALU
+Aritmetik mantık birimi (ALU), veriler üzerinde temel aritmetik işlemleri (toplama, çıkarma, çarpma ve bölme) ve mantıksal işlemleri (VE, VEYA, DEĞİL) gerçekleştirir. CPU içindeki yazmaçlardan veri alıp bunları kontrol biriminden gelen talimatlara göre işler ve sonucu üretir.
+
+Bellek yönetim birimi
+CPU mimarisine bağlı olarak, ayrı bir veri yolu arabirim ünitesi veya bellek yönetim birimi bulunabilir. Bu bileşenler, CPU ve RAM etkileşimini yönetmek gibi bellekle ilgili görevleri yerine getirir. Ayrıca CPU içinde bulunan küçük ve hızlı bir bellek birimi olan önbelleği ve CPU'nun veri işleme için ihtiyaç duyduğu sanal belleği de yönetir.
+
+Saat
+CPU, dahili işlemlerini senkronize etmek için bir saat sinyaline dayanır. Saat belirli bir frekansta sabit bir darbe üretir ve bu saat döngüleri CPU'nun işlemlerini koordine eder. Saat hızı hertz (Hz) cinsinden ölçülür ve CPU'nun saniyede kaç komut yürütebileceğini belirler. Modern CPU'lar, performansı ve güç tüketimini dengelemek için iş yüküne göre ayarlanan değişken saat hızlarına sahiptir.
+
+CPU'nun işleyiş şekli nedir?
+Bilgisayar işlemcileri, verileri işlemek ve elektronik cihazlardaki bilgi akışını yönetmek için diğer donanım bileşenleri ve yazılım programlarıyla birlikte çalışır. Genellikle döngüler halinde çalışırlar ve her komut döngüsü üç ana adımı temsil eder.
+
+Çekirdek işlemci döngüsü
+Aşağıda komut döngüsündeki temel adımlar yer almaktadır.
+
+Komut getirme
+CPU, komutları bellekten alır. Komutlar, CPU için belirli görev veya işlemleri temsil eden ikili kodlardır. Kontrol birimi, komutu yorumlar ve gerçekleştirilecek işlemi belirler. Ayrıca, görev için gereken belirli CPU bileşenlerini tanımlar.
+
+Komut işleme
+CPU, getirilen verilerde belirtilen işlemi gerçekleştirir. Matematiksel hesaplamalar, mantıksal karşılaştırmalar, veri işleme veya kayıtlar ya da bellek konumları arasında veri aktarımı gerçekleştirir.
+
+Sonuç depolama
+Komutları yürüttükten sonra, CPU'nun sonuçları bellekte depolaması veya belirli kayıtları yeni verilerle güncellemesi gerekebilir. Program sayacı (PC), getirilecek bir sonraki komutun adresini gösterecek şekilde güncellenir. CPU, döngüyü tekrarlar ve komutları sırayla getirir, çözer ve yürütür.
+
+Ek işlemci işlevleri
+CPU ayrıca, kesmeler, harici cihazlar tarafından üretilen sinyaller veya acil müdahale gerektiren olaylarla birlikte atlamalar ve dallar gibi denetim akışı komutlarını da işleyebilir. Bir kesme olduğunda CPU, geçerli görevi geçici olarak askıya alır, durumunu kaydeder ve kesme hizmeti rutinine atlar. Kesmeyi işledikten sonra, CPU önceki göreve devam eder.
+
+Modern CPU'lar performansı artırmak için genellikle paralellik ve komut işlem hattı oluşturma gibi teknikler kullanır. Birden fazla komut aynı anda farklı döngü aşamalarında olabilir. Bu, CPU kaynaklarının daha verimli kullanılmasını sağlar.
+
+
+Gelişmiş CPU özelliklerinden bazıları nelerdir?
+En iyi CPU; performans, verimlilik ve esneklik açısından üstündür. Bu sayede çok çeşitli bilgi işlem görevlerini etkin bir şekilde yerine getirebilir. Aşağıda bazı gelişmiş özellikler yer almaktadır.
+
+Çekirdek
+Geçmişte tek çekirdekli işlemci standart olsa da, bugün tüm CPU'ların birden çok fiziksel çekirdeği var. Çekirdek, CPU'nun içindeki tek bir işlem birimidir. Daha fazla çekirdek, CPU'nun birden fazla iş parçacığını (komut dizileri) paralel olarak işlemesine olanak tanıyarak genel performansı önemli ölçüde artırır. Uygulamalar, görevleri aynı anda tamamlanabilen daha küçük alt görevlere bölerek çok çekirdekli tasarımdan yararlanabilir.
+
+Hyperthreading
+Hyper-threading, Intel tarafından geliştirilen ve her CPU çekirdeğinin aynı anda birden fazla iş parçacığı çalıştırmasını sağlayan, eş zamanlı bir çoklu iş parçacığı uygulamasıdır. Her fiziksel çekirdeğin, işletim sisteminde iki sanal çekirdek olarak görünmesini sağlar. Yazılım, mevcut donanım kaynaklarını daha verimli kullanır.
+
+Gelişmiş komut kümeleri
+Modern CPU'lar ayrıca belirli görevleri hızlandırmak için tasarlanan, gelişmiş komut kümelerine ve teknolojilere sahiptir. Bu komut kümeleri, temel aritmetik ve mantık işlemlerinin ötesine geçerek karmaşık işlemleri daha verimli bir şekilde ele almaya yönelik ek özellikler sunar.
+
+Örneğin, CPU'lar özellikle şu görevler için komut kümeleri içerebilir:
+Video kod çözme, ses kodlama ve görüntü işleme gibi multimedya görevleri;
+Gelişmiş Şifreleme Standardı (AES) ve Güvenli Karma Algoritması (SHA) gibi şifreleme ve şifre çözme algoritmaları;
+CPU'nun büyük veri kümelerinde aynı işlemi eş zamanlı olarak gerçekleştirmesini gerektiren tek komut, çoklu veri (SIMD) görevleri. Bunlar grafik oluşturma, bilimsel simülasyonlar ve dijital sinyal işleme gibi görevlerdir;
+Sanal makinelerin (VM'ler) daha verimli çalışmasını sağlayan sanallaştırma;
+Sinir ağı işlemleri gibi yapay zeka iş yükleri.
+AWS, işlemci gereksinimlerinizi nasıl destekleyebilir?
+Amazon Web Services (AWS), işlemci gereksinimlerinizi desteklemek için teklifler sunar.
+
+Amazon Esnek İşlem Bulutu (Amazon EC2), en geniş ve en kapsamlı işlem platformunu sunar. İş yükünüzün ihtiyaçlarını en iyi şekilde karşılamanıza yardımcı olmak üzere 600'den fazla bulut sunucusuna ve en güncel işlemci, depolama, ağ, işletim sistemi ve satın alma modeli seçeneklerine sahiptir. Intel, AMD ve Arm işlemcilerini destekleyen ilk büyük bulut sağlayıcısı olmanın yanı sıra isteğe bağlı EC2 Mac bulut sunucularına sahip tek bulutuz.
+
+Amazon EC2'yi kullandığınızda şu avantajlardan hemen yararlanırsınız:
+
+Bulutta makine öğrenimi eğitimi için en iyi fiyat performansını ve çıkarım başına en düşük maliyetli bulut sunucularını elde edin
+Uygulamalarınız için en iyi CPU, bellek, depolama ve ağ kaynakları kombinasyonunu seçin
+Hemen çalışmaya başlamak için önceden yapılandırılmış bir Amazon Makine Görüntüsü (AMI) şablonu kullanın
+Hemen bir hesap oluşturarak AWS'de özel bulut sunucularını ve işlemcileri kullanmaya başlayın.
+
+****************************************https://tr.wikipedia.org/*********************************
+
+Merkezî işlem birimi (Türkçe kısaltması MİB, İngilizce: Central Process Unit ya da kısaca CPU), dijital bilgisayarların veri işleyen ve yazılım komutlarını gerçekleştiren bölümüdür. Çalıştırılmakta olan yazılımın içinde bulunan komutları işler. Mikroişlemciler ise tek bir yonga içine yerleştirilmiş bir merkezî işlem birimidir. 1970'lerin ortasından itibaren gelişen mikroişlemciler ve bunların kullanımı, günümüzde MİB teriminin genel olarak mikroişlemciler yerine de kullanılması sonucunu doğurmuştur.
+
+Merkezî işlem birimi aritmetik ve mantıksal işlem yapma yeteneğine sahiptir. Giriş ve çıkış birimleri arasında verilen yazılım ile uygun çalışmayı sağlar. MİB, makine dili denilen düşük seviyeli kodlama sistemi ile çalışır; bu kodlama sistemi bilgisayarın algılayabileceği işlem kodlarından oluşur. Bir mikroişlemcinin algılayabileceği kodların tamamına o işlemcinin komut kümesi denir.
+
+Merkezî işlem birimi aritmetik ve mantıksal işlemleri Aritmetik Mantık Birimi (AMB) aracılığıyla yapar. Bunun dışında virgüllü sayılarla daha rahat hesap yapabilmesi için bir Kayan Nokta işlem birimi (FPU) vardır. Mikroişlemcinin içerisinde bulunan küçük veri saklama alanlarına yazmaç denir.
+
+İlk Merkezî İşlem Birim'leri (MİB) daha büyük, bazen türünün tek örneği bilgisayarlar için özel olarak tasarlanmışlardı. Ancak belirli bir uygulama için özel MİB tasarımının masraflı olması bir veya birçok amaç için yapılan kitlesel olarak üretilmiş işlemcilerin gelişmesine yol açtı. Bu standartlaşma eğilimi ayrık transistörlü ana sistemler ve mini bilgisayarlar döneminde başladı ve entegre devrelerin (ED) popülerleşmesiyle giderek hız kazandı. ED, giderek daha karmaşık ve nanometre ile ölçülebilecek MİB'lerin tasarlanmasına ve üretilmesine olanak verdi. MİB'lerin küçülmesi ve standartlaşması, modern hayatta dijital cihazların varlığını ilk bilgisayar örneklerinin sınırlı uygulamalarının çok ötesinde artırdı.
+
+Tarihçe
+İlk işlemciler, belli işlemler için özel üretilen ve büyük olan parçalardı. Daha sonraları ise maliyeti çok yüksek olan bu üretim şeklinin yerini, gelişen teknoloji ile daha ufak olan ve tek işlev yerine çok işleve sahip olan üretimler almıştır. Bu dönemin başlaması, transistörlerin ve mini-bilgisayarların ortaya çıkışına dayanmaktadır. tümleşik devrelerin yayılmasıyla da hız kazanmıştır. Tümleşik devreler, işlemcilerin daha kompleks olarak tasarlanmasına ve bunların çok az yer kaplayacak şekilde (milimetreler cinsinden) üretilmesine olanak sağlamıştır. Bu sayede işlemciler modern hayatta birçok yerde kullanılmaya başlanmıştır (otomobiller, cep telefonları...).
+
+Günümüz işlemcilerine benzerliklerin başlamasından önce, ENIAC ve benzeri bilgisayarların belli işleri gerçekleştirebilmesi için bağlantılarının fiziksel olarak değiştirilmesi gerekiyordu. MİB kelimesi genel olarak yazılım (bilgisayar programı) uygulama aracı olarak tanımlandığından, gerçek anlamda MİB'lerin oluşumu kayıtlı-program bilgisayarların gelişimi ile ortaya çıkmıştır.
+
+Kayıtlı-program bilgisayar fikri ENIAC tasarımı esnasında mevcut olmasına rağmen, bu fikir makinenin erken bitirilebilmesi için rafa kaldırılmıştı. 30 Haziran 1945'te, ENIAC henüz tamamlanmadan, matematikçi John von Neumann, EDVAC proje raporunun ilk taslağını yayımladı. Bu taslakta kayıtlı-program bilgisayarının ancak Ağustos 1949'da tamamlanabileceği gösteriliyordu. EDVAC, belli sayıda operasyonları gerçekleştirecek şekilde tasarlanmıştı. EDVAC için yazılan programlar, kabloların fiziksel olarak değiştirilmeyi gerektiren bir ortamda değil, hızlı bir bilgisayar belleğinde kayıtlı tutuluyordu. Bu özelliğiyle de ENIAC'ın kısıtlamalarının üstesinden gelip, zamandan ve zahmet açısından tasarruf sağlıyordu. Her ne kadar von Neumann kayıtlı-program bilgisayar fikrini ortaya koyan kişi olarak gösterilse de ondan önce de (örneğin Konrad Zuse'nin) benzer fikirler vardı. Ayrıca, EDVAC'tan önce tamamlanan Harvard Mark I'nın Harvard mimarisi, elektronik bellek yerine delikli kâğıt şerit kullanarak kayıtlı-program dizaynı gerçekleştirmişti. Günümüzde ise modern MİB'ler temel olarak von Neumann tasarımı olsa da, Harvard mimarisinden de özellikler göze çarpmaktadır.
+
+Dijital aygıt olmalarından ötürü, tüm MİB'ler ayrık durumlarla ilgilenirler; bu yüzden durumları ayırt edebilmek için bir çeşit geçiş unsuruna ihtiyaçları vardır. Transistörlerin kabulünden önce, elektriksel röleler ve vakum tüpleri bu amaç için kullanılırlardı. Bunların her ne kadar hız avantajı olsa da, tamamen mekanik dizayn olduklarından değişik sebeplerden dolayı güvenilir değillerdi. Örneğin, doğru akım ardışık mantık devrelerinin rölelerden dışarı kurulması, kontak sekmesi problemiyle baş edebilmek için fazladan donanım gerektiriyordu. Vakum tüpleri kontak sekmesi sorunu yaşamazken, bunlar, tamamıyla çalışır hale gelebilmek için ısınma gerektiriyordu ve işler durumdan da hep birlikte çıkmaları gerekiyordu. Genelde, tüplerden biri başarısız olduğunda, bozulan parçanın tespit edilmesi için MİB'in teşhis edilmesi gerekmekteydi. Bu yüzden vakum tüplü bilgisayarlar daha hızlı olmasına rağmen röle bazlı bilgisayarlardan daha az güvenilirdi. Tüp bilgisayarlarında (EDVAC) arızalanma 8 saatte bir olurken, röle bilgisayarlarında (Harvard Mark I) daha nadir rastlanıyordu. Sonuç olarak ise tüp bazlı MİB'ler hız avantajının arızalanma sorunundan daha ağır basmasından dolayı daha yaygın hale geldiler. Bu eski senkron MİB çeşitleri, günümüzle kıyaslandığında, oldukça düşük saat frekanslarında çalışmaktaydılar. Kuruldukları geçiş aygıtlarının hızlarıyla kısıtlandıkları için, o zamanlar 100 kHz ile 4 MHz arasında değişen saat sinyal frekans değerleri oldukça yaygındı.
+
+Ayrık transistör
+Çeşitli teknolojilerin daha küçük ve daha güvenilir elektronik aygıtlar üretmeye başlamasıyla MİB tasarımlarının kompleks yapıları da artış gösterdi. Bu yoldaki ilk gelişme transistörlerin gelişiyle başladı. 1950'ler ve 1960'lar da MİB'lerın transistörlere geçişi ile vakum tüpü ve elektriksel röle gibi güvensiz ve kırılgan geçiş elementleri artık kullanılmaz hale gelmişti. Bu gelişim sayesinde de, üzerinde ayrık bileşenler bulunan bir veya birden çok baskı devre kartlarına daha kompleks ve daha güvenilir MİB'ler yerleştirildi.
+
+Bu dönemde, oldukça küçük alanlara fazla sayıda transistör yerleştirebilme metodu popülerlik kazandı. Tümleşik devre (IC) sayesinde, büyük sayıda transistörler, yarı iletken tabanlı kalıplar veya çip denilen birimlerin üzerinde üretilebilindi. İlk başlarda, NOR kapıları gibi sadece belli basit dijital devre tipleri tümleşik devreler üzerine minyatürleştirildi. MİB'lerın bu inşa bloğu olan tümleşik devrelere kurulması durumuna “küçük-ölçekli tümleşme” (SSI) denir. SSI tümleşik devreler, Apollo güdüm bilgisayarında (Apollo guidance computer) kullanılanlar gibi, transistör sayısı açısından onun katları biçimindeydi. Mikro elektronik teknolojisi geliştikçe, tümleşik devre üzerindeki transistör sayılarıda artış gösterdi ve bu sayede bir MİB'i tamamlamak için gereken bağımsız parça sayısını azaltılmış oldu. Orta ve büyük-ölçekli (MSI ve LSI) tümleşik devreler sayesinde, barındırılan transistör sayıları yüzler ve onbinler seviyesine kadar arttı.
+
+1964 senesinde IBM, birkaç seri bilgisayarda kullanılan ve aynı programları değişik hız ve performans değerleriyle yürütebilen System/360 adlı bilgisayar mimarisini tanıttı. O dönemde çoğu elektronik bilgisayar, aynı üreticiden çıkmış olsa bile bir diğeriyle uyumsuzluk sorunu yaşarken bu gelişim oldukça önemli bir yer tutmuştu. Bu gelişimi kolaylaştırmak için, IBM mikro-program (veya mikro-kod) konseptini kullanmaya başladı ki bu konsept modern MİB'lerın çoğunda hala geniş bir biçimde kullanılmaktadır (Amdahl et al. 1964). System/360 mimarisinin popülerliği, onu birkaç onyıl boyunca anaçatı bilgisayar pazarını ele geçirmesini ve IBM zSeries gibi benzer modern bilgisayarlarda kullanılır hale getirecek bir efsane olmasını sağladı. Aynı yılda (1964), Digital Equipment Corporation (DEC), bilimsel ve araştırma pazarlarını hedef seçmiş bir başka bilgisayar olan PDP-8'i piyasaya sürdü. Daha sonları ise DEC, SSI tümleşik devrelere kurulmuş olan ancak sonunda LSI bileşenlerin pratikleşmesiyle bunlarla gerçekleştirilmiş ve oldukça popüler olan PDP-11'i piyasaya sunacaktı. SSI ve MSI öncelleriyle sahip olduğu fark ile, PDP-11'in ilk LSI gerçekleştirilmesi, 4 LSI tümleşik devreden oluşan bir MİB'e sahipti (Digital Equipment Corporation 1975).
+
+Transistör bazlı bilgisayarların, öncellerine kıyasla fazla sayıda ve belirgin avantajları vardı. Yüksek güvenilirlik ve az güç tüketiminin yanı sıra, transistörler sayesinde MİB çalışma hızları transistörlerin sahip olduğu düşük geçiş süreleri sayesinde oldukça artış gösterdi. Bu dönemde, yüksek güvenilirlik ve geçiş süresindeki belirgin hız artışı sayesinde, MİB'lerin saat hızlarında MHz'in on katları seviyesine erişildi. Ek olarak, ayrık transistör ve tümleşik devre MİB'leri sık kullanımda iken, SIMD (Tek Komut Çoklu Data) vektör işlemcileri gibi yeni yüksek performans tasarımlar ortaya çıkmaya başladı. Başlarda deneysel tasarım olan bu sistemler, daha sonraları ise Cray Inc. gibi firmalar tarafından üretilmiş, uzmanlaşmış süper bilgisayarların çağına adım atılmasını sağlayacaktı.
+
+Mikroişlemciler
+Mikroişlemcilerin 1970'lerde ortaya çıkması, MİB tasarımlarını ve kullanımını oldukça etkiledi. İlk mikroişlemci olan Intel 4004'ün çıkması (1970) ve yine ilk geniş çaplı kullanım sağlayan mikroişlemci olan Intel 8080 (1974) ile bu tip MİB'ler, merkez işlem birimini yürütme metotlarını tamamıyla ele geçirmiş oldu. O zamanki tüm üreticiler, bilgisayar mimarilerini geliştirebilmek için tümleşik devre geliştirme programları yayınladılar. Bunun sonucunda da eski yazılım ve donanımlarıyla geri-uyumlu olan komut set uyumlu mikroişlemciler ürettiler. Günümüzün kişisel bilgisayarlarının başarısıyla birleşince de MİB kelimesi genel olarak mikroişlemciler için de kullanılmaya başlandı.
+
+Önceki nesil MİB'ler ayrık parçalardan ve pek çok küçük tümleşik devrelerin bir veya birden çok devre kartlarında bulunmasıyla gerçekleştiriliyordu. Mikroişlemciler ise, MİB'lerin çok az sayıda (genellikle bir) tümleşik devre üzerinde üretiminden oluşuyordu. MİB'lerin tek kalıp üzerinde üretilmesinin getirdiği bu boyut açısından bu küçülme, parasitik sığalık geçitlerinin azalması gibi fiziksel faktörler sebebiyle daha hızlı geçiş sürelerinin olmasına olanak sağladı. Bu sayede de senkron mikroişlemcilerin 10 MHz civarlarında olan saat hızları GHz seviyelerine taşındı. Ayrıca, olabildiğince ufak transistörlerin tümleşik devrelere yerleştirilmedeki artış, tek bir MİB'de sahip olunan transistör sayısını ve karmaşıklığı da artırdı. Bu geniş gözlem, Moore Kuralı ile tanımlanmıştır ve bu kuralın MİB'deki kompleks yapının zamana bağlı olarak artışının oldukça keskin bir tahminini yapabildiği ispatlanmıştır.
+
+Her ne kadar MİB'in karmaşıklığı, ebatları, tasarımı ve genel şekli fazlasıyla değişmiş olsa da temel yapısının ve fonksiyonunun değişmediği görülmektedir. Günümüzde yaklaşık her MİB von Neumann kayıtlı-program makineleri olarak adlandırılabilir.
+
+Moore Kuralı geçerli olmaya devam ettiğinden, tümleşik devre transistör teknolojilerinin sahip olabileceği limitleri hakkında endişeler ortaya çıkmaya başladı. Olabildiğince minyatürleme sonucu ortaya çıkabilecek elektron göçü ve eşikaltı voltajı durumları önemsenecek boyutlara gelmeye başladı. Bu tip endişeler, araştırmacıları yeni metotlar aramaya (quantum bilgisayarı, paralelliğin kullanımının gelişimi) yöneltti.
+
+MİB İşletimi
+
+Intel Core i7 12700KF
+Çoğu MİB'nin temel işlemi, aldıkları fiziksel formdan bağımsız olarak, kayıtlı komut serilerisi dediğimiz programları yürütmektir.. Program, bilgisayar belleğinde saklanan seri sayılar ile gösterilir. Genel olarak von Neumann MİB'leri işlemi 4 adımda gerçekleştirirler: Getirme (fetch), kodçözücü (decode), yürütme (execute) ve geri yazma (writeback).
+
+Getirme evresi (fetch)
+Bu evre, program belleğinden komutu almayı içerir. Program belleğindeki yer, programın o andaki yerini bir sayıyla tutan program sayıcı tarafından belirlenir. Başka bir deyişle, program sayıcı, MİB'nin o andaki programın hangi kısmında olduğunun yerini tutmaktadır. Bir komut alındıktan sonra program sayıcı, alınan komutun boyunun bellek birim cinsinden değeri kadar artırılır. Bazen getirilmesi gereken komut hızca daha yavaş bir bellekten alınır, böylece MİB'nin komutun geri dönmesini beklerken zaman kazanması sağlanır. Bu konu modern işlemcilerde bellekler ve boru hattı mimarilerinde geniş olarak incelenmektedir.
+
+Kod çözme (decode)
+MİB'nin bellekten getirdiği komut, MİB'nin ne yapacağını belirlemede kullanılır. İşte bu kodçözme evresinde, komut MİB'deki önem oranına göre parçalara ayrılır. Sayısal kodun değerinin yorumlanması, MİB'nin komut set mimarisi (Instruction Set Architecture) ile tanımlanır. Genelde, komuttaki sayiların bir grubu, işlem kodu, hangi işlevin gerçekleştirmesi gerektiğini gösterir. Geri kalan kısımdaki sayılar komut için gerekli bilgileri sağlarlar (örneğin bir toplam işlemi için gereken işlenen değerler). Bu tip işlenenler sabit bir sayı olarak verilebileceği gibi, bazen de bir değeri gösterecek yer olarak (yazmaç veya bellek adresi) olarak verilebilir. Eski tasarımlarda, MİB'nin komut çözme işinde sahip olduğu kısımlar değiştirilemez donanımsal parçalardı. Ancak MİB'lerin ve ISA'ların gelişmesiyle, kodun çözümünde ve gerekli ayarların yapılmasında MİB'ye yardımcı olan mikroprogramlar kullanılmaya başlandı. Bu mikroprogramlar, MİB'nin kodçözme şeklini üretiminden sonra da değiştirebilmek için, bazı durumlarda tekrar yazılabilir olurlardı.
+
+Yürütme (execute)
+Bu evrede, istenen işin gerçekleşebilmesi için MİB'nin birçok kısmı bağlı haldedir. Örneğin, bir toplama işlemi istendiğinde, aritmetik ve mantık birimi (Arithmetic Logic Unit) bir kısım giriş ve çıkışlara bağlı olacaktır. Girişler toplamada kullanılacak sayıları içerirken, çıkışlar ise sonuç değerini tutacaktır. ALU, girişlerde basit aritmetik ve mantık işlemlerini gerçekleştirecek devre yapılarına sahiptir. Eğer toplama işlemi MİB'nin gerçekleştirebileceğinden çok büyük sonuçlar üretiyorsa, bayrak yazmaçlarındaki aritmetik taşma bayrağı kullanılacaktır.
+
+Geri yazma (writeback)
+Basitçe yürütme evresindeki sonucu bir bellek üzerine geri yazma evresidir. Çoğu zaman sonuçlar MİB'nin iç yazmaçlarına, daha sonraki komutlarda kullanımı hızlı olabilsin amacıyla, yazılır. Diğer durumlarda ise sonuçlar daha yavaş ancak daha ucuz ve büyük ana belleklere yazılır. Bazı komut tipleri program sayacını direkt sonuç üretmeden sadece işlerler. Bunlara genellikle atlama (jumps) denir ve döngü, durumsal program yürütme ve program fonksiyonları gibi davranırlar. Bazı komutlar ise bayrak yazmaçlarının durum değerlerini değiştirme amaçlı olurlar. Bu bayraklar, işlemlerin sonucunu gösterdiğinden, programın çalışma şeklini etkilemek amaçlı kullanılabilirler. Örneğin, “karşılaştırma” komutunun bir çeşidi, iki değeri kıyaslar ve bayrak yazmaçlarına hangisinin büyük olduğuna dair bir sayı atar. Bu bayrak daha sonra program akışı acısından başka bir komuta atlama amaçlı kullanılabilir.
+
+Yürütme ve geri yazma evresinden sonra, tüm işlemler tekrarlanır. Bir sonraki komut program sayacının önceden artırılması sebebiyle getirme evresiyle başlatılır. Eğer önceden tamamlanan komut bir atlama ise, program sayacı bir sonraki adresi gösterecek şekilde tekrar ayarlanır ve yürütme ona göre yapılır. Burada bahsettiğimiz MİB'lerden daha gelişmiş olanlarında, birden çok komut aynı anda getirilebilir, kodçözme everisine girebilir ve yürütülebilir. Bu kısım genel olarak klasik RISC Boruhattı başlığında incelenen konuları anlatmaktadır ki birçok elektronik aygıtta (mikrodenetleyici) bu basit MİB kullanılmaktadır.
+
+Kontrol birimi olan MİB, içinde elektrik sinyalini direkt bilgisayar sistemine taşınmasını ve kaydedilmesini sağlayan bir döngü sistemine sahiptir. Kontrol ünitesi program direktiflerin çalıştırmaz, bunun yerine sistemin diğer parçalarını bunu yapması için yönetir. Kontrol ünitesi hem aritmetik/logic ünitesi hem de hafıza ile iletişim kurmalıdır.
+
+Tasarım ve Uygulama
+Tam Sayı Aralığı
+MİB'nin sayıları gösterme şekli bir tasarım tercihidir ve aygıtın çalışma biçimini etkiler. İlk dijital bilgisayarların bazıları, iç yapılarında sayıları göstermek için ondalık sayı sisteminin elektriksel modelini kullanmışlardır. Bunların dışındaki birkaç model ise üçlü sayı sistemini kullanmıştır. Günümüz MİB'lerinın hemen hemen hepsi ise ikili formu kullanmaktadır. Bu formda her basamak iki değerli bir fiziksel niceliği, örneğin yüksek(High) veya düşük(Low) voltaj, gösterir.
+
+Sayıların gösterim şekli, MİB'nin gösterebileceği sayilarin büyüklüğü ve doğruluğu ile ilişkilidir. İkili sayı kullanan bir MİB'de, MİB'nin ilgilendiği sayilardaki tek bir yerin adına bit denmektedir. MİB'nin sayilari göstermek için kullandığı bit sayisina genelde kelime uzunluğu, bit genişliği, veri yolu genişliği veya tamamen tam sayılarla ilgileniliyorsa tam sayi keskinliği denir. Bu sayi (bit sayisi) mimariler arasında farklılık gösterdiği gibi aynı zamanda da aynı MİB'nin farklı bölümlerinde de bu farklılığı gösterir. Örneğin 8-bit bir MİB, 28 veya 256 ayrı sayı aralığıyla ilgilenmektedir. Bu tam sayı büyüklüğü, bir MİB'nin yazılım çalıştırırken kullanılabilecek tam sayı aralığını belirlemede bir donanımsal kısıtlama olarak iş yapmış olur.
+
+Tam sayı aralığı, MİB'nin adres belirlerken bellekte kullanabileceği yer sayısını da doğrudan etkileyebilir. Örneğin, eğer bir MİB bellek adresini gösterirken 32 bit kullanıyorsa ve her bellek adresi bir sekizli(8 bit) ile gösteriliyorsa, bu durumda MİB'nin erişebileceği maksimum adres değeri 232 sekizlisi veya 4 GiB dir. Bu akış açısı MİB “Adres Uzayı”'na oldukça basit bir bakış açısıdır ve birçok dizayn daha kompleks adres metotlarını (örneğin sayfalama) kullanarak tam sayı aralığının izin verdiğinden daha çok belleğe erişmeyi başarmaktadır.
+
+Daha yüksek seviye aralıklar, ek basamaklarla ilgilenebilmek için daha çok yapıya ihtiyaç duyar ve bu sebeple daha fazla karmaşıklık, ebat, yüksek güç tüketimi ve maliyet durumları oluşur. Bu sebepten günümüzde yüksek aralığa sahip (16, 32, 64 ve 128) MİB'ler mevcutken, 4-bit veya 8-bit mikro denetleyicilerin kullanılması oldukça yaygındır. Daha basit mikro denetleyiciler daha ucuz, daha az güç kullanan ve bu sebeple daha az ısınan yapılardır ve bu özellikler, tasarım esnasında seçilmeleri için oldukça yeterli rol oynarlar. Ancak bazı üst-uç uygulamalarda, ekstra aralığın getirdiği kazanç diğer etkenlerden daha büyük rol oynamaktadır. Her iki durumdan da, düşük ve yüksek bit uzunluklarından, kazanç elde etmek için birçok MİB farklı bölümleri için farklı bit genişlikleriyle tasarlanmaktadır. Örneğin, IBM System/370 MİB'si asıl olarak 32 bit kullanırken, gezer noktası (floating point) içerisinde 128-bit keskinlik kullanarak daha net ve daha geniş gezer nokta sayıları elde etmeyi gerçekleştirmiştir. Bundan sonraki MİB tasarımlarında da, özellikle işlemcinin genel amaçlı kullanımlarda tam sayı ve gezer nokta yeteneği arasındaki denge makul bir seviyedeyken, karışık bit genişliğini kullanılmıştır.
+
+Saat Vuruşu Sıklığı
+Çoğu MİB ve doğal olarak çoğu sıralı mantık aygıtları, senkron yapılardır. Bu yapılar senkron bir sinyalde çalışacak şekilde tasarlanmıştır. Bu sinyale saat sinyali denir ve genelde bir periyodik kare dalga formunda olur. Elektrik sinyallerinin MİB'nin farklı bölümlerine ulaşabileceği maksimum süreyi hesaplayarak, tasarımcılar bu saat sinyalinin periyodunu uygun olarak seçebilirler.
+
+Kötü durum koşulunda bu periyot, sinyalin ilerleme hızından veya yayılmasından daha uzun olmalıdır. Saat periyodu kötü durum yayılma gecikmesinden yeterince yüksek tutulduğunda, tüm MİB'nin ve veriyi saat sinyalinin iniş/çıkışları civarında ilerletmesini tasarlamak mümkün olacaktır. Bu durum, MİB'yi etkili biçimde sadeleştirme avantajını hem dizayn açısından, hem de bileşen sayısı açısından sağlayacaktır. Ancak bunun yanında da, tüm MİB'nin en yavaş elemanını, diğer bölümler çok daha hızlı çalışabilecekken beklemek zorunda kalması dezavantajını da doğuracaktır. Bu kısıtlama, gelişen MİB paralleliğinin çeşitli metotları ile telafi edilmektedir.
+
+Mimari geliştirmeler tek başına global senkronize MİB'lerin dezavantajlarını ortadan kaldıramaz. Örneğin, bir saat sinyali, başka elektrik sinyalinin gecikmesine de bağlıdır. Artan kompleks MİB yapılarındaki yüksek saat hızları, saat sinyalini tüm birim boyunca senkron (aynı fazda) tutmayı zorlaştırır. Bu durum birçok modern MİB'nin birden fazla eş saat sinyali kullanmasına yol açmıştır; böylece tek sinyalin gecikmesi, MİB'nin aksamasını engellemiştir. Diğer bir önemli nokta ise, saat hızları arttıkça, MİB'nin ürettiği ısıda aynı şekilde artmaktadır. Sabit biçimde değişen saat, birçok bileşenin de kullanılmaksızın değişmesine yol açmaktadır. Genel olarak, değişen her bir bileşen, sabit bir bileşenden daha çok enerji tüketmektedir. Bu sebeple, saat hızı arttıkça, ısı dağılması artar, bu da MİB'de daha etkili soğutma yollarının kullanılmasını gerektirir.
+
+İstenmeyen bileşen geçişini engellemenin bir yolu, saat geçitleme yöntemidir. Bu yöntemle istenmeyen bileşenlere giden saat sinyali kapatılır. Ancak bunu uygulaması zor olduğundan düşük güç tüketimli tasarımların dışında kullanımı pek söz konusu değldir. Global saat sinyaline sahip olan problemlerin çözümündeki diğer bir yol ise, tüm saat sinyallerinin birden kaldırılmasıdır. Global saat sinyalinin kaldırılması tasarım sürecini oldukça zorlaştırsada, asenkron (veya saatsiz) tasarımlar güç tüketiminde ve ısı dağılımında sahip oldukları büyük avantajları da beraberinde getirmektedirler. Nadir olmakla birlikte, tüm MİB'lerin global saat sinyali içermeden üretildiği de olmuştur. Bunlardan iki önemli örnek vermek gerekirse ARM uyumlu AMULET ve MIPS R3000 uyumlu MiniMIPS'i gösterebiliriz. Bazı MİB tasarımlarında saat sinyalini tamamıyla çıkarmak yerine, asenkronluk belli bölümlere uygulanmıştır, tıpkı asenkron ALU'ların skalar üstü (superscalar) boruhattı uygulamasıyla birleştirilerek bazı aritmetik performans kazançlarının elde edilmesinde olduğu gibi. Her ne kadar asenkron tasarımların, senkronize karşılıklarından daha iyi bir performans verebileceği çok açık olmasa da, baist matemaiksel işlemlerde daha üstün olduğu bir gerçektir. Bu özelliği, mükemmel güç tüketimi ve ısı dağılım özellikleriyle de birleşince, tümleşik bilgisayarlarda kullanılmak için oldukça uygun olduğunu ortaya çıkarmaktadır.
+
+Paralellik
+Bir önceki bölümde verilen MİB'nin esas çalışmasının tanımı, bir MİB'nin alabileceği en basit şekli tanımlamaktadır. Olağan olarak skalar altı (subscalar) diye temas edilen bu türden MİB bir seferde bir veya iki parça veri üzerinden verilen komut üzerine çalışmaya başlamakta ve uygulamayı gerçekleştirmektedir.
+
+Bu süreç skalar altı MİB'de işin özünde bulunan bir yetersizliği ortaya çıkarmaktadır. Bir seferde sadece bir komutun uygulanabilmesi mümkün olduğundan, MİB'nin tamamı bir sonraki komutu işlemeye başlamadan önce bu ilk komutun tamamlanmasını beklemek zorundadır. Bunun sonucu, skalar altı MİB uygulamanın tamamlanması için bir saatten fazla çevirimi süren yönergelere “kapalı” kalmaktadır. İkinci bir uygulama biriminin ilave edilmesi bile (aşağıya bakılması), performansı daha fazla iyiye götürmemektedir; birden fazla yönergenin kapalı olmasının yerine, şimdi iki yörünge de kapanmakta ve kullanılmayan transistörlerin sayısı artmaktadır. MİB'nin uygulama kaynaklarının sadece bir seferde verilen komuta göre çalışabilmesinin mümkün olduğu bu tasarım sadece skalar performansı (saat başına bir komut) bir olasılıkla öğretebilir. Bununla birlikte, performans hemen hemen her zaman skalar altıdır (yani çevirim başına bir komuttan daha az).
+
+Skalar ve daha iyi performans gerçekleştirmesi için yapılan girişimler, MİB'nin daha az doğrusal ve daha fazla paralel olarak davranmasına neden olan tasarım metodolojilerinde çeşitlilik ile sonuçlanmıştır. MİB'lerde paralellikten söz edilirken, bu tasarım tekniklerinin sınıflandırılması için genel olarak iki deyim kullanılmaktadır. Komut düzeyinde paralellik (ILP) bir MİB içerisinde komutların yerine getirilme hızını artırmayı araştırmakta (yani kalıp üzerinden uygulama kaynaklarının artırılması) ve program düzeyinde paralellik (TLP) bir MİB'nin aynı anda uygulamaya girişebileceği program sayısının (fiili bireysel programları) arttırmayı amaçlamaktadır. Her bir metodun uygulanma tarzlarından aynı zamanda da bir uygulama için MİB'nin performansını artırmada sağladıkları göreceli etkinlik bakımından da birbirlerinden fark etmektedir.
+
+ILP (Instruction Level Parallelism)
+Komut boruhatlaması (Instruction pipelining) ve skalar üstü mimari, artan ölçülerde parallelik gerçekleştirilmesinde kullanılan en basit yöntemlerden biri bir evvelki komutun uygulanması tamamlanmadan önce getirme (fetching) ve kod çözme (decoding) komutunun ilk aşamalarına başlanmasıdır. Bu, komut boruhatlaması diye bilinen bir tekniğin en basit şeklidir ve hemen hemen bütün çağdaş genel amaçlı MİB'lerde kullanılmaktadır. Boruhatlama, uygulama yörüngesinin birbirinden ayrı aşamalara bölünmesiyle, birden çok sayıda komutun belirli bir zamanda uygulanmasına olanak sağlamaktadır. Bu ayırma, uygulama dizisinden dışarı çıkana ve çekilinceye kadar, her bir aşamada verilen bir komutun daha tam duruma getirildiği bir montaj hattıyla karşılaştırılabilir.
+
+Bununla birlikte, boruhatlama, bir evvelki işlemin sonucuna bir sonraki işlemi tamamlamak için gereksinme olduğu bir durumun olasılığını getirmektedir; böyle bir duruma çoğu kez veriye bağımlılık çatışması denmektedir. Bununla başa çıkılması için, bu türden koşullar için varlığını kontrol etmek için ek dikkat gösterilmesi gerekmekte ve bu çatışma meydana geldiği takdirde komut boruhattının bir kısmı gecikmektedir. Doğal olarak, bunu gerçekleştirilmesi ek devre donanımını gerektirmekte ve böylece boruhatlı işlemciler skalar altı işlemcilerden çok daha karmaşık (her ne kadar bu pek önemli değilse de) olmaktadırlar. Boruhatlı işlemciler hemen hemen skalar olabilir ve sadece boruhattı durmasıyla (bir aşamada bir saatten fazla çevrim harcanmasına neden olan komut) engellenebilir.
+
+Performans
+Intel core i9-12900k v
+Bir işlemcinin performansı ve hızı, o işlemcinin saat vurum sıklığına ve saniye başına komut (IPS) sayısına bağlıdır. Saniye başına komut sayısı arttıkça işlemcinin performansı ve hızı da artar. Ayrıca çok çekirdekli işlemcilerden daha fazla performans elde edilir.
+
+Birçok bildirilmiş IPS değerleri birkaç şubesi bulunan yapay talimat dizilerinde zirve yürütme oranları temsil etmiştir, oysa gerçekçi iş yükleri bazıları diğerlerinden daha uzun çalıştırmak için karıştırılmış talimatları ve uygulamaları içerir. Bellek hiyerarşisi performansı MIPS hesaplamalarında ancak dikkate alınan bir sorun olan işlemci performansını oldukça etkiler. Bu problemlerden ötürü, SPECint gibi çeşitli standartlaşmış testler yaygın olarak kullanılan uygulamalar reel efektif performansını ölçmek girişimi için geliştirilmiştir.
+
+CPU ve RAM Bir bilgisayarın işlem performansı çok çekirdekli işlemci (iki ya da daha çok işlemcinin bir bütünleşmiş devrede birleştirilmesi) kullanılarak arttırılabilir. Çift çekirdekli bir işlemci tek çekirdekli bir işlemcinin neredeyse iki katı kadar güçlü olur. Ancak pratikte güç kazancı kusurlu yazılım algoritmaları ve uygulamaları nedeniyle yüzde elli civarındadır.
+
+Çekirdek Sayısı ile İş Parçacığı Sayısının Karıştırılması
+Çekirdek sayısı; tek bir bilgi işlem bileşenindeki (yonga ya da çip) bağımsız merkezî işlem birimi sayısını belirten donanım terimidir. İş parçacığı sayısı ile karıştırılmaktadır. Bazen pazarlamacılar tek çekirdekli iki iş parçacıklı işlemcileri "çift çekirdekli" diye tanıtabilmektedir.
+
+**********************************************https://www.donanimhaber.com/*********************************************
+
+CPU nedir ❓
+CPU nedir
+Tam Boyutta Gör
+CPU açılımı nedir? ile başlayalım. CPU, Central Processing Unit (Türkçesi Merkezi İşlem Birimi) anlamına geliyor. CPU nedir sorusuna gelince, işlemci, bir bilgi işlem cihazını tanımlayan temel bileşendir. CPU, kritik öneme sahip olsa da, yalnızca diğer donanımlarla birlikte çalışabilir. Silikon işlemci (çip), aygıtın içinde anakartta bulunan özel bir yuvaya oturtulur. Bilgilerin geçici olarak depolandığı bellekten ayrıdır. Monitörünüzde gösterilen video ve üç boyutlu grafikleri oluşturan ekran kartı veya grafik yongasından da ayrıdır.
+İşlemciler, milyarlarca mikroskobik transistörün tek bir bilgisayar çipine yerleştirilmesiyle oluşturulur. Bu transistörler, sisteminizin belleğinde depolanan programları çalıştırmak için işlemcinin ihtiyaç duyduğu hesaplamaları yapmasına izin verir. Transistörler, etkili bir şekilde anlık açılıp kapanan girişlerdir; internette gezinmek, oyun oynamak, video izlemek gibi bilgisayarda yaptığınız her şeye dönüşen, birler veya sıfırları iletirler. Bu transistörler, giderek küçülüyor.
+
+Bilgisayar işlemcisi nedir ❓
+işlemci nedir
+Tam Boyutta Gör
+Bilgisayarda CPU nedir? İşlemci, bilgisayarın beynidir; girdiyi işlemek, verileri depolamak, çıktı sonuçlarını işlemek için gereken tüm devreleri içerir. CPU, sürekli olarak işlemciye hangi verilerin işleneceğini ve nasıl işleneceğini söyleyen bilgisayar programlarının talimatlarını takip eder. Yani, CPU olmadan bilgisayardaki programları çalıştıramazsınız. Örneğin; basit bir hesap makinesi programı CPU’ya iki sayı (2 ve 2) almasını, bunları toplamasını ve sonucu geri göndermesini isteyebilir. CPU, program talimatlarını nasıl yorumlayacağını bilen bir kontrol birimi ve sayıların nasıl ekleneceğini bilen aritmetik mantık birimi (arithmetic logic unit ya da kısaca ALU) sayesinde bu talimatları kolayca işleyebilir. Kontrol ünitesi ve ALU birleştiğinde, CPU, basit bir hesap makinesinden çok daha karmaşık programları işleyebilir.
+Donanım düzeyinde CPU nedir? İşlemci olarak da bilinen entegre bir devredir. Entegre devre, milyonlarca ve hatta milyarlarca küçük elektrikli parçayı birleştirir, devreler halinde düzenler ve tümünü kompakt bir kutucuğa sığdırır.
+
+Modern cihazlar bağlamında, bir masaüstü bilgisayar veya laptop, sistem için birçok işlem işlevini gerçekleştiren özel bir CPU’ya sahiptir. Mobil cihazlar (akıllı telefon, tablet), bunun yerine CPU’yu da içine alan bir yonga olan çip üzerinde sistem (system on chip ya da kısaca SoC) kullanır. Akıllı saatler, medya oynatıcılar, televizyonlar ve hatta çamaşır makineleri gibi diğer birçok elektronik cihazda da işlemci vardır.
+
+Bilgisayar (PC) hızlandırma yöntemleri
+2 yıl önce eklendi
+Telefonda CPU nedir ❓
+iPhone 13 işlemcisi
+Tam Boyutta Gör
+Bilgisayar işlemcisi nedir yanıtladığımıza göre, daha fazla merak edilen telefonda CPU nedir konusuna geçebiliriz. Yonga seti olarak da bilinen akıllı telefon işlemcisi, telefonunuzda olan biten her şeyi kontrol eden ve düzgün çalışmasını sağlayan bir bileşendir. Akıllı telefonunuzda gerçekleştirdiğiniz her işlem doğrudan işlemciye gider. Bu eylemler daha sonra ekranınızda görsel değişikliklere dönüştürülür ve tüm bunlar saniyede gerçekleşir.
+Akıllı telefonda CPU nedir, ne işe yarar? bir örnekle açıklamak gerekirse; Telefonunuzun galerisinde birkaç fotoğraf açtığınızı düşünün. Bu işlem, işlemci tarafından kaydedilir ve cihazınızın hafızasında saklanır. Bu, getirme (fetch) aşamasıdır. Sonrasında eylem, kod çözme (decode) aşamasında birler ve sıfırlara çevrilir. Talimatlar artık akıllı telefonunuzun anladığı bir dilde kaydedilmiştir ve yürütme (execute) aşamasına geçilir. İşlemci, birleri ve sıfırları iletir ve fotoğraflarınızın hepsini ekranınızda görmüş olursunuz. Son olarak, yürütülen talimatlar, kaydetme aşamasında kayıt belleğine kaydedilir. Sonra süreç yeniden başlar.
+
+CPU ne işe yarar ❓
+CPU nedir kısaca bahsettik. Şimdi, en az CPU ne demek kadar merak edilen CPU ne işe yarar? konusuna değinelim. CPU, özünde bir programdan veya uygulamadan talimatları alır ve hesaplama yapar. Bu süreç, az öncede bahsettiğimiz üç temel aşamaya ayrılır: Getirme (fetch), kod çözme (decode) ve yürütme (execute). CPU, talimatları RAM’den alır, talimatın gerçekte ne olduğunu çözer ve ardından işlemcinin ilgili kısımlarını kullanarak talimatı yürütür.
+
+Yürütülen talimat veya hesaplama, temel aritmetiği, sayıları karşılaştırmayı, işlevi gerçekleştirmeyi veya sayıları bellekte taşımayı içerebilir. Bilgi işlem cihazındaki her şey sayılarla temsil edildiğinden, işlemciyi inanılmaz derecede hızlı çalışan bir hesap makinesi olarak düşünebilirsiniz. İşlemciler saniyede milyonlarca talimatı gerçekleştirebilir.
+
+CPU özellikleri ℹ️
+cpu özellikleri
+Tam Boyutta Gör
+Aritmetik hesap işlemlerini gerçekleştirme
+Mantıksal işlemleri gerçekleştirme
+Diğer donanım bileşenlerinin işlevlerini kontrol etme
+Ana bellekten verileri ve program talimatlarını getirme
+Program talimatlarını çözme
+Program talimatlarına göre veriler üzerinde çalışma
+İşledikten sonra verileri saklama
+Komut döngüsünü sürekli yürütme
+CPU, bilgisayarınızın beyni olduğu için, elbette işlemcinin özelliklerinin performans üzerinde önemli bir etkisi var. Özelliklerine göre bir işlemci seçerken göz önünde bulundurmanız gereken önemli hususlar vardır. CPU çekirdeği (CPU core), İş parçacığı (Threads), Çoklu iş parçacığı (Multi-Threading) ve Saat hızı (Clock speed).
+
+CPU çekirdeği nedir ❓
+cpu çekirdeği nedir
+Tam Boyutta Gör
+CPU çekirdeği, bir işlemcinin işlem birimidir. Eskiden, her işlemcinin aynı anda tek bir göreve odaklanabilen tek bir çekirdeği vardı. Bugün işlemciler, her biri farklı bir görev üzerinde çalışabilen 2 - 18 çekirdeğe sahip ve bunun performans üzerinde etkisi büyük. Bir çekirdek bir görev üzerinde çalışabilirken başka bir çekirdek farklı bir görev üzerinde çalışır. Bu nedenle bir CPU ne kadar fazla çekirdeğe sahip olursa o kadar verimli olur. Çoğu işlemci, özellikle de laptoptakiler iki çekirdeğe sahiptir ancak Intel’in 8. nesil işlemcileri gibi bazı dizüstü bilgisayar işlemcilerinde (mobil işlemci olarak da bilinir) 4 çekirdek bulunur.
+Çoğu işlemci, bir çekirdeği sanal çekirdeklere bölmek için eşzamanlı çoklu iş parçacığı adında bir işlemi (Intel işlemcilerde Hyper-threading) kullanabilir. Örneğin; 4 çekirdekli AMD işlemciler 8 çekirdek iş parçacığı sağlamak için eşzamanlı çoklu iş parçacığı kullanır. 2 çekirdekli Intel işlemcilerin de çoğu 4 iş parçacığı sağlamak için Hyper-threading kullanır.
+
+Bazı uygulamalar birden çok iş parçacığından diğerlerinden daha iyi faydalanır. Oyunlar gibi hafif iş parçacılıklı uygulamalar çok fazla çekirdekten yararlanmazken, çoğu video düzenleme programı ek iş parçacıklarıyla çok daha hızlı çalışabilir.
+
+İş parçacığı nedir ❓
+iş parçacığı nedir
+Tam Boyutta Gör
+Threading yani İş parçacığı nedir? İş parçacıkları, bir programın ayrı parçalarıdır. İş parçacıkları, paralel olarak yürütülür ve verileri paylaşır. Çekirdek, fiziksel işlem birimidir. Çekirdekler, bilgisayar sistemi içinde tek bir fiziksel konumda bulunur. 4 çekirdekli bilgisayarda 4 fiziksel işlem birimi bulunur. Bu işlem birimlerinin her biri 1 çekirdektir, yani 4 çekirdekli bilgisayarın sisteminde aslında 4 çekirdek bellek vardır.
+İş parçacığı, işlemci tarafından yürütülebilen bir programın tek bir birimidir. Örneğin; on görevin yürütüleceği tek bir göreviniz varsa, görevi on iş parçacığına bölebilirsiniz. Ancak bilgisayarınızda yalnızca bir çekirdek varsa, aynı anda bir iş parçacığı yürütülebilir. Bunun nedeni, birden çok çekirdeğe sahip bir bilgisayarın aksine, tüm iş parçacıklarının yalnızca bir çekirdeğe sahip olmasıdır. İş parçacıkları, bilgisayarın aynı anda birden fazla iş parçacığı çalıştırmasını engelleyen bu tek çekirdeği paylaşır. Bu nedenle çoklu iş parçacığı önemlidir. Tek bir çekirdek olsa bile aynı anda birden fazla görevi yürütmenize imkan tanır. Aynı anda ne kadar çok iş parçacığı çalıştırabilirseniz, bilgisayarınız çoklu görevde o kadar iyi olur.
+
+İş parçacıkları ve çekirdekler, cihazın içindeki iki tür işlem birimidir. İş parçacığı ve çekirdek sayısı, aynı anda kaç görevin yürütülebileceğini belirler. Daha fazla sayıda iş parçacığı veya çekirdek, aynı anda daha fazla görevin tamamlanabileceği anlamına gelir ancak görevlerin daha hızlı tamamlanacağı anlamına gelmez.
+
+Ne kadar çok iş parçacığı ve çekirdek varsa, bilgisayarınız o kadar hızlı çalışır. Bunun nedeni, görevlerin bölünebilmesi ve paralel olarak işlenebilmesidir. İşlemciye ne kadar çok iş parçacığı yüklenirse, performans o kadar yüksek olur. Bunun nedeni, her iş parçacığının aynı anda bir talimatı işleyebilmesidir. Bir iş parçacığı devam etmeden başka bir iş parçacığından giriş bekliyorsa, o zaman durur. Bir işlemcinin içerdiği çekirdek sayısının da performans üzerinde önemli bir etkisi vardır.
+
+Hyper Threading nedir ❓
+hyper threading nedir
+Tam Boyutta Gör
+Intel Hyper-Threading teknolojisi, her bir çekirdekte birden fazla iş parçacığının çalışmasına izin veren bir donanım yeniliğidir. Daha fazla iş parçacığı, paralel olarak daha fazla iş yapılabileceği anlamına gelir.
+Intel Hyper Threading aktif olduğunda, CPU, fiziksel çekirdek başına iki yürütme bağlamı sunar. Bu, bir fiziksel çekirdeğin artık farklı yazılım dizilerini işleyebilen iki mantıksal çekirdek gibi çalıştığı anlamına gelir. Örneğin; 10 çekirdekli Intel Core i9-10900K işlemci, Hyper Threading sayesinde 20 iş parçacığına sahiptir. İki mantıksal çekirdek, görevler üzerinde bilindik tek iş parçacıklı çekirdekten daha verimli çalışabilir. Intel Hyper Threading, çekirdeğin daha önce diğer görevlerin tamamlanmasını beklediği boşta kalma süresinden yararlanarak işlemci verimini artırır. Hyper Threading varsayılan olarak açıktır. Hyper Threading açmak için BIOS’tan ilgili ayarı “enable” yapmanız yeterlidir. Hyper Threading kapatmak istiyorsanız da “disable” olarak ayarlayabilirsiniz.
+
+İşlemci saat hızı nedir ❓
+işlemci saat hızı nedir
+Tam Boyutta Gör
+CPU saat hızı nedir? Bilgisayarınızın beyni olan işlemcinin performans, programların yüklenme hızı ve ne kadar sorunsuz çalıştıkları üzerinde büyük etkisi vardır. İşlemci performansını ölçmenin birkaç farklı yolu vardır. Saat hızı (clock speed, clock rate veya frequency), en önemlilerinden biridir. İşlemci saat hızını kontrol etmek için, Başlat menüsüne tıklayın ve Sistem Bilgisi yazın. CPU altında işlemcinizin model adı ve saat hızı gösterilecektir. Genelde daha yüksek saat hızı, daha hızlı işlemci anlamına gelir.
+İşlemciniz her saniye farklı programlardan birçok talimatı işler. Saat hızı, GHz (gigahertz) cinsinden ölçülen, CPU’nuzun saniyede yürüttüğü döngü sayısını ölçer. Döngü teknik olarak dahili osilatör tarafından senkronize edilen bir titreşimdir; daha basit şekilde bir CPU’nun hızını anlamaya yardımcı olan temel bir birimdir. Her döngü sırasında, işlemci içindeki milyarlarca transistör açılır ve kapanır. Bazen, tek bir saat döngüsünde birden fazla talimat tamamlanır. Bir diğer durum, talimatın birden fazla saat döngüsü üzerinden işlenebilmesi. Farklı CPU tasarımları talimatları farklı şekilde ele aldığından, aynı CPU markası ve nesli içindeki saat hızlarını karşılaştırmak en iyisidir.
+
+Peki, işlemci saat hızı oyunu nasıl etkiler? Çok çekirdekli işlemler çıkmadan önce, saat hızı, tek çekirdekli işlemcileri karşılaştırmada temel özellik olarak görülüyordu. Günümüzde çekirdek sayısı, CPU önbelleği ve güç tüketimi ile birlikte dikkate alınıyor. Saat hızının oyun üzerindeki etkisi, oyunun motoruna ve onu geliştirmek için kullanılan araçlara bağlıdır. Örneğin; Far Cry: Primal’s Dunia gibi bazı oyun motorları çoklu iş parçacığından ziyade güçlü tek iş parçacığı performansından daha fazla yararlanıyor. Öte yandan birçok AAA oyun, özellikle Unreal Engine gibi çoklu iş parçacığı dost oyun motorlarında hem ek çekirdekten hem de artırılmış saat hızından yararlanabiliyor. Belli oyun motorundaki CPU performansını ölçmenin en iyi yolu, karşılaştırma testleridir ancak saat hızı, bir işlemcinin göreli performansını öğrenmek için iyi bir genel yol göstericidir.
+
+En iyi işlemci hangisi 1️⃣
+AMD Ryzen Threadripper Pro
+Tam Boyutta Gör
+Dünyanın en hızlı işlemcisi 2022’de hangisi? diye soracak olursanız, 64 çekirdekli, 128 iş parçacıklı AMD Ryzen Threadripper Pro 5995WX işlemci diyebiliriz ancak bu bir HEDT (High End Desktop) işlemci; yani üst seviye masaüstü işlemci. Bu işlemci, PC toplayan ortalama bir tüketici için değil, aynı anda düzinelerce dijital enstrümanla film müziği yapma veya 3D render alma gibi içerik üretimine yönelik tasarlanan bir işlemci. Aynı zamanda çok pahalı; üreticinin tavsiye ettiği perakende satış fiyatı 6500 dolar. Şu anda tüketicilerin satın alabileceği en iyi işlemci, Intel Core i9-12900K. Söz konusu oyunsa, AMD Ryzen 7 5800X3D işlemci.
+Intel Core i9-12900K, şu an piyasadaki en iyi işlemci. Intel Core i9-12900K, inanılmaz derecede güçlü bir işlemci. 12. nesil masaüstü işlemciler, temel işlemleri kesintiye uğratmadan arka plan görevlerini yerine getirmek için tasarlanmış yeni verimlilik çekirdekleri ile bilindik performans çekirdeklerini barındıran yeni ve akıllı bir mimari kullanıyor. Güç verimliliğini en üst düzeyde tutması ve oyun oynarken yayın yapma gibi çoklu görev gerçekleştirmenize olanak sağlaması gibi birkaç nedenden dolayı harika bir işlemci. Üzerine ne tür zorlu görevler yüklemek isterseniz isteyin, bu Intel işlemci her şeyi sorunsuz bir şekilde yerine getiriyor.
+
+Intel Core i9-12900K işlemci, 16 çekirdek, 24 iş parçacığı, 3.20GHz (maks. 5.2GHz) saat hızı, 30MB L3 önbellek, 125W TDP ile geliyor. İnanılmaz güçlü, performans ve verimlilik çekirdekleri etkileyici, oyun için de harika bir seçim olan Core i9-12900K işlemci, çok yeni bir donanım olması sebebiyle çok yüksek fiyat etiketine sahip.
+
+En iyi işlemci sıralaması 2022 👇🏻
+Intel Core i9-12900K - Şu an piyasadaki en iyi işlemci
+Intel Core i5-12600K - Fiyatını sonuna kadar hak ediyor
+AMD Ryzen 7 5800X3D - Oyun için en iyi işlemci
+AMD Ryzen 9 5900X - 12 çekirdekli canavar
+AMD Ryzen 7 5800X - Uygun fiyatlı yeni modellerden
+En hızlı işlemci hangisi ⚡️
+Intel Core i9 12900KS
+Tam Boyutta Gör
+Mart 2022’de duyurulan Intel Core i9-12900KS işlemci, tüketicilerin erişebileceği en hızlı işlemci. Intel’e göre, dünyanın en hızlı masaüstü işlemcisi olan 12. Nesil Intel Core i9-12900Ks, Intel Thermal Velocity Boost özelliğine sahip 5.5GHz’e kadar maksimum turbo frekansı sunuyor ve Intel Adaptive Boost teknolojisi (Intel ABT) ile üstün oyun deneyimi yaşatıyor.
+Intel i9 12900Ks işlemci, mevcut en hılı işlemciyi isteyen meraklılar ve oyuncular için en iyi işlemci. 16 çekirdek (8 performans çekirdeği, 8 verimlilik çekirdeği) ve 24 iş parçacığı ve 5.5GHz’e kadar maksimum turbo frekansı, 150W işlemci gücü ve 30MB Intel Smart Cache ile daha da fazla oyun gücü ve performansı isteyenler için.
+
+İşlemcide nm nedir ❓
+işlemci nm nedir
+Tam Boyutta Gör
+Bir bilgisayar veya akıllı telefon satın alırken, genellikle tasarım ve kameranın yanı sıra RAM’i, CPU’nun çekirdek sayısı, işlemcinin saat hızı ve GPU’yu kontrol ederiz. Ancak yeni bir cihaz alırken kontrol etmeniz gereken oldukça önemli bir özellik daha var; işlemci nm’si. Öyleyse, işlemcide nm nedir ve telefonda veya bilgisayarda performansı ne derece etkiler gelin bakalım.
+İşlemcide nm nedir? ile başlayalım. nm açılımı nanometer. Türkçe anlamı nanometre. nm, bir uzunluk ölçü birimi. 1nm = 0.000000001 metre. Başka bir deyişle, nanometre ya da kısaca nm, 1 metrenin milyarda biridir. Nanometre, işlemcide CPU’yu oluşturan transistörlerin boyutunu ölçmek için kullanılır. CPU’da elektrik sinyalleri aracılığıyla açık kapatarak hesaplamalar yapan milyarlarca transistör vardır. İşlem düğümü veya üretim süreci olarak da adlandırılan nm, nano/mikro boyutta şekil oluşturma yoluyla yapılan, CPU’nun üretim süreci ve tasarımıdır.
+
+Bir akıllı telefonun veya PC’nin özelliklerine baktığınızda genelde daha yüksek rakamlara sahip özellikler dikkatinizi çeker. nm’de durum tam tersidir. Daha düşük nanometre işlemci, daha verimli güç sağlar, daha az soğutma gerektirir. Ayrıca transistörler daha hızlı ve daha sıktır.
+
+CPU nerede bulunur 🔎
+cpu nerede
+Tam Boyutta Gör
+CPU’yu herhangi bir bilgisayarda gözden kaçırmak imkansız. Anakart adında, tüm bileşenleri bir arada tutan büyük bir donanım parçası üzerinde bulunur. Anakartı ve işlemciyi ortaya çıkarmak için öncelikle PC kasanızı veya dizüstü bilgisayar kasasını açmalısınız. CPU, işlemci soketi adı verilen bir tutucuya yerleştirilir. Bir bilgisayarda işlemciyi bulmak için, aslında anakartın CPU soketini bulmanız gerekir. Anakart üzerindeki işlemci soketinin tam yeri, form faktörüne bağlı olarak biraz değişebiliyor. Ancak genelde, RAM yuvalarının yanında bulunuyor.
+CPU kaç olmalı ⁒
+cpu kullanımı kaç olmalı
+Tam Boyutta Gör
+CPU kullanımı yüzde kaç olmalı? Bilgisayarınız boştayken CPU kullanımı %10 veya daha az olmalıdır. Bilgisayarınız arka planda sürekli olarak log dosyaları yazar veya bildirimleri kontrol eder. Bu, kalıcı kaynak kullanımına neden olur ancak endişelenecek bir şey yoktur. İnternette geziniyorsanız veya ofis gibi standart programlar kullanıyorsanız, CPU kullanımının %5 - %30 arası olması normaldir. Oyun oynadığınızda işlemci kullanımı %50’nin üzerine çıkabilir ancak%90 tehlike eşiğidir.Yalnızca oyunlar değil, video render alma, 3D modelleme, grafik tasarım gibi yoğun programlar da CPU kullanımını %100’e çıkarabilir. İşiniz bittiğinde CPU’nun da normal seviyelere dönmesi gerekir.
+CPU %100 olursa ne olur 🆘
+CPU %100 kullanıyor
+Tam Boyutta Gör
+Bilgisayarınızda çalışan tüm programlar CPU zamanını ve belleğini paylaşır. Aynı anda birden fazla program çalıştırır veya bazı programlarda uzun süre boyunca çalışırsanız CPU kullanımı artar. CPU kullanımı %100 oluyor ise bu, bilgisayarınızın kapasitesinden daha fazla iş yapmaya çalıştığı anlamına gelir. Programlarda yavaşlamayı hissedersiniz. Bilgisayarlar, oyun oynama gibi hesaplama açısından yoğun işlemler yaparken işlemcinin %100’üne yakınını kullanabilirler. İşlemcinin uzun süre %100’de çalışması, bilgisayarınızın can sıkıcı derecede yavaşlamasına neden olabilir. Bellek kullanımı da %100’e yaklaştıysa, bilgisayar neredeyse kullanılamayacak duruma gelecektir. CPU’lar, %100 CPU kullanımında güvenli bir şekilde çalışacak şekilde tasarlanmıştır.
+CPU sıcaklığına bakma 🌡
+cpu sıcaklığına bakma
+Tam Boyutta Gör
+CPU sıcaklığı nasıl öğrenilir? CPU sıcaklığını kontrol etmenin en basit yolu, Core Temp gibi üçüncü parti CPU sıcaklık izleme araçlarını kullanmaktır. CPU sıcaklık ölçme ve takibi için Windows’un yerleşik BIOS/UEFI aracını da kullanabilirsiniz. Core Temp ile CPU sıcaklığını öğrenme üç adımda mümkün:
+Core Temp’i açın.
+Temperature Readings altında, her bir CPU çekirdeği için sıcaklığı takip edebilirsiniz.
+Max bölümünden işlemcinin ulaştığı en yüksek sıcaklıkları görebilirsiniz.
+Load bölümünden her bir çekirdeğin mevcut CPU yükünü görebilirsiniz.
+CPU sıcaklığını ölçmek için NZXT Cam, HWInfo, Open Hardware Monitor, SpeedFan gibi programları da kullanabilirsiniz.
+
+CPU sıcaklığı kaç olmalı ℃
+cpu sıcaklığı kaç olmalı
+Tam Boyutta Gör
+Normal CPU sıcaklığı, kullandığınız işlemciye bağlıdır. Ama genelde 40 - 65 derece arası herhangi bir sıcaklık, normal iş yükü için güvenli ısı aralığı olarak kabul edilir. Daha güçlü uygulamalar ve oyunlar çalıştırdığınızda, CPU sıcaklığının 70 - 80 derece olması normaldir. Birden fazla soğutma sisteminin olduğu üst düzey işlemciye sahip masaüstü oyun bilgisayarlarında CPU sıcaklığını 50 derece civarı görmek normaldir. İşlemciye fazla yük bindiğinde sıcaklığı 80 - 85 dereceye kadar çıkabilir ancak bu, sınırdır. İşlemci sıcaklığının sürekli 80 derece üzerinde olması işlemciye ve silikonuna uzun vadede zarar verebilir. Oyun oynarken ideal CPU sıcaklığı 65 - 85 derece arasıdır.
+Mikroişlemci nedir ❓
+mikroişlemci nedir
+Tam Boyutta Gör
+Mikro işlemci, bilgisayar sistemindeki görevleri yürüten bir mikroçiptir. Mikroişlemci, genellikle merkezi işlem birimi (CPU), mantık yongası (logic chip) veya yalnızca işlemci olarak adlandırılır. Mikroişlemciler, baskılı devre kartı (PCB) tasarım yazılımı bulunan bir bilgisayarda tasarlanabilir. Basit ve karmaşık görevleri yerine getirmek için tasarlanmış kritik bilgisayar bileşenleridir ve birden fazla transistörü tutan entegre devreler içerirler.
+Bir mikroişlemcinin gücü, belli bir sürede okuyabildiği ve çalıştırabildiği komutların sayısı ile doğru orantılıdır. Günümüzde mikroişlemciler, dizüstü bilgisayarlarda, PC’lerde, sektörel otomasyonda ve hatta telefonlarda kullanılıyor.
+
+Mikroişlemci çeşitleri 🔽
+CISC açılımı Complex Instruction Set Computer. Karmaşık Komut Setli Bilgisayar anlamına gelen CISC, aynı anda birden fazla komut seti gerçekleştirebilir. Yükleme, değerlendirme ve depolama işlemlerini tek bir talimatla gerçekleştirebilir. Program başına yürütülen komut sayısı azalır, tek bir komut birçok işlevi yerine getirir.
+RISC açılımı Reduced Instruction Set Computer. İndirgenmiş Komut Takımlı Bilgisayar veya Azaltılmış Komut Seti Bilgisayarı  anlamına gelen RISC, talimatları çok hızlı bir şekilde yürütmekle görevlidir. RISC, yükleme, değerlendirme ve depolama işlemleri için yalnızca birkaç adımdan oluşan talimatları kullanarak donanımı basitleştirir.
+EPIC açılımı Explicitly Parallel Instruction. Belirtilmiş Paralel Komutlarla Hesaplama anlamına gelen EPIC, derleyicileri kullanır ve talimatların paralel çalışmasını sağlar. Talimatları 128 bitlik yüklerde kodlar. Talimat düzeyinde paralellik (ILP) tekniklerini kullanır.
+İşlemci sanallaştırma nedir 🤔
+cpu sanallaştırma
+Tam Boyutta Gör
+CPU sanallaştırma (virtualization), fiziksel bir bilgisayarda çalışabilen sanal bir makine oluşturma işlemidir. Bu işlem, birden çok sanal makinenin tek bir fiziksel işlemciyi paylaşmasına izin verir. Tek bir bilgisayarda daha fazla oyunun oynanmasına imkan verdiği için oyun adına faydalıdır. İşlemci sanallaştırma, oyunun daha fazla CPU kaynağı kullanmasını sağlayarak performansı da artırır.
+İşlemci sanallaştırma ne işe yarar? Sanallaştırma, sunucu, masaüstü veya işletim sistemi gibi bir şeyin sanal sürümünü oluşturma işlemidir. CPU sanallaştırma, bilgisayar tarafından kullanılabilecek sanal CPU oluşturma işlemidir. Bu sanal CPU, farklı bir işletim sistemi çalıştırmak veya farklı bir programı/uygulamayı çalıştırmak için kullanılabilir. Sanal CPU kullanarak bilgisayarın performansını artırmanın bir yoludur. Oyun için işlemci sanallaştırma, performans artışı, daha az gecikme süresi ve daha kararlı (stabil) oyun demektir.
+
+İşlemci sanallaştırma açma 👇🏻
+intel sanallaştırma açma
+Tam Boyutta Gör
+Intel işlemcili bilgisayarda, Intel Processor Identification Utility ile; AMD işlemcili bilgisayarda AMD V Detection Utility ile masaüstü PC veya dizüstü bilgisayarın işlemci sanallaştırmayı destekleyip desteklemediği kolaylıkla öğrenebiliyor. Sanallaştırma açma için aşağıdaki adımları takip edin:
+BIOS’a girin.
+Advanced altında CPU Configuration’ı bulun.
+Intel (VMX) Virtualization Technology (Intel VT-D Tech) veya SVM Mode’u göreceksiniz.
+Enable olarak değiştirin.
+Exit ardından Save changes & reset ile değişiklikleri uygulayın.
+Intel mi AMD mi 🆚
+intel vs amd farkı
+Tam Boyutta Gör
+İşlemci arıyorsanız seçebileceğiniz iki marka var: Intel ve AMD. Intel 9. nesil, uzun süredir piyasanın hakimi ancak AMD’nin 3. nesil Ryzen işlemcileri çıkarmasıyla birlikte AMD, Intel’e yaklaştı. Intel i9 ile Ryzen 9 arasında mı kaldınız? Intel AMA farkını size açıklayacağız.
+Giriş seviye Intel Core i3 işlemci ile AMD Ryzen 3 işlemci arasında mı kaldınız? Bilgisayarınızı çoğunlukla e-posta göndermek, Netflix izlemek, internette gezinmek gibi temel görevler için kullanıyorsanız, Intel i3 veya Ryzen 3 işlemciye göz atmalısınız. Bu işlemciler, giriş seviyedir. Intel i3, 4 çekirdek ve 4.6GHz’a kadar saat hızına sahipken, AMD Ryzen 3, 4GHz saat hızına sahiptir.
+
+Orta seviye Intel Core i5 işlemci ile AMD Ryzen 4 işlemci arasında mısınız? Bu işlemciler, ortalama oyunlar oynamanıza ve Photoshop’ta çalışmanıza izin verirler. AMD Ryzen 5 işlemciler genelde i5 işlemcilerden biraz daha güçlüdür. Intel i5 işlemciler 4.6GHz saat hızına sahipken, AMD Ryzen 5 işlemciler 4.4GHz hıza sahiptirler ancak iki kat daha fazla iş parçacığına sahiplerdir. 65w gibi çok düşük güç tüketimi ile dikkat çeken AMD Ryzen 5 3600 işlemci, kesinlikle listenizde olmalı.
+
+Üst seviye Intel Core i7 işlemci ile AMD Ryzen 7 işlemci arasında mı gidip geliyorsunuz? İçerik üreticisiyseniz, oyun oynuyorsanız ve bilgisayarınızı yoğun olarak kullanıyorsanız tercih edeceğiniz işlemciler bunlar. Bu güçlü işlemciler, üst segmente aittir. i7 işlemciler, Ryzen 7’den daha az çekirdeğe ve iş parçacığına sahiptir ancak daha yüksek saat hızına sahiptir. Oyun icin Intel, çoklu görev için AMD işlemci daha iyidir.
+
+Intel Core i9 ve AMD Ryzen 9 işlemciler arasında en iyilerin de iyisidir. Bu işlemciler, profesyonel oyuncular ve tasarımcılar için idealdir. Intel i9 işlemci, nispeten düşük vat gücü ile birlikte 5GHz gibi yüksek saat hızına sahiptir. Overclock için idealdir diyebiliriz. Ryzen 9 işlemci, i9’dan daha düşük saat hızına sahiptir ancak çok daha fazla çekirdek içerir. Ryzen 9 oldukça güçlü bir işlemcidir.
+
+*********************************************************https://www.incehesap.com/blog/***********************************
+
+İşlemci, bilgisayar dünyasının kalbi olarak kabul edilir. Bilgisayarlarımızın veya diğer akıllı cihazlarımızın temel işlem gücünü sağlayan bu küçük parça, teknoloji dünyasının en önemli unsurlarından biridir. İşte, işlemcilerin ne olduğu ve neden bu kadar önemli olduklarına dair bir bakış.
+
+İşlemciler, bilgisayarların temel hesaplama ve veri işleme işlevlerini yerine getiren mikroçiplerdir. Bu küçük ama güçlü parçalar, her türlü bilgisayar görevini gerçekleştirmek için kullanılır. Web sayfalarının yüklenmesinden oyunların çalıştırılmasına, belgelerin oluşturulmasından karmaşık hesaplamalara kadar her şey, işlemcilerin çalışma hızı ve verimliliği tarafından belirlenir.
+
+İşlemciler aynı zamanda farklı türde işlemciler olarak gelirler. Bazıları güçlü iş istemlerini yerine getirmek için tasarlanmışken, diğerleri düşük güç tüketimi ve uzun pil ömrü için optimize edilmiştir. İşlemcilerin türleri ve yetenekleri, kullanıldıkları cihazın türüne ve amaçlarına göre değişir. Bu nedenle, doğru işlemciyi seçmek, cihazınızın performansını etkileyebilir ve kullanım deneyiminizi şekillendirebilir.
+
+İşte bu nedenle, işlemcilerin ne olduğunu ve neden bu kadar kritik olduklarını anlamak, teknoloji dünyasında bilinçli bir tüketici veya bilgisayar kullanıcısı olmanın önemli bir parçasıdır.
+
+İşlemcinin Rolü
+İşlemci, bir bilgisayarın veya akıllı cihazın beyinlerinden biri olarak düşünülebilir. Bilgisayarlarımızın veya mobil cihazlarımızın temel işlem gücünü sağlayan bu küçük, ancak son derece karmaşık mikroçip, modern teknolojinin vazgeçilmez bir parçasıdır. İşte işlemcinin rolünün daha ayrıntılı bir incelemesi:
+1. Hesaplama Gücü: İşlemciler, sayılarla çalışmayı ve hesaplama yapmayı mümkün kılar. Temel aritmetik işlemlerden karmaşık matematiksel hesaplamalara kadar her türlü işlemi gerçekleştirebilirler. Bu, bilgisayarların çok çeşitli görevleri yerine getirebilmesini sağlar.
+2. Veri İşleme: İşlemciler, verileri işleyebilir ve yönetebilirler. Bu, kullanıcıların bilgisayarlarında veya cihazlarında çeşitli işlemleri gerçekleştirmelerini sağlar. Verilerin depolanması, düzenlenmesi ve işlenmesi işlemcinin görevidir.
+3. Komut Yorumlama: İşlemciler, bilgisayar programlarının ve işletim sistemlerinin verdiği komutları yorumlayabilir ve uygulayabilirler. Bu, kullanıcıların bilgisayarlarını istedikleri şekilde kontrol etmelerini sağlar.
+4. Performans Belirleyici: İşlemcinin hızı ve yetenekleri, bir cihazın veya bilgisayarın performansını büyük ölçüde etkiler. Daha güçlü ve hızlı işlemciler, daha yüksek performanslı uygulamaları çalıştırabilir ve daha karmaşık görevleri daha hızlı bir şekilde tamamlayabilirler.
+
+İşte bu nedenle, işlemciler bilgisayar dünyasının temel taşları olarak kabul edilir ve bilgisayar kullanıcıları için cihazlarını seçerken veya yükseltirken işlemcinin gücünü ve yeteneklerini dikkate almalıdır.
+
+İşlemcinin Önemi
+İşlemci, günümüzün dijital dünyasında vazgeçilmez bir bileşen haline gelmiştir ve bir bilgisayar veya akıllı cihazın performansı üzerinde doğrudan bir etkiye sahiptir. İşte işlemcinin neden bu kadar önemli olduğunu ve neden dikkate alınması gerektiğini anlatan bazı nedenler:
+
+1. Hız ve Performans: İşlemci, bir cihazın hızını ve performansını belirleyen temel faktördür. Daha güçlü bir işlemci, daha hızlı çalışan uygulamalar, daha hızlı işlemler ve daha yüksek çözünürlüklü grafikler demektir. Özellikle oyunlar ve profesyonel uygulamalar gibi yüksek performans gerektiren görevlerde işlemci önemlidir.
+
+2. Enerji Verimliliği: İşlemci tasarımı, enerji verimliliği açısından da büyük bir rol oynar. Daha verimli işlemciler, daha az enerji tüketir ve pil ömrünü uzatır. Mobil cihazlar için bu özellik çok önemlidir, çünkü uzun pil ömrü taşınabilirliği artırır.
+
+3. Çoklu Görev Yeteneği: İşlemci, bir cihazın aynı anda birden fazla görevi yönetme yeteneğini belirler. Daha güçlü işlemciler, çoklu görev yapmayı daha sorunsuz hale getirir ve kullanıcıların aynı anda birden fazla uygulama veya işlem çalıştırmasına olanak tanır.
+
+4. Güvenlik: İşlemciler, güvenlik önlemleri için kritik bir rol oynar. Özellikle iş dünyasında veya hassas verilerle çalışan kullanıcılar için işlemcinin güvenilirliği ve güvenlik özellikleri büyük bir öneme sahiptir.
+
+5. Gelecek-Geçmiş Uyumluluğu: İşlemci, bir cihazın gelecekteki yazılım güncellemeleri ve yeni teknolojilere uyum sağlama yeteneğini etkiler. Daha güçlü ve esnek bir işlemci, cihazın kullanım ömrünü uzatır.
+
+İşte bu nedenlerle, işlemci seçimi, bir bilgisayar veya cihaz satın alırken veya yükseltirken dikkate alınması gereken kritik bir faktördür. İşlemcinin gücü ve yetenekleri, cihazın kullanım deneyimini büyük ölçüde etkiler ve kullanıcıların ihtiyaçlarına uygun bir cihaz seçmelerine yardımcı olur.
+
+İşlemcinin Evrimi
+İşlemciler, teknoloji dünyasında sürekli olarak gelişen ve evrilen temel bileşenlerden biridir. Zaman içinde işlemcilerdeki bu evrim, bilgisayarlar ve diğer dijital cihazlar üzerinde büyük bir etkiye sahip olmuştur. İşte işlemcilerin nasıl evrildiğine dair kısa bir özet:
+
+1. İlk Nesil İşlemciler: İşlemcilerin ilk nesli, genellikle 8 ila 16 bitlik veri işleme yeteneğine sahipti. Bu işlemciler, temel hesaplama görevlerini yerine getirmek için kullanılıyordu ve genellikle büyük bilgisayar sistemlerinde bulunuyorlardı.
+
+2. Mikroişlemci Devrimi: 1970'lerde mikroişlemci devrimi yaşandı ve bu, işlemcileri daha küçük, daha güçlü ve daha erişilebilir hale getirdi. Intel'in 4004 mikroişlemcisi, bu devrimin öncülerinden biriydi ve kişisel bilgisayarların gelişimini başlattı.
+
+3. İşlemci Hızları: 1980'lerin sonlarına doğru ve 1990'ların başlarında, işlemci hızları hızla arttı. İşlemcilerin megahertz cinsinden ölçüldüğü bu dönemde, her yeni nesil işlemci daha hızlı ve daha güçlüydü.
+
+4. Çok Çekirdekli İşlemciler: 2000'lerin sonlarına doğru, çok çekirdekli işlemcilerin yükselişi yaşandı. Bu işlemciler, birden fazla işlemci çekirdeği içerir ve çoklu görev yapmayı daha etkili hale getirir.
+
+5. Mobil İşlemciler: Mobil cihazların yükselişi ile birlikte, düşük güç tüketimi ve yüksek verimlilik gereksinimleri nedeniyle mobil işlemciler geliştirildi. Bu işlemciler, akıllı telefonlar, tabletler ve diğer taşınabilir cihazlarda kullanılır.
+
+6. Gelecek Teknolojiler: Gelecekteki işlemciler, daha fazla güç verimliliği, yapay zeka yetenekleri ve daha hızlı veri işleme özellikleri sunma potansiyeline sahiptir. Nanoteknoloji ve kuantum hesaplama gibi yeni teknolojiler, işlemcilerin gelecekteki evrimini şekillendirebilir.
+
+İşlemcilerin bu uzun ve etkileyici evrimi, teknoloji dünyasını dönüştürdü ve dijital cihazların gücünü artırdı. İşte bu nedenle işlemci, bilgisayarlar ve diğer akıllı cihazlar için temel bir yapı taşı olarak önemini koruyor.
+
+İşlemcinin Önemi
+İşlemci, modern teknoloji dünyasının temel taşlarından biridir ve bilgisayarlar, akıllı telefonlar, tabletler, oyun konsolları ve hatta ev aletleri gibi birçok cihazın işleyişinde kritik bir rol oynar. İşte bu makalede işlediğimiz konuların özeti:
+
+İşlemci Nedir?
+İşlemci, bilgisayarın beyni olarak düşünülebilir. Bilgisayarın tüm hesaplamalarını, veri işlemesini ve komutları yürütmesini sağlar. İşlemci, binlerce veya milyonlarca işlemi saniyede gerçekleştirme yeteneğine sahiptir ve bu, bilgisayarın hızını ve performansını belirler.
+
+İşlemci Çeşitleri
+Farklı cihazlar için farklı işlemci türleri bulunur. Kişisel bilgisayarlar için masaüstü işlemcileri, mobil cihazlar için mobil işlemciler, sunucular için sunucu işlemcileri ve özel cihazlar için özel işlemciler gibi birçok çeşidi vardır. Bu işlemciler, kullanılacakları görevlere ve güç gereksinimlerine göre tasarlanır.
+
+İşlemcinin Önemi
+İşlemcinin önemi, bilgisayar ve diğer cihazların performansı üzerinde doğrudan bir etkiye sahiptir. Daha güçlü bir işlemci, daha hızlı veri işleme, daha akıcı grafikler ve daha yüksek çözünürlüklü oyunlar gibi avantajlar sunar. Ayrıca işlemci, çoklu görev yapmayı daha etkili hale getirir ve genel kullanıcı deneyimini iyileştirir.
+
+Gelecekteki Gelişmeler
+İşlemci teknolojisi hızla ilerlemeye devam ediyor. Daha güçlü, enerji verimli ve özelleştirilebilir işlemcilerin geliştirilmesi bekleniyor. Bu, yapay zeka, oyunlar, bilimsel hesaplamalar ve daha birçok alanı etkileyebilir. Ayrıca işlemcilerin fiziksel boyutları küçüldükçe, daha taşınabilir ve hafif cihazlar mümkün hale gelir.
+
+İşlemci, teknolojinin kalbidir ve gelecekteki yeniliklerin anahtarı olmaya devam edecektir. Bu nedenle işlemci teknolojilerini anlamak ve takip etmek, dijital dünyada rekabetçi kalmak için önemlidir.
+
+***********************************************************************************************************************************************
