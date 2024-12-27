@@ -18,7 +18,7 @@ model_dpr = DPRContextEncoder.from_pretrained(model_name_dpr).to("cuda")  # Mode
 
 # Paragraflar.txt dosyasını okuyarak metinleri listeliyoruz
 # Bu dosya, sistemin bilgi havuzu olarak kullanılacak
-with open("paragraflar.txt", "r", encoding="utf-8") as f:
+with open("veri.txt", "r", encoding="utf-8") as f:
     content = f.read()  # Dosyanın tamamını okuyoruz
     paragraphs = [p.strip() for p in content.split("\n\n") if p.strip()]  # Boş satırlara göre bölüyoruz ve temizliyoruz
 
@@ -54,7 +54,7 @@ def generate_answer(input_text, context):
     
     # Modelden cevabı üretiyoruz
     with torch.no_grad():  # Yine gradients'e ihtiyacımız yok
-        output = model_llama.generate(**inputs, max_length=512, num_return_sequences=1, do_sample=True, temperature=0.3, no_repeat_ngram_size=3)
+        output = model_llama.generate(**inputs, max_length=150, num_return_sequences=1, do_sample=True, temperature=0.3, no_repeat_ngram_size=3)
     
     # Cevap metnini çözümlüyoruz (token'lerden tekrar metne dönüştürüyoruz)
     response = tokenizer_llama.decode(output[0], skip_special_tokens=True)
