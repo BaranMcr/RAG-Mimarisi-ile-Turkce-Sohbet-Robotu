@@ -34,8 +34,8 @@ def load_chunks_from_db():
     embeddings = [np.frombuffer(row[1], dtype=np.float32) for row in rows]
     return paragraphs, np.vstack(embeddings)
 
-# En iyi bağlamları bulma
-def retrieve(query, paragraphs, paragraph_embeds, top_n=3):
+# En yakın bağlamı bulma
+def retrieve(query, paragraphs, paragraph_embeds):
     # Sorgunun embedding'ini hesaplama
     inputs = tokenizer_dpr(query, return_tensors="pt", padding=True, truncation=True, max_length=512).to("cuda")
     with torch.no_grad():
@@ -43,8 +43,8 @@ def retrieve(query, paragraphs, paragraph_embeds, top_n=3):
     
     # Cosine similarity hesaplama
     similarities = cosine_similarity(query_embeds, paragraph_embeds)
-    best_indices = similarities.argsort()[0][-top_n:][::-1]
-    return [paragraphs[i] for i in best_indices]
+    best_index = similarities.argsort()[0][-1]  # En yüksek skorun indeksini al
+    return paragraphs[best_index]  # Sadece en yakın bağlamı döndür
 
 # Llama modeli ile cevap üretme
 def generate_answer(input_text, context):
@@ -76,13 +76,11 @@ def home():
     
     if request.method == "POST":
         user_input = request.form.get("query")  # Kullanıcıdan gelen sorguyu al
-        context = retrieve(user_input, paragraphs, paragraph_embeds)  # Sorguya uygun bağlamları al
+        context = retrieve(user_input, paragraphs, paragraph_embeds)  # En yakın bağlamı al
         
-        # Bağlamları birleştiriyoruz
-        context_str = " ".join(context)
-        print("Seçilen bağlam: " + context_str)  # Bağlamı yazdırmak
+        print("Seçilen bağlam: " + context)  # Bağlamı yazdırmak
 
-        response = generate_answer(user_input, context_str)  # Model yanıtını üret
+        response = generate_answer(user_input, context)  # Model yanıtını üret
         
         # "Cevap:" kelimesinden sonrası alınır ve son noktada kesilir
         if "Cevap:" in response:

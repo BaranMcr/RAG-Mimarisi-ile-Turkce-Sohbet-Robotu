@@ -43,16 +43,33 @@ def calculate_embeddings(paragraphs):
         embeddings.append(embeds)
     return embeddings
 
+# Veritabanında aynı Chunks olup olmadığını kontrol etme
+def is_duplicate_chunk(conn, chunk):
+    c = conn.cursor()
+    c.execute("SELECT Chunks FROM chunks WHERE Chunks = ?", (chunk,))
+    result = c.fetchone()
+    return result is not None
+
+# Veritabanındaki son ID'yi alma
+def get_next_id(conn):
+    c = conn.cursor()
+    c.execute("SELECT MAX(ID) FROM chunks")
+    last_id = c.fetchone()[0]
+    return (last_id + 1) if last_id is not None else 1
+
 # Paragrafları ve embedding'lerini veritabanına ekleme
 def insert_chunks_into_db(paragraphs, embeddings):
     conn = connect_db()
     c = conn.cursor()
     
     for paragraph, embedding in zip(paragraphs, embeddings):
-        c.execute('''
-        INSERT INTO chunks (Chunks, DPRID)
-        VALUES (?, ?)
-        ''', (paragraph, sqlite3.Binary(embedding.tobytes())))
+        # Aynı chunk varsa ekleme
+        if not is_duplicate_chunk(conn, paragraph):
+            next_id = get_next_id(conn)  # Yeni ID'yi belirle
+            c.execute('''
+            INSERT INTO chunks (ID, Chunks, DPRID)
+            VALUES (?, ?, ?)
+            ''', (next_id, paragraph, sqlite3.Binary(embedding.tobytes())))
     
     conn.commit()
     conn.close()
