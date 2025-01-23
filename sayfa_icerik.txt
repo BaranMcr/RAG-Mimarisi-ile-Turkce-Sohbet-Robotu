@@ -1,630 +1,243 @@
-Balkanlar veya Balkan Yarımadası, Avrupa kıtasının güneydoğu kesiminde, İtalya Yarımadası'nın doğusu, Anadolu'nun batısı ve kuzeybatısında yer alan coğrafi ve kültürel bölgedir. Bölge için bazı yayınlarda Güneydoğu Avrupa terimi de kullanılır.
-Bölge adını batıdan doğuya uzanan ve Bulgaristan’ı ikiye bölen dağ silsilesinden almıştır. Önceleri bu sıradağların adı olarak kullanılan Balkan, daha sonraları tüm bu bölge için kullanılmaya başlanmıştır.[1] “Balkan” sözcüğüne bütün dillerde rastlanır.[a] Balkanlar'ın bazı kısımlarındaki çok yönlü geri kalmışlık sebebiyle bölge genel olarak, Avrupa'nın sorunlu yerlerinin başında kabul edilir. Osmanlı İmparatorluğu’nun bölgedeki hükümdarlığının bitişinden itibaren Balkanlar’ın paylaşımına dair sıkıntılar günümüze dek sürmüştür. Bölgede, 49 milyon civarında insan yaşar.
-Osmanlı İmparatorluğu’ndan önce, Antik ve Orta Çağ kaynaklarında, topografik durumu iyi bilinmeyen bölgedeki dağların bazı kısımlarına Haemus (Yunanca: Αἵμου veya Αἵμος) denirdi.[2]
+Merkezî işlem birimi (Türkçe kısaltması MİB, İngilizce: Central Process Unit ya da kısaca CPU), dijital bilgisayarların veri işleyen ve yazılım komutlarını gerçekleştiren bölümüdür. Çalıştırılmakta olan yazılımın içinde bulunan komutları işler. Mikroişlemciler ise tek bir yonga içine yerleştirilmiş bir merkezî işlem birimidir. 1970'lerin ortasından itibaren gelişen mikroişlemciler ve bunların kullanımı, günümüzde MİB teriminin genel olarak mikroişlemciler yerine de kullanılması sonucunu doğurmuştur.
+Merkezî işlem birimi aritmetik ve mantıksal işlem yapma yeteneğine sahiptir. Giriş ve çıkış birimleri arasında verilen yazılım ile uygun çalışmayı sağlar. MİB, makine dili denilen düşük seviyeli kodlama sistemi ile çalışır; bu kodlama sistemi bilgisayarın algılayabileceği işlem kodlarından oluşur. Bir mikroişlemcinin algılayabileceği kodların tamamına o işlemcinin komut kümesi denir.
+Merkezî işlem birimi aritmetik ve mantıksal işlemleri Aritmetik Mantık Birimi (AMB) aracılığıyla yapar. Bunun dışında virgüllü sayılarla daha rahat hesap yapabilmesi için bir Kayan Nokta işlem birimi (FPU) vardır. Mikroişlemcinin içerisinde bulunan küçük veri saklama alanlarına yazmaç denir.
+İlk Merkezî İşlem Birim'leri (MİB) daha büyük, bazen türünün tek örneği bilgisayarlar için özel olarak tasarlanmışlardı. Ancak belirli bir uygulama için özel MİB tasarımının masraflı olması bir veya birçok amaç için yapılan kitlesel olarak üretilmiş işlemcilerin gelişmesine yol açtı. Bu standartlaşma eğilimi ayrık transistörlü ana sistemler ve mini bilgisayarlar döneminde başladı ve entegre devrelerin (ED) popülerleşmesiyle giderek hız kazandı. ED, giderek daha karmaşık ve nanometre ile ölçülebilecek MİB'lerin tasarlanmasına ve üretilmesine olanak verdi. MİB'lerin küçülmesi ve standartlaşması, modern hayatta dijital cihazların varlığını ilk bilgisayar örneklerinin sınırlı uygulamalarının çok ötesinde artırdı.
 
 
-### Köken bilimi ###
+### Tarihçe ###
 
-Bölgenin adı olan Balkan veya Balkanlar sözü Türkçedir.[3] Bu söz Türk Dil Kurumu tarafından "öz. a. Hırvatistan, Sırbistan, Karadağ, Kosova, Slovenya, Arnavutluk, Kuzey Makedonya, Bosna-Hersek, Bulgaristan, Yunanistan ve Trakya'yı içine alan bölge" şeklinde belirtilir. Kelimenin yapısında yer alan Balkan sözünün, "sarp ve ormanlık sıradağ; sık ormanla kaplı dağ; yığın, küme; sazlık, bataklık" gibi anlamları vardır.[4] Dünyadaki diğer dillere de Türk dilinden geçmiştir.[5]
-Kelime, Osmanlı Türkçesinde yaygın bir kullanıma sahip olmuştur (Golyak Balkanı, Bor Balkanı, Bababalkanı vb.).[6] Osmanlı son döneminde ünlü sözlük yazarı ve edebiyatçı Şemseddin Sami tarafından oluşturulan Kâmûs-ı Türkî adlı ünlü sözlükte "Sarp ve müselsel veya ormanla mestur dağ, silsile-i cibal" şeklinde Balkan sözünü belirtmiş, ayrıca "Rumeli kıtasını garbdan şarka şakk eden silsile-i cibal ki buna izafetle kıta-i mezkûreye Balkan şibh-i ceziresi denir." şeklinde de kelimenin gelişimini açıklamıştır.[7]
-Bölge adının yapısında bir kelime ve ona eklenen çokluk eki vardır: Balkan+lAr. Balkan (Ad) +lAr (Çokluk eki) yapılarından oluşur. Türkçe "-lAr" çokluk eki ile kurulan "Balkanlar" ismi, bu ekin "aile, boy, millet, topluluk, grup" anlamını veren işlevi[8] ile "sarp ve ormanlık sıradağların olduğu yer" anlamında kalıplaşmıştır.
+İlk işlemciler, belli işlemler için özel üretilen ve büyük olan parçalardı. Daha sonraları ise maliyeti çok yüksek olan bu üretim şeklinin yerini, gelişen teknoloji ile daha ufak olan ve tek işlev yerine çok işleve sahip olan üretimler almıştır. Bu dönemin başlaması, transistörlerin ve mini-bilgisayarların ortaya çıkışına dayanmaktadır. tümleşik devrelerin yayılmasıyla da hız kazanmıştır. Tümleşik devreler, işlemcilerin daha kompleks olarak tasarlanmasına ve bunların çok az yer kaplayacak şekilde (milimetreler cinsinden) üretilmesine olanak sağlamıştır. Bu sayede işlemciler modern hayatta birçok yerde kullanılmaya başlanmıştır (otomobiller, cep telefonları...).
+Günümüz işlemcilerine benzerliklerin başlamasından önce, ENIAC ve benzeri bilgisayarların belli işleri gerçekleştirebilmesi için bağlantılarının fiziksel olarak değiştirilmesi gerekiyordu. MİB kelimesi genel olarak yazılım (bilgisayar programı) uygulama aracı olarak tanımlandığından, gerçek anlamda MİB'lerin oluşumu kayıtlı-program bilgisayarların gelişimi ile ortaya çıkmıştır.
+Kayıtlı-program bilgisayar fikri ENIAC tasarımı esnasında mevcut olmasına rağmen, bu fikir makinenin erken bitirilebilmesi için rafa kaldırılmıştı. 30 Haziran 1945'te, ENIAC henüz tamamlanmadan, matematikçi John von Neumann, EDVAC proje raporunun ilk taslağını yayımladı. Bu taslakta kayıtlı-program bilgisayarının ancak Ağustos 1949'da tamamlanabileceği gösteriliyordu. EDVAC, belli sayıda operasyonları gerçekleştirecek şekilde tasarlanmıştı. EDVAC için yazılan programlar, kabloların fiziksel olarak değiştirilmeyi gerektiren bir ortamda değil, hızlı bir bilgisayar belleğinde kayıtlı tutuluyordu. Bu özelliğiyle de ENIAC'ın kısıtlamalarının üstesinden gelip, zamandan ve zahmet açısından tasarruf sağlıyordu. Her ne kadar von Neumann kayıtlı-program bilgisayar fikrini ortaya koyan kişi olarak gösterilse de ondan önce de (örneğin Konrad Zuse'nin) benzer fikirler vardı. Ayrıca, EDVAC'tan önce tamamlanan Harvard Mark I'nın Harvard mimarisi, elektronik bellek yerine delikli kâğıt şerit kullanarak kayıtlı-program dizaynı gerçekleştirmişti. Günümüzde ise modern MİB'ler temel olarak von Neumann tasarımı olsa da, Harvard mimarisinden de özellikler göze çarpmaktadır.
+Dijital aygıt olmalarından ötürü, tüm MİB'ler ayrık durumlarla ilgilenirler; bu yüzden durumları ayırt edebilmek için bir çeşit geçiş unsuruna ihtiyaçları vardır. Transistörlerin kabulünden önce, elektriksel röleler ve vakum tüpleri bu amaç için kullanılırlardı. Bunların her ne kadar hız avantajı olsa da, tamamen mekanik dizayn olduklarından değişik sebeplerden dolayı güvenilir değillerdi. Örneğin, doğru akım ardışık mantık devrelerinin rölelerden dışarı kurulması, kontak sekmesi problemiyle baş edebilmek için fazladan donanım gerektiriyordu. Vakum tüpleri kontak sekmesi sorunu yaşamazken, bunlar, tamamıyla çalışır hale gelebilmek için ısınma gerektiriyordu ve işler durumdan da hep birlikte çıkmaları gerekiyordu. Genelde, tüplerden biri başarısız olduğunda, bozulan parçanın tespit edilmesi için MİB'in teşhis edilmesi gerekmekteydi. Bu yüzden vakum tüplü bilgisayarlar daha hızlı olmasına rağmen röle bazlı bilgisayarlardan daha az güvenilirdi. Tüp bilgisayarlarında (EDVAC) arızalanma 8 saatte bir olurken, röle bilgisayarlarında (Harvard Mark I) daha nadir rastlanıyordu. Sonuç olarak ise tüp bazlı MİB'ler hız avantajının arızalanma sorunundan daha ağır basmasından dolayı daha yaygın hale geldiler. Bu eski senkron MİB çeşitleri, günümüzle kıyaslandığında, oldukça düşük saat frekanslarında çalışmaktaydılar. Kuruldukları geçiş aygıtlarının hızlarıyla kısıtlandıkları için, o zamanlar 100 kHz ile 4 MHz arasında değişen saat sinyal frekans değerleri oldukça yaygındı.
 
 
-### Rumeli adı ###
+### Ayrık transistör ###
 
-Türkiye Türkçesi literatüründe Rumeli adlandırması da Balkanlar adlandırmasına denk veya ona yakın bir kullanıma sahiptir. Rumeli ismi ise, Osmanlı İmparatorluğu'nun Doğu Roma İmparatorluğu'ndan fethettiği topraklara verdiği Türkçe isimdir. Osmanlı Türkleri, Avrupa'ya ayak bastıktan sonra, burada fethettikleri yerlere Rumeli adını verdiler. Hâlbuki bu isim evvelce bugünkü Anadolu için kullanılmış, hatta Orta Çağ Avrupa kaynaklarında Romanie şeklinde tercüme edilmiş iken bu son şekil, Rumeli'nin Anadolu'ya mütenazır olarak kullanılması gibi, Balkan yarımadasına tatbik olunmuş ve garp kaynaklarında "Peninsule romaine" tarzında da kullanılmıştır. Yeni çağlardan itibaren, Avrupa harita ve kitaplarında bu yarımadaya "Turquie d'Europe" veya "Empire ottoman d'Europe" denildiği görülüyor ki, sonradan Türkçe neşriyatta, bu adlara muadil olmak üzere, "Avrupa-i Osmânî" ve "Rumeli-i Şâhâne" tabirleri kullanılmıştır.[2]
-Rum+el+i (< Rum Eli: Rum (Ad) El (Ad) +i (3. teklik iyelik eki) yapısındaki sözün kökündeki "Rum" kelimesi "Doğu Roma İmparatorluğu sınırları içinde olan toprak, halklar"[9] anlamıyla kelimenin yapısına katılmıştır. "Roma" sözünün bir biçimidir: (Lat.) Roma > Rum (Osm.Tr.).
+Çeşitli teknolojilerin daha küçük ve daha güvenilir elektronik aygıtlar üretmeye başlamasıyla MİB tasarımlarının kompleks yapıları da artış gösterdi. Bu yoldaki ilk gelişme transistörlerin gelişiyle başladı. 1950'ler ve 1960'lar da MİB'lerın transistörlere geçişi ile vakum tüpü ve elektriksel röle gibi güvensiz ve kırılgan geçiş elementleri artık kullanılmaz hale gelmişti. Bu gelişim sayesinde de, üzerinde ayrık bileşenler bulunan bir veya birden çok baskı devre kartlarına daha kompleks ve daha güvenilir MİB'ler yerleştirildi.
+Bu dönemde, oldukça küçük alanlara fazla sayıda transistör yerleştirebilme metodu popülerlik kazandı. Tümleşik devre (IC) sayesinde, büyük sayıda transistörler, yarı iletken tabanlı kalıplar veya çip denilen birimlerin üzerinde üretilebilindi. İlk başlarda, NOR kapıları gibi sadece belli basit dijital devre tipleri tümleşik devreler üzerine minyatürleştirildi. MİB'lerın bu inşa bloğu olan tümleşik devrelere kurulması durumuna “küçük-ölçekli tümleşme” (SSI) denir. SSI tümleşik devreler, Apollo güdüm bilgisayarında (Apollo guidance computer) kullanılanlar gibi, transistör sayısı açısından onun katları biçimindeydi. Mikro elektronik teknolojisi geliştikçe, tümleşik devre üzerindeki transistör sayılarıda artış gösterdi ve bu sayede bir MİB'i tamamlamak için gereken bağımsız parça sayısını azaltılmış oldu. Orta ve büyük-ölçekli (MSI ve LSI) tümleşik devreler sayesinde, barındırılan transistör sayıları yüzler ve onbinler seviyesine kadar arttı.
+1964 senesinde IBM, birkaç seri bilgisayarda kullanılan ve aynı programları değişik hız ve performans değerleriyle yürütebilen System/360 adlı bilgisayar mimarisini tanıttı. O dönemde çoğu elektronik bilgisayar, aynı üreticiden çıkmış olsa bile bir diğeriyle uyumsuzluk sorunu yaşarken bu gelişim oldukça önemli bir yer tutmuştu. Bu gelişimi kolaylaştırmak için, IBM mikro-program (veya mikro-kod) konseptini kullanmaya başladı ki bu konsept modern MİB'lerın çoğunda hala geniş bir biçimde kullanılmaktadır (Amdahl et al. 1964). System/360 mimarisinin popülerliği, onu birkaç onyıl boyunca anaçatı bilgisayar pazarını ele geçirmesini ve IBM zSeries gibi benzer modern bilgisayarlarda kullanılır hale getirecek bir efsane olmasını sağladı. Aynı yılda (1964), Digital Equipment Corporation (DEC), bilimsel ve araştırma pazarlarını hedef seçmiş bir başka bilgisayar olan PDP-8'i piyasaya sürdü. Daha sonları ise DEC, SSI tümleşik devrelere kurulmuş olan ancak sonunda LSI bileşenlerin pratikleşmesiyle bunlarla gerçekleştirilmiş ve oldukça popüler olan PDP-11'i piyasaya sunacaktı. SSI ve MSI öncelleriyle sahip olduğu fark ile, PDP-11'in ilk LSI gerçekleştirilmesi, 4 LSI tümleşik devreden oluşan bir MİB'e sahipti (Digital Equipment Corporation 1975).
+Transistör bazlı bilgisayarların, öncellerine kıyasla fazla sayıda ve belirgin avantajları vardı. Yüksek güvenilirlik ve az güç tüketiminin yanı sıra, transistörler sayesinde MİB çalışma hızları transistörlerin sahip olduğu düşük geçiş süreleri sayesinde oldukça artış gösterdi. Bu dönemde, yüksek güvenilirlik ve geçiş süresindeki belirgin hız artışı sayesinde, MİB'lerin saat hızlarında MHz'in on katları seviyesine erişildi. Ek olarak, ayrık transistör ve tümleşik devre MİB'leri sık kullanımda iken, SIMD (Tek Komut Çoklu Data) vektör işlemcileri gibi yeni yüksek performans tasarımlar ortaya çıkmaya başladı. Başlarda deneysel tasarım olan bu sistemler, daha sonraları ise Cray Inc. gibi firmalar tarafından üretilmiş, uzmanlaşmış süper bilgisayarların çağına adım atılmasını sağlayacaktı.
 
 
-### Coğrafya ###
+### Mikroişlemciler ###
 
-Balkanlar, güneybatıda Adriyatik Denizi ve İyon Denizi; güneyde Akdeniz; güneydoğuda Ege Denizi, Marmara Denizi; doğuda Karadeniz ile çevrili bir yarımadadır. Kuzey sınırlarını Tuna, Sava ve Kupa nehirleri oluşturur.[10] Kuzeybatıdan (Trieste Körfezi) güneye ve doğuya dek olan bölge sınırları denizlerle çevrilidir: Adriyatik, İyon Denizi, Akdeniz, Ege Denizi, Çanakkale Boğazı, Marmara, İstanbul Boğazı, Karadeniz. Karadeniz kıyılarında, Tuna'nın döküldüğü yerden Tuna boyunca kuzey sınır Belgrad'a ulaşır. Burada Sava boyunca devam edip Hırvatistan-Bosna-Hersek hudut hattından batıya ilerleyen kuzey sınırı Slovenya'ya girer. Čatež ob Savi köyünde Krka Nehri'nden devam eden kuzeybatı sınırı, nehrin ağzı Gradiček'in batısından Vipava Nehri üzerinden ilerleyip İtalya'ya geçer. Gorizia yakınlarında Soča Nehri ile birleşen sınır, Trieste Körfezi kıyısındaki Monfalcone yakınlarında Adriyatik'e bağlanır.[b] Balkanlar'ın toplam yüzölçümü 504.884 km²'dir. Ayrıca Balkan coğrafyasında +01.00 (Hırvatistan, Slovenya, Bosna-Hersek, Karadağ, Arnavutluk, Kosova, Sırbistan, Makedonya) ve UTC+02.00 (Yunanistan, Bulgaristan, Romanya, Türkiye) olmak üzere iki zaman dilimi kullanılmaktadır.
-Balkanlar'ın veya coğrafi adla Balkan Yarımadası'nın doğu, güney ve batı sınırları hakkında mevcut görüş birliğine rağmen, kuzey sınırları tartışmalıdır. Bazı coğrafyacılar kuzey sınırını Tuna ve Drava nehirleri olarak kabul eder, bazıları da sınır Karpat Dağları'nın doğusundan geçirir.[1] Balkan Yarımadası'nın kıyıları, Akdeniz sistemine dâhil olan altı denize açılmaktadır. Bu durum, Balkanlar'ın, Akdeniz stratejisindeki çok boyutlu yerini vurguladığı gibi Balkan ülkelerinin çoğunun deniz ulaştırması ve denizcilik alanlarındaki gelişmelerine de ışık tutmaktadır.[11]
-Balkanlar'da muhitlerin coğrafi yapısına bağlı olarak iklimde değişiklikler görülür. Adriyatik ve Ege kıyılarında Akdeniz iklimi hâkimdir. Karadeniz kıyılarında iklim, nemli subtropikal ve ılıman okyanus tipindedir. İç kesimlerde ise nemli kıtasal iklim görülür. Yarımadanın kuzeyi ile dağlık alanlarda kışlar soğuk ve karlı, yazlar sıcak ve kurudur. Güney kesimlerde kışları iklim hafiftir. Nemli kıtasal iklim, Slovenya geneli, Kuzey Hırvatistan, Bosna-Hersek, Arnavutluk içleri, Kuzey Karadağ, Kosova, Makedonya, Bulgaristan, Sırbistan ve Romanya'da görülür. Geri kalan ve yaygın olmayan iklim tipleri olan nemli subtropikal iklim ve okyanus iklimi, Bulgaristan'ın Karadeniz kıyılarında ve Türkiye'de görülür. Akdeniz iklimi, Slovenya kıyılarında, Güney Hırvatistan, Arnavutluk kıyı kesiminde, Yunanistan'da, Güney Karadağ'da ve Türkiye'nin Ege kıyılarında görülür.
+Mikroişlemcilerin 1970'lerde ortaya çıkması, MİB tasarımlarını ve kullanımını oldukça etkiledi. İlk mikroişlemci olan Intel 4004'ün çıkması (1970) ve yine ilk geniş çaplı kullanım sağlayan mikroişlemci olan Intel 8080 (1974) ile bu tip MİB'ler, merkez işlem birimini yürütme metotlarını tamamıyla ele geçirmiş oldu. O zamanki tüm üreticiler, bilgisayar mimarilerini geliştirebilmek için tümleşik devre geliştirme programları yayınladılar. Bunun sonucunda da eski yazılım ve donanımlarıyla geri-uyumlu olan komut set uyumlu mikroişlemciler ürettiler. Günümüzün kişisel bilgisayarlarının başarısıyla birleşince de MİB kelimesi genel olarak mikroişlemciler için de kullanılmaya başlandı.
+Önceki nesil MİB'ler ayrık parçalardan ve pek çok küçük tümleşik devrelerin bir veya birden çok devre kartlarında bulunmasıyla gerçekleştiriliyordu. Mikroişlemciler ise, MİB'lerin çok az sayıda (genellikle bir) tümleşik devre üzerinde üretiminden oluşuyordu. MİB'lerin tek kalıp üzerinde üretilmesinin getirdiği bu boyut açısından bu küçülme, parasitik sığalık geçitlerinin azalması gibi fiziksel faktörler sebebiyle daha hızlı geçiş sürelerinin olmasına olanak sağladı. Bu sayede de senkron mikroişlemcilerin 10 MHz civarlarında olan saat hızları GHz seviyelerine taşındı. Ayrıca, olabildiğince ufak transistörlerin tümleşik devrelere yerleştirilmedeki artış, tek bir MİB'de sahip olunan transistör sayısını ve karmaşıklığı da artırdı. Bu geniş gözlem, Moore Kuralı ile tanımlanmıştır ve bu kuralın MİB'deki kompleks yapının zamana bağlı olarak artışının oldukça keskin bir tahminini yapabildiği ispatlanmıştır.
+Her ne kadar MİB'in karmaşıklığı, ebatları, tasarımı ve genel şekli fazlasıyla değişmiş olsa da temel yapısının ve fonksiyonunun değişmediği görülmektedir. Günümüzde yaklaşık her MİB von Neumann kayıtlı-program makineleri olarak adlandırılabilir.
+Moore Kuralı geçerli olmaya devam ettiğinden, tümleşik devre transistör teknolojilerinin sahip olabileceği limitleri hakkında endişeler ortaya çıkmaya başladı. Olabildiğince minyatürleme sonucu ortaya çıkabilecek elektron göçü ve eşikaltı voltajı durumları önemsenecek boyutlara gelmeye başladı. Bu tip endişeler, araştırmacıları yeni metotlar aramaya (quantum bilgisayarı, paralelliğin kullanımının gelişimi) yöneltti.
 
 
-### Dağlar ve nehirler ###
+### MİB İşletimi ###
 
-Bölge alanının büyük kısmı dağlarla kaplıdır. Bu dağ yapıları genelde kuzeyden batıya veya güneyden doğuya uzanır. Balkan topraklarının en yüksek dağı 2925 metreye yükselen ve Bulgaristan'da bulunan Rila Dağı'dır.[12] Rila Dağı'nı, 2917 metre ile Yunanistan'daki Olimpos Dağı[13] ve 2914 metre ile Bulgaristan'daki Vihren takip eder.[14] Bu yüksek dağların yanı sıra, en büyük dağ yapıları Dinar Alpleri, Arnavutluk Alpleri, Şar Dağları, Balkan Dağları, Rodop Dağları'dır. Bu dağ dizilerinin dışında, daha küçük ve yerel dağlar da vardır.
-Dinar Alpleri, Slovenya, Hırvatistan, Bosna-Hersek, Sırbistan, Arnavutluk, Karadağ ve Kosova topraklarında uzanan sıradağ dizisidir. Arnavutluk Alpleri, Arnavutluk güneyinden Yunanistan'ın orta kesimine dek uzanır. Şar Dağları da bu sıradağların güneydoğusunda, Arnavutluk, Kosova ve Makedonya toprakları içinde yer alır. Koca Balkan Dağları, Karadeniz kıyılarından Bulgaristan içlerine doğru yayılır. Hem Bulgaristan ve Yunanistan topraklarında yer alan Rodop Dağları da önemli dağ dizilerindendir.
-Bölgenin birçok kesiminde çeşitli büyüklükte akarsular yer alır. Bölgedeki nehirler içinde bazıları birçok ülke içinde akar ve büyük bir havzayı oluştururlar. Bazıları ise daha bölgesel veya yerel nehirlerdirler. Bölgedeki önemli nehirlerden birisi olan Tuna Nehri Balkanlar'ın doğu kısmında yer alan ülkeleri Karadeniz'e bağlar. Tuna Nehri'ne kuzeyden katılan Sava Nehri ve doğudan katılan Morava Nehri diğer önemli nehirlerdendir. 550 km uzunluğa sahip Morava Nehri, Balkanlar bölgesindeki en uzun nehir unvanına sahiptir; Morava'yı Drina Irmağı takip eder. Batıdan güneye akan ve Adriyatik'te denize dökülen Neretva Nehri de bölgenin önemli su kaynaklarından birisidir. Diğer önemli nehirlerin başında Bulgaristan'da doğan Meriç nehri, Arnavutluk'ta akan Drin Nehri ve Makedonya'da doğan Vardar Nehri'dir.[15]
+Çoğu MİB'nin temel işlemi, aldıkları fiziksel formdan bağımsız olarak, kayıtlı komut serilerisi dediğimiz programları yürütmektir.. Program, bilgisayar belleğinde saklanan seri sayılar ile gösterilir. Genel olarak von Neumann MİB'leri işlemi 4 adımda gerçekleştirirler: Getirme (fetch), kodçözücü (decode), yürütme (execute) ve geri yazma (writeback).
 
 
-### Yüzey ve kaynaklar ###
+### Getirme evresi (fetch) ###
 
-Dağlarla yükselmiş ve üç denizle çevrili yapısıyla Balkan Yarımadası, coğrafi bakımdan etkileyici sayılabilir. Kuşlar her gün Tuna Deltası'nda görünür, bölgenin güney periferisinde deniz hayatı vardır. Bitki hayatı da yüksekte, denizden orman sınırına doğru görülür. Balkan coğrafyası, Avustralya'daki Büyük Mercan Resifi ve Ekvador'daki Galapagos Takımadaları'ndan sonra dünyanın biyolojik çeşitlilik bakımından üçüncü en önemli alanı olarak kabul edilmiştir.[16]
-Macaristan'daki Tuna Deltası, Avrupa deltaları içinde büyüklük bakımından ikinci, korunmuş alan bakımından ilk sıradadır.[17] Bu delta alanı akarsular, kanallar, ağaç saçaklı göller ve sazlık adalar barındırır. Burası kuş gözlemcileri ve yaban hayat tutkunları için bir cennettir. Bulgaristan'da Meriç Vadisi'nde yer alan Zlato Pole Koruma Alanı, tehlike altındaki birçok tür için bir vaha özelliği gösterir. Koruma alanı, bitki ve hayvan çeşitliliği bakımından oldukça zengindir. Sırbistan, UNESCO listesinde yer alan en az dokuz sulak alana sahiptir. Bunlar içinde Golija-Studenica Biyosfer Rezervi, sadece iyi korunmuş doğal kaynakları bakımından değil, aynı zamanda kültürel kaynakları bakımından da önemlidir. Avrupa'nın diğer bölgelerinde nesli tükenerek yok olmuş bitki ve hayvan türleri burada hâlen gelişmekte, Sırbistan'ın yeşil bataklıkları ve ormanlarında yaşamını sürdürmektedir.[16][18]
-Balkanlar'ın birçok kesiminde farklı doğal kaynaklar bulunur. Arnavutluk'un doğal kaynakları petrol, doğal gaz, kömür, boksit, kromit, bakır, demir cevheri, nikel, tuz, kereste, hidro-enerjidir.[19] 2009 yılı verilerine göre Arnavutluk, günde 5400 varil petrol üretmiştir.[20] Doğal gaz üretimi de 30 milyon metreküptür.[21] Bosna-Hersek'in doğal kaynakları kömür, demir cevheri, boksit, bakır, kurşun, çinko, kromit, kobalt, manganez, nikel, kil, alçı, tuz, kum, kereste, hidro enerjidir.[22] Bulgaristan'ın doğal kaynaklarını ise boksit, bakır, kurşun, çinko, kömür, kereste, ekilebilir arazi oluşturur.[23] Madenî yağ, az miktarda kömür, boksit, düşük nitelikli demir filizi, kalsiyum, alçı, doğal asfalt, silis, mika, kil, tuz, hidroelektrik Hırvatistan'ın;[24] boksit, hidroelektrik Karadağ'ın doğal kaynaklarıdır.[25] Kosova'da nikel, kurşun, çinko, magnezyum, linyit, kaolen, krom, boksit bulunur,[26] ayrıca kömür ve gümüş yatakları vardır.[27] Makedonya'nın doğal kaynakları düşük tenörlü demir cevheri, bakır, kurşun, çinko, kromit, manganez, nikel, tungsten, altın, gümüş, asbest, alçı, kereste, ekilebilir arazidir.[28] Macaristan'da petrol (rezervler azalmaktadır), kereste, doğal gaz, kömür, demir cevheri, tuz, tarıma elverişli topraklar, hidroelektrik;[29] Sırbistan'da petrol, gaz, kömür, demir cevheri, bakır, çinko, antimon, kromit, altın, gümüş, magnezyum, pirit, kireç taşı, mermer, tuz, ekilebilir arazi;[30] Slovenya'da linyit kömürü, kurşun, çinko, yapı taşı, hidroelektrik, ormanlar,[31] doğal kaynaklardandır. Türkiye'nin doğal kaynakları kömür, demir cevheri, bakır, krom, antimon, cıva, altın, barit, bor, sölestin (stronsiyum), zımpara, feldspat, kireçtaşı, magnezit, mermer, perlit, ponza, pirit (sülfür), kil, tarıma elverişli topraklar, hidroelektrik;[32] Yunanistan'ın linyit, petrol, demir cevheri, boksit, kurşun, çinko, nikel, magnezit, mermer, tuz, hidroelektrik potansiyelidir.[33]
+Bu evre, program belleğinden komutu almayı içerir. Program belleğindeki yer, programın o andaki yerini bir sayıyla tutan program sayıcı tarafından belirlenir. Başka bir deyişle, program sayıcı, MİB'nin o andaki programın hangi kısmında olduğunun yerini tutmaktadır. Bir komut alındıktan sonra program sayıcı, alınan komutun boyunun bellek birim cinsinden değeri kadar artırılır. Bazen getirilmesi gereken komut hızca daha yavaş bir bellekten alınır, böylece MİB'nin komutun geri dönmesini beklerken zaman kazanması sağlanır. Bu konu modern işlemcilerde bellekler ve boru hattı mimarilerinde geniş olarak incelenmektedir.
 
 
-### Ülkeler ###
+### Kod çözme (decode) ###
 
-Arnavutluk, Bosna-Hersek, Bulgaristan, Karadağ, Kosova, Kuzey Makedonya ve Yunanistan ülkeleri topraklarının tamamı Balkan coğrafyası içindedir. Balkanlar'da yer alan ülkelerden Hırvatistan'ın % 54,8'i,[c] Romanya'nın % 6,5'i,[ç] Sırbistan'ın %72,2'si,[d] Slovenya'nın %26,7'si,[e] Türkiye'nin %3'ü[f] Balkan sınırları içinde yer alır. Toplam yüzölçümü 301.340 km²[34] olan İtalya topraklarının %0,1'i (295,1 km²)[g] Balkan coğrafyası içinde yer alır ancak İtalya, Balkan ülkesi sayılmaz.
+MİB'nin bellekten getirdiği komut, MİB'nin ne yapacağını belirlemede kullanılır. İşte bu kodçözme evresinde, komut MİB'deki önem oranına göre parçalara ayrılır. Sayısal kodun değerinin yorumlanması, MİB'nin komut set mimarisi (Instruction Set Architecture) ile tanımlanır. Genelde, komuttaki sayiların bir grubu, işlem kodu, hangi işlevin gerçekleştirmesi gerektiğini gösterir. Geri kalan kısımdaki sayılar komut için gerekli bilgileri sağlarlar (örneğin bir toplam işlemi için gereken işlenen değerler). Bu tip işlenenler sabit bir sayı olarak verilebileceği gibi, bazen de bir değeri gösterecek yer olarak (yazmaç veya bellek adresi) olarak verilebilir. Eski tasarımlarda, MİB'nin komut çözme işinde sahip olduğu kısımlar değiştirilemez donanımsal parçalardı. Ancak MİB'lerin ve ISA'ların gelişmesiyle, kodun çözümünde ve gerekli ayarların yapılmasında MİB'ye yardımcı olan mikroprogramlar kullanılmaya başlandı. Bu mikroprogramlar, MİB'nin kodçözme şeklini üretiminden sonra da değiştirebilmek için, bazı durumlarda tekrar yazılabilir olurlardı.
 
 
-### Tarih ###
+### Yürütme (execute) ###
 
+Bu evrede, istenen işin gerçekleşebilmesi için MİB'nin birçok kısmı bağlı haldedir. Örneğin, bir toplama işlemi istendiğinde, aritmetik ve mantık birimi (Arithmetic Logic Unit) bir kısım giriş ve çıkışlara bağlı olacaktır. Girişler toplamada kullanılacak sayıları içerirken, çıkışlar ise sonuç değerini tutacaktır. ALU, girişlerde basit aritmetik ve mantık işlemlerini gerçekleştirecek devre yapılarına sahiptir. Eğer toplama işlemi MİB'nin gerçekleştirebileceğinden çok büyük sonuçlar üretiyorsa, bayrak yazmaçlarındaki aritmetik taşma bayrağı kullanılacaktır.
 
 
-### Tarih öncesi ###
+### Geri yazma (writeback) ###
 
-Balkanlar'ın tarihi 44.000 yıl önce ilk kez Üst Paleolitik dönemde homo sapiens'lerin bölgede ortaya çıkmasıyla başlar. Prehistorik dönemin sonu ise ilk kez yazılı metinlerin Antik Yunan'da ortaya çıktığı MÖ 8. yüzyıl olduğu kabul edilir. Bölgedeki prehistorik süreç Üst Paleolitik, Holosen, Orta Taş Çağı, Neolitik Devrim, Proto Hint-Avrupalılar, Protohistorya periyotları olarak adlandırılan alt dönemlerden oluşur ancak bu dönemler arasındaki geçiş görecelidir. Örneğin bazı yorumlara göre prehistorik dönem Bronz Çağı Antik Yunan dönemindeki (MÖ 2800-MÖ 1200)[57] Girit uygarlığı, Miken uygarlığı, Trak uygarlığı, Limni uygarlığı ve Veneti uygarlığını kapsarken, bazılarına göre kapsamamaktadır. Başka bir yoruma göre Balkan bölgesinde Prehistorik dönemin en son aşaması olan Protohistorya dönemi Homeros ile başlamıştır. Her halükârda Prehistorik dönem 5. yüzyılda Herodot'tan önce sona erdiği kabul edilmektedir.[58]
+Basitçe yürütme evresindeki sonucu bir bellek üzerine geri yazma evresidir. Çoğu zaman sonuçlar MİB'nin iç yazmaçlarına, daha sonraki komutlarda kullanımı hızlı olabilsin amacıyla, yazılır. Diğer durumlarda ise sonuçlar daha yavaş ancak daha ucuz ve büyük ana belleklere yazılır. Bazı komut tipleri program sayacını direkt sonuç üretmeden sadece işlerler. Bunlara genellikle atlama (jumps) denir ve döngü, durumsal program yürütme ve program fonksiyonları gibi davranırlar. Bazı komutlar ise bayrak yazmaçlarının durum değerlerini değiştirme amaçlı olurlar. Bu bayraklar, işlemlerin sonucunu gösterdiğinden, programın çalışma şeklini etkilemek amaçlı kullanılabilirler. Örneğin, “karşılaştırma” komutunun bir çeşidi, iki değeri kıyaslar ve bayrak yazmaçlarına hangisinin büyük olduğuna dair bir sayı atar. Bu bayrak daha sonra program akışı acısından başka bir komuta atlama amaçlı kullanılabilir.
+Yürütme ve geri yazma evresinden sonra, tüm işlemler tekrarlanır. Bir sonraki komut program sayacının önceden artırılması sebebiyle getirme evresiyle başlatılır. Eğer önceden tamamlanan komut bir atlama ise, program sayacı bir sonraki adresi gösterecek şekilde tekrar ayarlanır ve yürütme ona göre yapılır. Burada bahsettiğimiz MİB'lerden daha gelişmiş olanlarında, birden çok komut aynı anda getirilebilir, kodçözme everisine girebilir ve yürütülebilir. Bu kısım genel olarak klasik RISC Boruhattı başlığında incelenen konuları anlatmaktadır ki birçok elektronik aygıtta (mikrodenetleyici) bu basit MİB kullanılmaktadır.
+Kontrol birimi olan MİB, içinde elektrik sinyalini direkt bilgisayar sistemine taşınmasını ve kaydedilmesini sağlayan bir döngü sistemine sahiptir. Kontrol ünitesi program direktiflerin çalıştırmaz, bunun yerine sistemin diğer parçalarını bunu yapması için yönetir. Kontrol ünitesi hem aritmetik/logic ünitesi hem de hafıza ile iletişim kurmalıdır.
 
 
-### Antik Yunan ve Makedonya Krallığı dönemleri ###
+### Tasarım ve Uygulama ###
 
-Çeşitli Yunan şehir devletleri, milattan önceki yüzyıllarda Balkanlar'ın özellikle Ege ve Adriyatik kıyıları ile civarında hüküm sürmüştür. MÖ 500 sonrasında bu şehir devletlerine Atina ve Sparta liderlik etmiştir. Ancak bu dönemde şehirler doğudan fetih ve işgal amacıyla gelen güçlü Pers İmparatorluğu'nun baskısıyla karşılaşmışlardır. Bu mücadele şehir devletlerinin kültürel olarak zirveye ulaşacakları, felsefi gelişme yaratan iki yüzyılın oluşmasına yol açmıştır. Bu kültürel gelişkinlik, Avrupa'nın iki bin yıllık tarih sürecini beslemiştir. Şehir devletlerindeki bu ferah dönemini, Yunan şehir devletlerinin başka güçler tarafından ele geçirildiği aralıksız savaşlar takip etmiştir.[59]
-Yunanistan'ın kuzeyinde yer alan Makedonya Krallığı, II. Filip (h. MÖ 359 - MÖ 336) idaresinde yükselişe geçmiş, onun oğlu Büyük İskender ile yükselişinin zirve dönemini yaşamıştır. Büyük İskender idaresi altında (h. MÖ 336 - MÖ 323) Makedonya, o dönemin bilinen dünyasında en büyük imparatorluk olmuştur. Döneminde Balkanlar'ın en büyük devleti olması yanında, Mısır, Suriye bölgelerini de kapsamıştır.[59]
 
 
-### Roma dönemi ###
+### Tam Sayı Aralığı ###
 
-Balkanlar, milattan önce III-II. yüzyıllarda Romalıların egemenliğine geçmiştir. Dönemle beraber bölge idari, kültürel ve askerî açılardan Roma yapısıyla kurgulanmaya başlanmıştır. Roma egemenliğinin son yıllarında Romalılar, Gotlar ve Hunlar, bölgede kendi güç alanları oluşturma uğraşına girişmiş ve kendi alanlarını kurmuşlardır.
-İmparator I. Theodosius'un (346-395) ölümünde önce, devletin topraklarını iki oğlu arasında paylaştırması üzerine Balkanlar da ikiye bölünmüştür. Kuzeybatı kısmı (bugünkü Hırvatistan ve Slovenya toprakları) Batı Roma; gerisi Doğu Roma İmparatorluğu sınırlarında kalmıştır.[60] Batı Roma topraklarının çok küçük bir kısmı Balkan sınırları içinde olmuş, bu topraklar da Batı Roma'nın çöküşüyle beraber Doğu Roma sınırlarına katılmıştır.
+MİB'nin sayıları gösterme şekli bir tasarım tercihidir ve aygıtın çalışma biçimini etkiler. İlk dijital bilgisayarların bazıları, iç yapılarında sayıları göstermek için ondalık sayı sisteminin elektriksel modelini kullanmışlardır. Bunların dışındaki birkaç model ise üçlü sayı sistemini kullanmıştır. Günümüz MİB'lerinın hemen hemen hepsi ise ikili formu kullanmaktadır. Bu formda her basamak iki değerli bir fiziksel niceliği, örneğin yüksek(High) veya düşük(Low) voltaj, gösterir.
+Sayıların gösterim şekli, MİB'nin gösterebileceği sayilarin büyüklüğü ve doğruluğu ile ilişkilidir. İkili sayı kullanan bir MİB'de, MİB'nin ilgilendiği sayilardaki tek bir yerin adına bit denmektedir. MİB'nin sayilari göstermek için kullandığı bit sayisina genelde kelime uzunluğu, bit genişliği, veri yolu genişliği veya tamamen tam sayılarla ilgileniliyorsa tam sayi keskinliği denir. Bu sayi (bit sayisi) mimariler arasında farklılık gösterdiği gibi aynı zamanda da aynı MİB'nin farklı bölümlerinde de bu farklılığı gösterir. Örneğin 8-bit bir MİB, 28 veya 256 ayrı sayı aralığıyla ilgilenmektedir. Bu tam sayı büyüklüğü, bir MİB'nin yazılım çalıştırırken kullanılabilecek tam sayı aralığını belirlemede bir donanımsal kısıtlama olarak iş yapmış olur.
+Tam sayı aralığı, MİB'nin adres belirlerken bellekte kullanabileceği yer sayısını da doğrudan etkileyebilir. Örneğin, eğer bir MİB bellek adresini gösterirken 32 bit kullanıyorsa ve her bellek adresi bir sekizli(8 bit) ile gösteriliyorsa, bu durumda MİB'nin erişebileceği maksimum adres değeri 232 sekizlisi veya 4 GiB dir. Bu akış açısı MİB “Adres Uzayı”'na oldukça basit bir bakış açısıdır ve birçok dizayn daha kompleks adres metotlarını (örneğin sayfalama) kullanarak tam sayı aralığının izin verdiğinden daha çok belleğe erişmeyi başarmaktadır.
+Daha yüksek seviye aralıklar, ek basamaklarla ilgilenebilmek için daha çok yapıya ihtiyaç duyar ve bu sebeple daha fazla karmaşıklık, ebat, yüksek güç tüketimi ve maliyet durumları oluşur. Bu sebepten günümüzde yüksek aralığa sahip (16, 32, 64 ve 128) MİB'ler mevcutken, 4-bit veya 8-bit mikro denetleyicilerin kullanılması oldukça yaygındır. Daha basit mikro denetleyiciler daha ucuz, daha az güç kullanan ve bu sebeple daha az ısınan yapılardır ve bu özellikler, tasarım esnasında seçilmeleri için oldukça yeterli rol oynarlar. Ancak bazı üst-uç uygulamalarda, ekstra aralığın getirdiği kazanç diğer etkenlerden daha büyük rol oynamaktadır. Her iki durumdan da, düşük ve yüksek bit uzunluklarından, kazanç elde etmek için birçok MİB farklı bölümleri için farklı bit genişlikleriyle tasarlanmaktadır. Örneğin, IBM System/370 MİB'si asıl olarak 32 bit kullanırken, gezer noktası (floating point) içerisinde 128-bit keskinlik kullanarak daha net ve daha geniş gezer nokta sayıları elde etmeyi gerçekleştirmiştir. Bundan sonraki MİB tasarımlarında da, özellikle işlemcinin genel amaçlı kullanımlarda tam sayı ve gezer nokta yeteneği arasındaki denge makul bir seviyedeyken, karışık bit genişliğini kullanılmıştır.
 
 
-### Doğu Roma dönemi ###
+### Saat Vuruşu Sıklığı ###
 
-Balkan topraklarının büyük kısmı, Roma İmparatorluğu'nun bölünmesi ardından Doğu Roma İmparatorluğu sınırlarında kalmıştır. Doğu Roma'nın Balkan tarihinde çok sayıda savaş, mücadele, göç vardır.
+Çoğu MİB ve doğal olarak çoğu sıralı mantık aygıtları, senkron yapılardır. Bu yapılar senkron bir sinyalde çalışacak şekilde tasarlanmıştır. Bu sinyale saat sinyali denir ve genelde bir periyodik kare dalga formunda olur. Elektrik sinyallerinin MİB'nin farklı bölümlerine ulaşabileceği maksimum süreyi hesaplayarak, tasarımcılar bu saat sinyalinin periyodunu uygun olarak seçebilirler.
+Kötü durum koşulunda bu periyot, sinyalin ilerleme hızından veya yayılmasından daha uzun olmalıdır. Saat periyodu kötü durum yayılma gecikmesinden yeterince yüksek tutulduğunda, tüm MİB'nin ve veriyi saat sinyalinin iniş/çıkışları civarında ilerletmesini tasarlamak mümkün olacaktır. Bu durum, MİB'yi etkili biçimde sadeleştirme avantajını hem dizayn açısından, hem de bileşen sayısı açısından sağlayacaktır. Ancak bunun yanında da, tüm MİB'nin en yavaş elemanını, diğer bölümler çok daha hızlı çalışabilecekken beklemek zorunda kalması dezavantajını da doğuracaktır. Bu kısıtlama, gelişen MİB paralleliğinin çeşitli metotları ile telafi edilmektedir.
+Mimari geliştirmeler tek başına global senkronize MİB'lerin dezavantajlarını ortadan kaldıramaz. Örneğin, bir saat sinyali, başka elektrik sinyalinin gecikmesine de bağlıdır. Artan kompleks MİB yapılarındaki yüksek saat hızları, saat sinyalini tüm birim boyunca senkron (aynı fazda) tutmayı zorlaştırır. Bu durum birçok modern MİB'nin birden fazla eş saat sinyali kullanmasına yol açmıştır; böylece tek sinyalin gecikmesi, MİB'nin aksamasını engellemiştir. Diğer bir önemli nokta ise, saat hızları arttıkça, MİB'nin ürettiği ısıda aynı şekilde artmaktadır. Sabit biçimde değişen saat, birçok bileşenin de kullanılmaksızın değişmesine yol açmaktadır. Genel olarak, değişen her bir bileşen, sabit bir bileşenden daha çok enerji tüketmektedir. Bu sebeple, saat hızı arttıkça, ısı dağılması artar, bu da MİB'de daha etkili soğutma yollarının kullanılmasını gerektirir.
+İstenmeyen bileşen geçişini engellemenin bir yolu, saat geçitleme yöntemidir. Bu yöntemle istenmeyen bileşenlere giden saat sinyali kapatılır. Ancak bunu uygulaması zor olduğundan düşük güç tüketimli tasarımların dışında kullanımı pek söz konusu değldir. Global saat sinyaline sahip olan problemlerin çözümündeki diğer bir yol ise, tüm saat sinyallerinin birden kaldırılmasıdır. Global saat sinyalinin kaldırılması tasarım sürecini oldukça zorlaştırsada, asenkron (veya saatsiz) tasarımlar güç tüketiminde ve ısı dağılımında sahip oldukları büyük avantajları da beraberinde getirmektedirler. Nadir olmakla birlikte, tüm MİB'lerin global saat sinyali içermeden üretildiği de olmuştur. Bunlardan iki önemli örnek vermek gerekirse ARM uyumlu AMULET ve MIPS R3000 uyumlu MiniMIPS'i gösterebiliriz. Bazı MİB tasarımlarında saat sinyalini tamamıyla çıkarmak yerine, asenkronluk belli bölümlere uygulanmıştır, tıpkı asenkron ALU'ların skalar üstü (superscalar) boruhattı uygulamasıyla birleştirilerek bazı aritmetik performans kazançlarının elde edilmesinde olduğu gibi. Her ne kadar asenkron tasarımların, senkronize karşılıklarından daha iyi bir performans verebileceği çok açık olmasa da, baist matemaiksel işlemlerde daha üstün olduğu bir gerçektir. Bu özelliği, mükemmel güç tüketimi ve ısı dağılım özellikleriyle de birleşince, tümleşik bilgisayarlarda kullanılmak için oldukça uygun olduğunu ortaya çıkarmaktadır.
 
 
-### Hun ve Slav yerleşimleri ###
+### Paralellik ###
 
-Hunlar, Gotlardan, Alanlardan ve Germen Taifallardan oluşturdukları yardımcı kuvvetlerle takviyeli olarak ilk defa 378 baharında Tuna'yı geçmişlerdir. Romalılardan karşılık görmeksizin Trakya'ya kadar ilerlemişlerdir. Roma imparatoru I. Theodosius'un ölüm yılı olan 395'te Hunlar yeniden Balkanlar'da hareketlenmişlerdir.[61] Hunlar, MS 380 yılından itibaren Balkanlar'a egemenlik kurmuşlardır. Bölgenin büyük bir kısmında hâkim olan Hunlar, Slavlardan daha önemlidir.[60]
-V. ve VI. yüzyıllarda, çeşitli lehçeleri konuşan Slavlar birçok grup hâlinde Balkanlar'ın geniş arazilerine hâkim olmuşlardır. Slavlar, Balkanlar'a geldiklerinde, bölgeye geçici olarak yerleşmiş ve bu yerleşmelerle Slavların bölgedeki birçok halkı asimile ettiği düşünülmektedir.[62]
+Bir önceki bölümde verilen MİB'nin esas çalışmasının tanımı, bir MİB'nin alabileceği en basit şekli tanımlamaktadır. Olağan olarak skalar altı (subscalar) diye temas edilen bu türden MİB bir seferde bir veya iki parça veri üzerinden verilen komut üzerine çalışmaya başlamakta ve uygulamayı gerçekleştirmektedir.
+Bu süreç skalar altı MİB'de işin özünde bulunan bir yetersizliği ortaya çıkarmaktadır. Bir seferde sadece bir komutun uygulanabilmesi mümkün olduğundan, MİB'nin tamamı bir sonraki komutu işlemeye başlamadan önce bu ilk komutun tamamlanmasını beklemek zorundadır. Bunun sonucu, skalar altı MİB uygulamanın tamamlanması için bir saatten fazla çevirimi süren yönergelere “kapalı” kalmaktadır. İkinci bir uygulama biriminin ilave edilmesi bile (aşağıya bakılması), performansı daha fazla iyiye götürmemektedir; birden fazla yönergenin kapalı olmasının yerine, şimdi iki yörünge de kapanmakta ve kullanılmayan transistörlerin sayısı artmaktadır. MİB'nin uygulama kaynaklarının sadece bir seferde verilen komuta göre çalışabilmesinin mümkün olduğu bu tasarım sadece skalar performansı (saat başına bir komut) bir olasılıkla öğretebilir. Bununla birlikte, performans hemen hemen her zaman skalar altıdır (yani çevirim başına bir komuttan daha az).
+Skalar ve daha iyi performans gerçekleştirmesi için yapılan girişimler, MİB'nin daha az doğrusal ve daha fazla paralel olarak davranmasına neden olan tasarım metodolojilerinde çeşitlilik ile sonuçlanmıştır. MİB'lerde paralellikten söz edilirken, bu tasarım tekniklerinin sınıflandırılması için genel olarak iki deyim kullanılmaktadır. Komut düzeyinde paralellik (ILP) bir MİB içerisinde komutların yerine getirilme hızını artırmayı araştırmakta (yani kalıp üzerinden uygulama kaynaklarının artırılması) ve program düzeyinde paralellik (TLP) bir MİB'nin aynı anda uygulamaya girişebileceği program sayısının (fiili bireysel programları) arttırmayı amaçlamaktadır. Her bir metodun uygulanma tarzlarından aynı zamanda da bir uygulama için MİB'nin performansını artırmada sağladıkları göreceli etkinlik bakımından da birbirlerinden fark etmektedir.
 
 
-### Tuna Bulgarları ###
+### ILP (Instruction Level Parallelism) ###
 
-VII. yüzyılda Türk asıllı Bulgar kabileleri, hükümdarları Asparuh'un kumandasında Tuna'yı geçerek Batı Karadeniz ile Tuna Nehri arasındaki bölgeye yerleşen Slavları hâkimiyetleri altına almışlardır. Balkanlar'ın doğusuna yerleşen Bulgar boyları, devletleri içinde yaşayan büyük Slav nüfusuyla beraber yaşarken, bir süre sonra bu Slav boylarını kültürlerine doğru yönelip Slavlaşmışlardır.[60]
+Komut boruhatlaması (Instruction pipelining) ve skalar üstü mimari, artan ölçülerde parallelik gerçekleştirilmesinde kullanılan en basit yöntemlerden biri bir evvelki komutun uygulanması tamamlanmadan önce getirme (fetching) ve kod çözme (decoding) komutunun ilk aşamalarına başlanmasıdır. Bu, komut boruhatlaması diye bilinen bir tekniğin en basit şeklidir ve hemen hemen bütün çağdaş genel amaçlı MİB'lerde kullanılmaktadır. Boruhatlama, uygulama yörüngesinin birbirinden ayrı aşamalara bölünmesiyle, birden çok sayıda komutun belirli bir zamanda uygulanmasına olanak sağlamaktadır. Bu ayırma, uygulama dizisinden dışarı çıkana ve çekilinceye kadar, her bir aşamada verilen bir komutun daha tam duruma getirildiği bir montaj hattıyla karşılaştırılabilir.
+Bununla birlikte, boruhatlama, bir evvelki işlemin sonucuna bir sonraki işlemi tamamlamak için gereksinme olduğu bir durumun olasılığını getirmektedir; böyle bir duruma çoğu kez veriye bağımlılık çatışması denmektedir. Bununla başa çıkılması için, bu türden koşullar için varlığını kontrol etmek için ek dikkat gösterilmesi gerekmekte ve bu çatışma meydana geldiği takdirde komut boruhattının bir kısmı gecikmektedir. Doğal olarak, bunu gerçekleştirilmesi ek devre donanımını gerektirmekte ve böylece boruhatlı işlemciler skalar altı işlemcilerden çok daha karmaşık (her ne kadar bu pek önemli değilse de) olmaktadırlar. Boruhatlı işlemciler hemen hemen skalar olabilir ve sadece boruhattı durmasıyla (bir aşamada bir saatten fazla çevrim harcanmasına neden olan komut) engellenebilir.
 
 
-### Balkanlar'da hareketlilik ###
+### Performans ###
 
-550'lerin ortalarında I. Justinianus, Balkan sahasındaki birçok kesimde zaferler elde etti, Slavlar ve Gepidler üzerinde hâkimiyet kurdu. 559'da imparatorluk Kutrigur ve Slavların büyük istilalarıyla karşılaştı. Slav istilası 545, 577, 580, 586 yıllarında gerçekleşti ve Thessalonikē muhitinde kalabalık bir Slav kolonisi oluştu.[63][64] Heraclius zamanında çeşitli Slav kabileleri Balkanlar'ın kuzeyinde ve batısında (Dalmaçya, Hırvatistan, Sırbistan) yeniden yerleştiler.[65] I. Justinianus, başkomutan Belisarius'u çağırıp, yeni Hun akınını durdurdu. Tuna birliklerinin güçlendirilmesi Kutrigur Hunlarının anlaşma yapmasına sebep oldu.[66][67] 582'de Avarlar, ünlü Balkan kalelerinden Sirmium'u ele geçirdi. Bu süreçte Slavlar da Tuna boyunca çeşitli gedikler açtılar. İmparator Mauricius, 602 yılı ile beraber Balkan topraklarındaki başarılı seferleri ile Avar ve Slavları Tuna'nın ötesine püskürttü.[68][69]
-Bu dönem Avar, Slav gibi Balkan topraklarında yayılım yapan boylarla Doğu Roma idaresi arasında mücadelelerle devam etti. Bulgarlar, 670 yılında Hazarların varışları sırasında Tuna'nın güneyine geçti ve 680 yılında onları püskürtmek için gelen Doğu Roma ordusu bozguna uğradı. Sonraki yıl IV. Konstantinos, Bulgar Hanı Asparuh ile antlaşma imzalamış, Bulgar devleti bağımsızlık kazanmıştır. Böylece, bu devlet altındaki Slav kabileleri de Doğu Roma egemenliğinden çıkmıştır.[70]
+Bir işlemcinin performansı ve hızı, o işlemcinin saat vurum sıklığına ve saniye başına komut (IPS) sayısına bağlıdır. Saniye başına komut sayısı arttıkça işlemcinin performansı ve hızı da artar. Ayrıca çok çekirdekli işlemcilerden daha fazla performans elde edilir.
+Birçok bildirilmiş IPS değerleri birkaç şubesi bulunan yapay talimat dizilerinde zirve yürütme oranları temsil etmiştir, oysa gerçekçi iş yükleri bazıları diğerlerinden daha uzun çalıştırmak için karıştırılmış talimatları ve uygulamaları içerir. Bellek hiyerarşisi performansı MIPS hesaplamalarında ancak dikkate alınan bir sorun olan işlemci performansını oldukça etkiler. Bu problemlerden ötürü, SPECint gibi çeşitli standartlaşmış testler yaygın olarak kullanılan uygulamalar reel efektif performansını ölçmek girişimi için geliştirilmiştir.
+CPU ve RAM Bir bilgisayarın işlem performansı çok çekirdekli işlemci (iki ya da daha çok işlemcinin bir bütünleşmiş devrede birleştirilmesi) kullanılarak arttırılabilir. Çift çekirdekli bir işlemci tek çekirdekli bir işlemcinin neredeyse iki katı kadar güçlü olur. Ancak pratikte güç kazancı kusurlu yazılım algoritmaları ve uygulamaları nedeniyle yüzde elli civarındadır.
 
 
-### İç savaş ve son yıllar ###
+### Çekirdek Sayısı ile İş Parçacığı Sayısının Karıştırılması ###
 
-Doğu Roma için 1300'lerin ortasında yeni ve derin etkisi olan olumsuzluklar peyda olmuştur. III. Andronikos'un ölümü sonrasında yaşanan ve 6 yıl süren iç savaş (1341-1347) imparatorluğu harap etmiştir. Zorlaşan kontrol sebebiyle Sırp çarı Stefan Dušan imparatorluk topraklarının büyük kısmını almış ve kısa süre ayakta kalabilen Sırp İmparatorluğu'nu kurmuştur. Doğu Roma idaresi kendi sıkıntılarıyla uğraşırken Osmanlı Türkleri yayılan Sırpları yenmiş ve devletlerini Osmanlı İmparatorluğu toprakları katmış, egemenlik sağlamıştır. I. Kosova Muharebesi sonucunda da Balkan topraklarının büyük kısmı Osmanlı egemenliğine geçmiştir.[71]
-
-
-### Peçenek ve Kuman Türk boyları ###
-
-Bulgarların Balkanlar'a gelişinden daha sonra XI. ve XII. yüzyıllarda Peçenek, Kuman (Kıpçak) ve Uz Türkleri, Balkanlar'a göç etmişler ve bunların bir kısmı XV. yüzyıla kadar toplu olarak varlıklarını korumuşlardır. O dönemde Kumanlarla ticaret yapan Avrupalılar için 2500 kadar kelimeyi içine alan bir Kumanca sözlüğün (Codex Cumanicus) hazırlanmış olduğu bilinmektedir.[60]
-IX. yüzyılın ilk yarısında, Hazar-Oğuz ittifakı baskısına dayanamayarak, kalabalık kütleler hâlinde İdil'i geçip yurtlarından çıkardıkları Macarların yerine, Don-Kuban havalisine gelmişlerdi (860-880 sıraları). Bu, büyük göçün ilk hareketi olmuştur. Macarları önlerinden süren Peçeneklerin gerisinde Oğuzlar, onların da gerisinde Kumanlar, Karadeniz'in kuzeyinden batıya yönelmişlerdir. İmparator K. Porphyrogennetos tarafından yazılan De Administrando Imperio'da (948-952'lerde) kaydedildiğine göre, Peçenekler 8 boy hâlinde idiler.[72]
-Yakın dönemde ve 13. yüzyılda Balkan topraklarında Kumanların yayılım alanları genişlemiştir. Kumanlar, bu dönemde birçok bölgede bulunmuşlardır. Bir grup Tuna'yı Bulgaristan muhitinden geçerek Balkan topraklarına yayılmış, başka gruplar da bölgenin daha orta kısımlarından yayılmışlardır. Mart 1241'de Bulgar topraklarında ikinci bir Kuman dalgası görüldü. Bu kez Tuna'nın kuzeyindeki Kumanya'dan değil, Macaristan yönünden geldiler. Tatarların önünde kaçan Prens Köten'in (Macarca Kötöny, Rusça Kotjan) 40.000 Kumanla birlikte Macaristan'a geçtiği, Macar Krallığı'na ulaştığı ve 1239'da Kral IV. Béla tarafından vaftiz edildiği bilinen bir gerçektir. 1241-1256 yıllarında İznik İmparatoru III. İoannes (Dukas Batatzes) geniş bir Kuman grubunu stratiotes olarak imparatorluğun çeşitli sınır bölgelerine yerleştirdi: Balkanlar'da Trakya ve Makedonya'ya, Anadolu'da Maiandros (Menderes) Ovası'yla Frigya'ya.[73] Kumanların Balkanlar'ın siyasi tarihi üzerindeki etkisi 1185 yılından 1330'lara kadar çok önemliydi. Kumanlar birbirini izleyen üç Bulgar hanedanının (Asen, Terter ve Şişman) ve Eflak hanedanının (Basarab) kurucularıydı.[74]
-Osmanlı Türkleri Balkanlar'a girmeden önce, XII.-XIV. yüzyıllarda Kıpçak/Kumanların bölgede üstün tarihî rolü yeterince vurgulanmamıştır. Özellikle, Dobruca'dan Akkerman'a kadar step bölgesinde yerleşmiş ve Hristiyan dinine geçmiş olan Kıpçak/Kumanlar çeşitli hanedanlar kurmuşlardır. Bunlardan bir grup, XIV. yüzyıl ikinci yarısında Dobruca-Varna bölgesinde bir beylik kurmuştur (Merkezi Kalliakra); Dobrotiç ve bir Kuman adı taşıyan kardeşi Çolpan'ın Dobruca Beyliği, 1388'de I. Murad'ı metbü tanımış, 1393'te I. Bayezid bu beyliği Osmanlı ülkesine katmıştır. Özetle, Deliorman ve Varna'dan Tuna'ya kadar giden bölge daha Osmanlılardan önce gerçek bir Türk yerleşim alanı olmuştur.[75]
-
-
-### Orta Çağ sonları ###
-
-Eski devirlerde, bölgede kurulan güçlü bir devlet, dışarıdan gelen daha güçlü bir devletin saldırısı sonucu yıkılmış, bölgeyi egemenliği altına alan bu yeni devletin de, bölgedeki egemenliği uzun süreli olmamış ve dışarıdan gelen, kendisinden daha güçlü bir başka devletin saldırısı sonucu aynı akıbete uğramıştır.
-10. yüzyılda bölgenin büyük bir kısmını ele geçiren Büyük Bulgar İmparatorluğu, 1014 yılında "Bulgar Kasabı" olarak bilinen Bizans İmparatoru II. Basileios tarafından yıkıldıktan sonra, bölgeye yerleşen Bizans İmparatorluğu, 14. yüzyılda, Stefan Duşan (1331-1355) dönemindeki Sırp saldırıları sonucu aynı akıbete uğramıştır. Belgrad'dan Atina'ya kadar geniş bir alana yayılarak bölgede Doğu Roma'nın (Bizans) yerini alan kudretli Sırp İmparatorluğu ise; 14. yüzyılda doğudan gelen Osmanlı Devleti'nin saldırıları sonucu ortadan kaldırılmıştır.
-
-
-### Anadolu'dan Türklerin geçişi ###
-
-Balkanlar'ın güneyinden, Anadolu'dan Türklerin Balkanlar'a gelip yerleşmesi, 1260'lara kadar iner. Kuzey Karadeniz bölgesinden gelen Türk orakları, zamanla Hristiyanlığı kabul edip yerli Slavlarla karıştıkları hâlde, Anadolu'dan gelen Müslüman Türkler (Türkmenler), kendi din ve kültürlerini saklamayı başarmışlardır. İlk yerleşme, 1261'de Moğollardan kaçıp Bizans'a sığınan Selçuk Sultanı İzzeddin Keykavus'la gerçekleşmiştir. Moğol idaresinden kaçan otuz-kırk Türkmen obası, kutsal kişi Sarı Saltuk Baba ile İzzeddin Keykavus'un yanına gelmiş ve Bizans imparatoru tarafından Kuzey Dobruca'ya yerleştirilmiştir (1263). Başlangıçta, Müslüman Altın Ordu emiri güçlü Nogay'ın himayesi altına giren bu Anadolu Türkmen grubu, burada Baba-Saltuk kasabası ile başka kasabalar kurmuşlardır. 1332'de buradan geçen İbn Battuta, Baba kasabasını "Türklerin oturduğu bir şehir" olarak anar.[75]
-
-
-### Osmanlı İmparatorluğu dönemi ###
-
-
-
-### Balkanlar'da yeni dönem ###
-
-14. yüzyıl ortalarında Osmanlı Türklerinin Çimpe Kalesi'ni (Cinbi, Çinpi vb.) alarak Rumeli'ye geçişi Balkanlar'ın tarihinde oldukça önemli bir dönüm noktası olmuştur. Rumeli'de yerleşme, İstanbul'un Fethi gibi, tarihte yeni bir dönem açan bir olaydır. Sultan Orhan'ın büyük oğlu Süleyman Paşa'nın gayretiyle, Osmanlılar, 1352'de ilkin Tsympe (Türkçede Cinbi) Kalesi'ni ele geçirmişler, iki yıl sonra, büyük stratejik önemdeki Gelibolu'yu işgal etmiş ve beş yıl içinde Trakya'nın güney bölgesini fethederek, Anadolu'dan asker ve halk getirip yerleştirmişler; böylece kısa zamanda Avrupa yakasında güçlü bir köprü-başı kurmuşlardır. Bu köprü-başı, Osmanlıların Avrupa'da Viyana önlerine kadar yayılan imparatorluklarının başlangıcıdır. 1329-1344 yıllarında İzmir'den donanması ile Trakya'ya deniz seferleri yapan Aydınoğlu Umur Bey, Balkan fetihlerini hazırlayan ilk büyük gazi beydir. 1357-59 yılları içinde Anadolu'dan Rumeli'ye göç devam edecek, Rumeli ucu güçlenecektir. Orhan'ın Süleyman için Bolayır'da yaptırdığı imarete ait 1360 tarihli vakfiyede bu bölgede Türkçe adlar taşıyan birçok köy ve çiftliğin kurulmuş olduğunu görüyoruz.[76]
-I. Murad devrinde üç doğrultuda Balkanlar'ın başlıca yolları ve merkezleri Osmanlı Türkleri tarafından işgal edilmiş bulunuyordu: Orta kolda Meriç vadisi, sağ kolda Tunca vadisini izleyerek Balkan dağları eteklerine daha 1366 yıllarında varılmıştı. Oradan Sofya ve Niş 1385'te zaptolundu. Güneyde Evrenuz idaresindeki uçta 1383'te Serez düştü ve Selanik kuşatması başladı. Selanik, 1387 Eylül'ünde ahdname güvenceleriyle teslim oldu.[77] Fatih Sultan Mehmed 1463 yılında Bosna'nın fethi ile Osmanlı idaresini Dalmaçya sahillerine kadar götürmüş ve İtalya'yı hedef alarak akıncılarını Trieste üzerine sevk etmiştir.[60]
-Osmanlı Türkleri, zapt ettikleri topraklarda özel bir İslamlaştırma veya özel bir Türkleştirme politikası izlemediler. Orhan Bey'den itibaren Hristiyan prenseslerle evlenen padişahlar ve şehzadeler onların din değiştirmelerine gerek görmediler. Yaşama geçirdikleri esnek düzen sayesinde başta Doğu Roma yönetici sınıfının üyeleri olmak üzere, fethedilen bölgelerdeki aristokratlar ve feodaller Osmanlı saflarına katılmakta fazla tereddüt etmediler.[78]
-Haçlı orduları ile Osmanlı İmparatorluğu arasında 14. yüzyıl ortalarında Sırpsındığı Muharebesi (1364) ile başlayan çatışmalar I. Kosova Muharebesi (1389), Niğbolu Muharebesi (1396), Varna Muharebesi (1444) ve son olarak da II. Kosova Muharebesi (1448) ile 15. yüzyıl ortalarına kadar devam etti.
-II. Murad devrinde (1421-1444, 1446-1451) Balkan topraklarında saldırılar ve karşı saldırılar yaşanmıştır. Bu devirde en büyük askerî harekât olarak Macar kral Hunyadi, Balkanlar'a üçüncü defa girdi ise de, Kosova'da yenildi (17-20 Ekim 1448). Balkanlar'ı ve İstanbul'u Osmanlı İmparatorluğu'ndan kurtarmak için bu son girişimdir.[77]
-II. Kosova Muharebesi'nin kaybedilmesi Balkanlar'da Osmanlılara karşı direnişinin kesin olarak sona ermesine neden oldu. Bölge, bu savaştan 17. yüzyıl sonlarındaki II. Viyana Kuşatması'na kadar, diğer dönemlere oranla göreceli de olsa sakin ve huzurlu bir dönem geçirdi. Bunda o dönemki Osmanlı yöneticilerinin bölgeden yalnızca bir miktar vergi almayı yeterli görmesi ve halkın gelenek, görenek, inanç ve ibadet olarak ifade edebileceğimiz yaşam tarzına karışmaması önemli bir yere sahiptir. Ayrıca, bundan önceki yerel yöneticilerin baskı, zulüm, adaletsizlik ve ağır vergileri altında ezilen bölge halkının Osmanlıların buraya getirdiği barış, huzur, adaleti ve oluşturdukları hoşgörü ortamını beğenmeleri ve benimsemeleri, yarımadada 15. yüzyıl ortalarından başlayıp 17. yüzyıl sonlarına kadar devam eden huzur ve sakinliği açıklamakta kullanılabilir.
-
-
-### İstanbul'un fethi ###
-
-Balkan tarihinde etkisi olan olaylardan birisi Konstantinopolis (İstanbul) şehrinin Osmanlı Türkleri tarafından fethedilmesidir. Bu etki Doğu Roma İmparatorluğu'nun yıkılışını getirmiş,[79] Balkan topraklarında sadece Mora'daki despotluk ve (Asya'daki) Trabzon İmparatorluğu birkaç yıl daha hüküm sürmüştür. Konstantinopolis şehrinin düşüşünün geniş kapsamlı sonuçları vardır çünkü bunun sonucunda Osmanlı Türkleri, Balkanlar'daki durumlarını tam olarak sağlamlaştırdılar ve artık onların Avrupa'daki fetihlerini, 1683 yılına dek (Viyana'da) hiçbir şey durduramadı.[80][81]
-İstanbul'un fethi, 29 Mayıs 1453 tarihinde Doğu Roma İmparatorluğu'nun başkenti Konstantinopolis'in, Fatih Sultan Mehmet önderliğindeki Osmanlı ordusu tarafından alınmasıdır. Daha sonra şehir Osmanlı İmparatorluğu'na başkentlik yapmıştır. İstanbul'un fethi ile 1058 yıllık Doğu Roma İmparatorluğu sona ermiş, Orta Çağ kapanıp Yeni Çağ süreci başlamıştır.
-
-
-### Osmanlı barışı ###
-
-Balkanlar, ‘Pax Romana' (Roma barışı) olarak adlandırılan dönem dışında ilkçağlardan beri devamlı katliamlara, sürgünlere, göç ettirmelere sahne olan bir bölgeydi. Osmanlılar, 1389 Kosova Savaşı'nda Sırp ordusunu yendikten sonra kalıcı olarak yerleştikleri Balkanlar'da dönemin şartlarına iyi uyum gösteren, tarıma dayalı bir sosyal düzen kurdular. Din ve ırk ayrımcılığı gözetmeyen bir siyasi yapıyı yaşama geçirdiler. Fethedilen bölgelerde Balkan köylülerinin kendi gelenek ve göreneklerini terke zorlanmamaları, dinlerini serbestçe uygulayabilmeleri yanında vergi yüklerinin hafiflemesi gibi faktörler kendilerini Osmanlı düzeni içinde güvenli ve rahat hissetmelerini sağladı.[78]
-II. Viyana Kuşatması'nda Osmanlı ordusunun uğradığı ağır yenilgi hem Osmanlı, hem Avrupalılar, hem de Balkan ulusları için önemli bir dönüm noktası oldu. Avrupalı müttefiklerle Osmanlı İmparatorluğu arasındaki çok kanlı ve uzun savaşlar (1683-1697) süreci sonunda, Osmanlı İmparatorluğu tarihi açısından olumsuz bir antlaşma olan Karlofça Antlaşması, 1699 yılında imzalandı. Bu antlaşma, Orta Avrupa'nın büyük kısmındaki Osmanlı kontrolünü sona erdirdi ve ilk büyük toprak kaybına sebep olması bakımından imparatorluğun duraklaması yolunu açtı. Bu antlaşmanın etkilerinden biri de Balkanlar'da Habsburg monarşisi etkisinin artması sonucunu doğurdu.[82]
-
-
-### Osmanlı egemenliği sonları ###
-
-19. yüzyıl Osmanlı İmparatorluğu için ayaklanmalar yüzyılı olarak kabul edilebilir. Özellikle Balkan topraklarında meydana gelen isyanlar, devletin günden güne zayıflamasına ve sonunda parçalanmaya kadar varan bir sürece götürmüştür. 1789'da meydana gelen Fransız İhtilali Avrupa'da eşitlik, adalet, özgürlük, bağımsızlık, anayasacılık vb. birçok yeni düşüncenin ortaya çıkmasına sebep oldu. Ortaya çıkan bu yeni düşünceler kısa sürede, bütün dünyada olduğu gibi Balkanlar'da da hızla yayıldı. 19. yüzyıldaki sistematik ayaklanmalardan önce 18. yüzyılda da Sırbistan, Karadağ, Bulgaristan gibi bazı Osmanlı Balkan eyaletlerinde daha çok, vergilerin toplanması ve birtakım ekonomik sebeplerden ötürü ufak çaplı köylü ayaklanmaları olmuştu. Ancak ilk büyük ayaklanma 19. yüzyılın hemen başında Sırbistan'da patlak verdi.
-Bu dönemde, 19. yüzyıl içinde Balkan topraklarında Osmanlı idaresine bakışta değişim görülmeye başladı. Osmanlı İmparatorluğu'na dair her şey geri çevrilmeye, ters düşünülmeye başlandı, 500 yıllık geleneksel kökleşmeye rağmen, bazı kesimlerde bu idare bir “Türk boyunduruğu” olarak düşünülür oldu.[83]
-Başlangıçta birtakım haksızlıklara karşı bir tepki olarak başlayan mücadelenin yönü, Sırp kuvvetlerinin İvankovaç Muharebesi, Mişar Muharebesi ve Deligrad Muharebesi'nde Osmanlı kuvvetlerini arka arkaya yenmesi üzerine Kara Yorgi tarafından bağımsızlık olarak değiştirildi. 1806-1812 Osmanlı-Rus Savaşı'nın tam bu döneme denk gelmesi de isyanın bir türlü kontrol altına alınamamasına neden oldu. Ancak Osmanlılar 1809'da yaklaşık 20.000 kişilik bir kuvvetle tekrar Sırbistan'a girdi ve Çegar Muharebesi'nde Sırp ordusu isyanın başından beri ilk defa ciddi olarak yenilgiye uğratıldı. Ancak Kara Yorgi Rusların da desteği ile isyanını 1812'ye kadar aralıklarla devam ettirdi. 1812 Bükreş Antlaşması'nda Rusların da baskısıyla Sırplara birtakım haklar verildi. Fakat bu verilen haklardan tatmin olmayan ve yukarıda da açıkladığımız gibi tam bağımsızlığı hedefleyen Kara Yorgi tekrar ayaklandı. Tam bu sırada Napolyon'un Rusya Seferi'ni başlatmasından da faydalanan Osmanlı İmparatorluğu, Ruslardan yardım alma ümidi olmayan Sırplar üzerine bir ordu gönderdi. Osmanlı kuvvetleri karşısında tutunamayan Kara Yorgi yenilerek Avusturya'ya kaçmak zorunda kaldı. Bunun üzerine isyanın liderliğini 3 yıl sonra,1815'te Miloş Obrenoviç aldı. Bu ayaklanmaya müdahale etmesi hâlinde Rusya'nın müdahalesinden çekinen Osmanlı İmparatorluğu, Miloş'la anlaşma yoluna gitti. Onu Sırpların prensi olarak tanıdı ve Sırbistan'a kısmi özerklik verdi.
-İmparatorlukta birçok sorunun görüldüğü bu dönemde bazı olumlu gelişmeler de yaşanmıştır. Sanayileşmede atılan bir ileri adım olarak 1860'larla beraber (Kosova Vilayeti itibarıyla) ilk telgraf hattı ile Prizren, İpek ve Priştine, İstanbul ve Selanik ile bağlanmıştır. 1874'te Selanik-Mitroviça demiryolu hattı açılmıştır. Kosova Vilayeti'nin doğusunda da bu dönemde tarım faaliyetlerinde modernleşme sağlayacak kereste fabrikaları, motorlu un fabrikaları gibi bazı yenilikler yapılmıştır.[83]
-
-
-### Balkan Savaşları ###
-
-Balkanlar'da 19. yüzyılda başlayan isyanlar, etnik karşıtlıklardan kaynaklı çatışmalar sonrasında patlak veren Balkan Savaşları, bölgedeki Osmanlı egemenliğini sarsmıştır. I. Balkan Savaşı'nda çok sayıda cephede, büyük birliklere karşı savaşmak zorunda kalan Osmanlı ordusu, birkaç savaş hariç, geri kalan bütün savaşlardan yenilgiyle ayrılmıştır. Bu savaşlar sonrasında sınırları bugünkü Türkiye Cumhuriyeti'nin batı sınırlarının bile gerisine gitmiştir. Akabinde gerçekleşen II. Balkan Savaşı'nda bir nebze dahi olsa toparlanan Osmanlı ordusu, kaybettiği küçük birkaç toprak parçasını ve Edirne'sini geri almıştır.[84]
-1878'de dağılmanın eşiğine gelen Osmanlı İmparatorluğu'nun kesin çöküşüne giden yolun dönüm noktası Balkan Harbi oldu. Onun ardından başlayan I. Dünya Savaşı bu süreci tamamladı. Esasen Balkan Harbi, âdeta Avrupa'daki karşıt ittifakların aralarındaki hesaplaşmaya ve paylaşım savaşına hazır olmak amacıyla ürettikleri modern silahların denendiği “kostümlü” bir prova olmuştu. I. Dünya Savaşı'nın halledemediği sorunlar bir şekilde II. Dünya Savaşı ile çözüldü. Tüm bu süreçte 150.000.000'dan fazla insan yaşamını kaybetti.[85]
-
-
-### I. Dünya Savaşı ###
-
-1912-1913 Balkan Savaşları sonrasında Balkanlar'da yeni devletler tesis edilmeye başlanmıştır. Tam da bu dönemde, 1914'te Saraybosna'da Avusturya Arşidükü Franz Ferdinand'ın öldürülmesi I. Dünya Savaşı'nın patlamasında son sebep olmuştur. Savaş sonrasında Balkanlar'da, Sırp, Hırvat ve Sloven Krallığı, Bulgaristan, Yunanistan ve (küçük kısmında) Türkiye devletleri mevcut idi. Sırp, Hırvat ve Sloven Krallığı, bir zaman sonra Yugoslavya Krallığı hâlini almıştır.
-
-
-### II. Dünya Savaşı ###
-
-Balkanlar'da II. Dünya Savaşı, İtalya'nın “büyük İtalya” topraklarını oluşturma fikri sonucunda giriştiği çalışmalarla başladı. 1939'da Arnavutluk'u ele geçiren İtalya, 1940'ta Yunanistan'a yöneldi. 28 Ekim 1940'ta Yunan-İtalyan Savaşı baş gösterdi.
-Yugoslavya Krallığı 1941 Nisan ayında Almanya, İtalya, Macaristan ve Bulgaristan'ın işgaline uğramıştır. Almanların himayesini alan Hırvatlar, Hırvatistan Bağımsız Devleti'ni kurarak, Ortodoks Sırplara karşı baskı kurmuşlar. Ülke içinde gerilla harpleri baş gösterdi. Sovyetler Birliği, İngiltere ve ABD'den destek alan Mareşal Josip Broz Tito, 1945 yılında ülkenin kontrolünü eline geçirdi. Tito, iç harp esnasında muhalifi olan Dragoljub Mihailović'i 1946 yılında idam ettirdi. Bu arada Yugoslavya 1945 yılında cumhuriyet oldu. Ardından 1946 yılında birleşik cumhuriyet haline geldi. Tito, hükûmet başkanlığına getirildi.
-
-
-### Soğuk Savaş dönemi ###
-
-Soğuk Savaş döneminde Balkanlar'daki ülkeler, Sovyetler destekli komünist yönetimlerin hâkimiyetinde olmuştur.
-Bu dönemde Balkanlar'da komünist-sosyalist idareler altındaki ülkelerde milliyetçilik ortadan kalkmamıştı. 1984 yılında Todor Jivkov'un idaresindeki komünist Bulgaristan'da Türkler üzerine çok sert asimilasyon ve caydırma politikaları uygulanmıştır. O dönemde Bulgaristan nüfusunun çok ciddi bir bölümünü oluşturan Türklere, isim değiştirme, din değiştirme, Türkçe konuşma yasağı, zorunlu göç ettirme, işkence vb. yöntemlerle asimilasyon politikalarına girişilmiştir. Jivkov yönetimine karşı gelen Türkler, işlerini, eğitim haklarını ve hatta yaşamlarını kaybetmişlerdir. Bu dönemde baskılardan kaçmak için çeşitli yollarla Türkiye'ye doğru milyonları oluşturan bir Türk göçü yaşanmıştır. Diğer birçok Balkan ülkesinde olduğu gibi, Bulgaristan'da da camiler kapatılmış, İslami gereklerin yaşanmasına izin verilmemiştir. 1989'da devletin ağır politikalarına karşı koyan Türkler içinde 300.000'in çok üzerinde bir kesim ülkeden sürgün edilmiştir.[86]
-Soğuk Savaş döneminde Josip Broz Tito yönetimindeki Yugoslavya Sosyalist Federal Cumhuriyeti (1948) ve Arnavutluk (1961) devletleri Sovyetler Birliği ile ayrı düştü. Bulgaristan ile birleşme fikirlerini geri çeviren Yugoslavya yönetimi, kısa bir zaman sonra kurulan Bağlantısızlar Hareketi'ne katılmıştır. Arnavutluk ise Komünist Çin ile kurulan ilişkilerin de etkisiyle dünyadan soyutlanmış, içe kapanık bir ülke hâlini almıştır. Bu dönemde Arnavutluk, Enver Hoca idaresinde katı bir rejim altında olmuştur.
-Yugoslavya Sosyalist Federal Cumhuriyeti de, Soğuk Savaş döneminde ciddi miktarda Türk nüfusu barındıran bir Balkan ülkesi idi. Bu ülkede, özellikle Kosova Özerk Sosyalist Bölgesi, Makedonya Sosyalist Cumhuriyeti ve Sırbistan Sosyalist Cumhuriyeti içindeki Sancak bölgesinde Türkler yaşamaktaydılar. Ayrıca, Kosova Özerk Sosyalist Bölgesi, Makedonya Sosyalist Cumhuriyeti'nde Arnavutlar da önemli bir nüfus oranına sahip idiler. Sosyalist sistemle yönetilen Yugoslavya'da bu iki halk üzerinde çoklukla devletin özel bir dikkati olmuştur. Devletin hakkaniyetle yönetildiği dönemde, dil, eğitim gibi hakları verilen bu halklar, ülkenin bütünlüğünde yer almışlardır. 1990'larla beraber çatırdayıp çöküşe giden Yugoslavya sistemiyle beraber halkların da kısmi tepkileri başlamıştır.
-Balkanlar'da her zaman komünizmin dışında kalan iki ülke Türkiye ve Yunanistan olmuştur.
-
-
-### Yugoslavya'nın dağılması ###
-
-Başkan Tito, 1980 yılında ölünce yerine Kolektif Başkanlık idaresi geldi. 1984 yılında devlet başkanlığı Veselin Djuranović'e verildi. 1989'da görülen ekonomik ve siyasal bunalım, Hırvatistan ve Slovenya cumhuriyetleri arasında ilişkilerin bozulmasına sebep oldu. Aynı yıl Doğu Bloku'nda görülen yenileşme hareketleri Yugoslavya'ya da yansıdı ve 1990'da çok partili düzene geçildi.
-Yugoslavya Sosyalist Federal Cumhuriyeti'nin dağılma süreci öncelikle ekonomik-politik değişimin başlangıcı ile ilintilidir. Özellikle Yugoslav resmî tezi olan Özyönetim ve bu sayede ileri bir aşamada gerçekleşmesi tasarlanan Marksizm'in ön gördüğü "özgür üreticilerin birliği" fikri, ekonomik sistemin uluslararası sermayeye açılması ile dengesini kaybetmiştir. Yugoslav siyasi yapısının "Özyönetimci Sosyalizm"den "Pazar Sosyalizmi"ne kayışı, coğrafi esasa göre oluşturulmuş Yugoslav özyönetim modelinin neo-liberal politikalar ekseni ile dönüşüm sürecine girmesini ifade etmektedir. Sosyalist federal yapının köşe taşları olan özyönetim birimleri, ekonomi-politik dönüşüm süreci ile birlikte otonom statülere açık özerk birimler durumuna gelmiştir.[87][88]
-Yugoslavya Sosyalist Federal Cumhuriyeti, 1990'ların başıyla beraber birçok iç çatışma ve tartışmalara sahne olmuştur. Ülkenin federal yapısındaki dengesizleşme, bu ülkede kendi özerk cumhuriyetlerinde yaşayan halkların seslerini azar azar yükseltmelerine sebebiyet vermiştir. Yugoslavya'nın olumsuz gidişi ve yükselen Sırp milliyetçiliği karşısında diğer halklarda kıpırdanmalar görülmüştür.
-Yugoslavya Sosyalist Federal Cumhuriyeti içinde özerk cumhuriyet liderleri ve yöneticileri arasındaki anlaşmazlıklar, çeşitli bölgelerde küçüklü büyüklü çatışma ve savaşların çıkmasına sebep olmuştur. Bu çatışma ve savaşların sonrasında federal cumhuriyeti oluşturan Slovenya Sosyalist Cumhuriyeti; Hırvatistan Sosyalist Cumhuriyeti; Makedonya Sosyalist Cumhuriyeti ve Bosna-Hersek Sosyalist Cumhuriyeti (1991'den 1995 sürecine dek) bağlı oldukları Yugoslavya federasyon yapısından ayrılıp bağımsız devletler olmuşlardır. Bu ilk ayrılma dalgasında en büyük acıyı nüfusunun büyük kısmı Müslüman olan Bosna-Hersek görmüştür. Eski Yugoslav Halk Ordusu'nun (JNA) teçhizatıyla donatılmış Sırbistan ordusu ve milis güçlerinin saldırıları ve bunların yanında küçük çaplı Hırvat saldırıları ile Bosna-Hersek, insanlık dışı olaylara sahne olmuştur.
-1991'de başlayan cumhuriyetler arasındaki iç savaşın neticesinde aynı senenin sonlarında Slovenya, Hırvatistan, Makedonya ve Bosna-Hersek, bağımsızlıklarını ilan ettiler. Savaşın sonunda söz konusu devletler ayrı birer siyasi yapı oldular. Karadağ ve Sırbistan birleşerek yeni Yugoslavya Federal Cumhuriyeti'ni oluşturdu. Yeni federasyon, Sırbistan ve Karadağ özerk cumhuriyetleri ve Sırbistan'a bağlı Kosova ve Voyvodina özerk bölgelerinin bütünlüğüyle oluşmuştur. Söz konusu devlet zamanla “Sırbistan-Karadağ” adını aldı. Böylece “Yugoslavya” adı tarihe karışmış oldu. 3 Haziran 2006'da Karadağ'ın referandum sonucunda bağımsızlık ilan etmesiyle bu son federatif devlet de dağılmıştır.
-Eski Yugoslavya topraklarındaki son parçalanma ise Kosova'nın Sırbistan'dan kopması ile gerçekleşmiştir.
-
-
-### 1998-1999 Kosova Savaşı ###
-
-1998-1999 Kosova Savaşı, Yugoslavya Federal Cumhuriyeti ordusunun, bağımsızlık isteyen Kosova Kurtuluş Ordusu'na ve bu örgüt yanında yer alan milis güçlerine karşı yürüttüğü operasyona karşı NATO, Yugoslavya Federal Cumhuriyeti'ndeki bazı stratejik, askerî mevzilere ve ordu birliklerine karşı askerî müdahalede bulunmuştur.
-Kosovalı Müslümanlara (Arnavut, Türk vb.) yapılan baskının devam etmesi üzerine, NATO, Kosova ve Sırbistan'da bulunan hedeflere Mart 1999 tarihinde hava operasyonlarına başladı.
-Aynı zamanda, Kosovalılara karşı, Sırp güçleri tarafından etnik temizliğe başlandı. Yüz binlerce mülteci Arnavutluk, Makedonya, Türkiye ve Karadağ'a kaçmaya başladı. Uluslararası Lahey Adalet Divanı araştırmalarında en az 2.000 cesede ulaştığını açıkladı.
-11 haftalık NATO bombardımanından sonra, Miloşeviç birliklerini ve polislerini geri çekmeye zorlandı. 750.000 Kosovalı mülteci evlerine geri döndü. Bu bölgedeki Sırp nüfusun yarısına tekabül eden 100.000 Sırp evlerini terk etti. Birleşmiş Milletler, Kosova'nın bağımsızlık ya da Sırp egemenliğinden birine dönene kadar bölgeyi kontrolü altına aldı.
-Mayıs 1999 tarihinde, bombalama hâlâ devam ediyordu. Miloşeviç, insanlığa karşı suç işlediği için Uluslararası Lahey Adalet Divanı'na verilen görev başındaki ilk devlet başkanı oldu.
-
-
-### Günümüzde Balkanlar ###
-
-20. yüzyılda Balkanlar'daki devletlerin gelişimleri kısım kısım farklı bir süreç izlemiştir. Yunanistan, 1952'den beri NATO'nun ve 1981'den beri de Avrupa Birliği'nin üyesidir. Yunanistan ayrıca, Eurozone ve Batı Avrupa Birliği'nin de üyesidir. Slovenya 2004'ten beri Avrupa Birliği'ne üyedir. Bulgaristan ve Romanya da 2007'de Avrupa Birliği bünyesine katılmışlardır. Türkiye, 1963'te Avrupa Birliği üyeliği için başvurmuş, 2005'te de üyelik görüşmelerine başlama hakkı elde etmiştir. Hırvatistan ve Makedonya, 2005 yılında Avrupa Birliği üyeliğine adaylık statüsü kazanmıştır. Karadağ ve Sırbistan da Avrupa Birliği üyeliği konusunda girişimleri olan diğer Balkan ülkelerinden biridir.
-17 Ekim 2007 tarihinde Hırvatistan, 2008-2009 süreci için Birleşmiş Milletler Güvenlik Konseyi geçici üyeliğine kabul edilmiştir. 2004 yılında Bulgaristan, Romanya ve Slovenya devletleri NATO'ya üye olmuşlardır. 2006 yılında Karadağ, Sırbistan-Karadağ federasyonundan ayrılmıştır. Bu ayrılık, birçok dünya devletinde Balkanlar'da yeni siyasi ve sosyal sıkıntıların sebebi olarak düşünülmüş olsa da herhangi bir sıkıntı yaratmamıştır. Kosova, 17 Şubat 2008 tarihinde tek taraflı olarak Sırbistan'dan bağımsızlığını ilan etmiştir. Bağımsızlık ilanı sonrasında, en son Afrika ülkesi olan Çad 2 Haziran 2012 tarihinde Kosova'nın 17 Şubat 2008'de tek taraflı olarak ilan ettiği bağımsızlığını resmen tanıyan 91. ülke olmuştur. 2 Haziran 2012 itibarıyla, Kosova Cumhuriyeti, 91 ülke tarafından tanınan bir cumhuriyettir. Bu tanıma süreci sürekli gelişerek devam edecek bir seyir izlemektedir.[89] Arnavutluk ve Hırvatistan, 1 Nisan 2009 tarihinde NATO'ya katılmışlardır.
-Balkanlar'ın 19. yüzyıldaki son dalgalanmalar devrine girmesi, Birinci ve İkinci Balkan Savaşı'nı hazırlamış ve bu savaşlar sonucunda, Osmanlı İmparatorluğu'nun egemenliği ortadan kalkmıştır. Bu süreçlerde ciddi zararlardan birini Balkan Türkleri yaşamışlardır. Balkan Savaşları'nın yüz yılı civarında, Balkanlar'daki Türk nüfusu çok ciddi bir kayba uğramış, Türkleri azınlık hâline getiren süreçler yaşanmıştır. Bugün Türkler Balkanlar'da (Türkiye toprakları hariç tutulursa); Sırbistan'da %0,26;[90] Kosova'da %4,5;[91][92] Makedonya'da %3,9 ila %9,8;[93][94][95] Yunanistan'da (Batı Trakya ve Ege Adaları'nda) %2 dolayında;[96][97] Bulgaristan'da alt sınır olarak %9,5;[98][99] Balkanlar'ın uçlarındaki Romanya'da %1 dolayına[100][101][102] civarlarında bir nüfus oranlarındadırlar. Osmanlı devrinde birçok bölgede nüfus oranı olarak üstün olan Türk nüfusunun büyük kısmı, 1912 yılı civarıyla beraber hızla Türkiye'ye akmıştır.[103][104]
-Bosna-Hersek, Osmanlı Devleti'nden 19. yüzyıl sonlarında ani bir ilhakla koparılıp Avusturya-Macaristan'a dâhil edilmişti. Bu süreçten günümüze dek Bosna-Hersek ve Boşnaklar, oturmuş bir sisteme ve düzene sahip olamamışlardır. Son Yugoslavya savaşındaki katliamların yaralarını bugün bile sarmaya çalışan ülke, yasal olarak iki; fiilen üç parçalı bir idari yapıdadır. Sırbistan, Yugoslavya kurulana dek, Osmanlı devrinden beri büyüyegelen bir devlet yapısı hâlinde olmuştu. Yugoslavya'nın parçalanması ile yaşanan süreçler sonucunda kendi içinde yaşanan son çatışmalar ve savaşlarla şu an, en küçük sınırlarına yaklaşmıştır. Kuzeyindeki Voyvodina özerk bölgesi de bağımsız olur ise Sırbistan, Osmanlı İmparatorluğu'nda bağımsızlığını ilan ettiği dönemdeki sınırlarına çekilmiş, ilk sınırlarına geri dönmüş olacaktır. Karadağ, Yugoslavya'nın parçalanması akabinde Sırbistan ile hareket etmişti. Son süreçte bağımsızlığına kavuşarak yeni bir devlet oldu. Hâlihazırda, ülke olarak oturma evresindedir. Son bağımsız ülke Kosova, dünya siyaset arenasında lobiler arası çalışmalarla kalıcı bir konum elde etme çabasındadır. Bu son süreçte Sırbistan ve onun ardındaki Ortodoks camia ile Batı dünyası ve Türkiye, iki ayrı kutup gibidirler.
-Yunanistan, kuzeybatı kısımlarındaki Arnavut azınlık ve kuzeydoğusuyla adalarındaki Türk azınlık ile, kuruluşundan itibaren mücadele içindedir. Kuruluşundan itibaren Türkleri sürekli kontrol altında tutmakta ve anayasal olarak da kabul etmemektedir (Türk yerine Müslüman Helen tabiri).[105] Batı Trakya'nın Lozan Antlaşması ile resmen Yunanistan'a bırakıldığı günden beri Batı Trakya Türk Azınlığı (BTTA)'nı Türkiye'nin Yunan topraklarındaki doğal uzantısı olarak gören Yunan yönetimleri Azınlık'ı potansiyel bir tehdit ve tehlike olarak değerlendirmişler; bu çerçevede şekillendirdikleri Azınlık politikalarıyla da BTTA'nı göçe zorlamak, bu mümkün olmadığı takdirde de Türk toplumunu asimile etmek hedeflerini gütmüşlerdir. Batı Trakya Türk Azınlığı 1920'li yıllarda Batı Trakya nüfusunun %65'ini oluştururken, günümüzde bu oran %30'lara gerilemiştir.[106] Ülkedeki çeşitli olumsuz politik çalışmalar yurt dışına göçe sebep olmuş, Yunanistan'daki Türk nüfusu azalmıştır. Aynı şekilde, Kuzeybatıda Arnavutluk sınırlarındaki Arnavut nüfus konusunda da bazı politik sıkıntılar vardır.
-Bulgaristan yönetimi, 1980'lerde ülkede azımsanmayacak bir nüfus oranına sahip Türklerle şiddet, asimilasyon gibi yöntemlerle uğraşmış, bu nüfusun haklardan mahrumiyetine veya göç etmesine (Türkiye'ye) sebep olmuştur. Avrupa Birliği tam üyeliği gibi 2000'li yılların süreciyle beraber, ülkedeki Türk nüfus biraz rahatlamış gibidir.
-
-
-### Yunanistan ekonomik krizi ###
-
-2011 yılında başlayan ve günümüzde (2012) de etkisi devam eden, Yunanistan'da olan ekonomik derin kriz; Yunan hükûmetinin borç krizidir. Yunanistan'da hükûmetin borçlanması ve bu borçları ödeyememesinden kaynaklanmıştır.
-Kriz sırasında eski başbakan Yorgo Papandreu görevden ayrılmış ve yeni bir hükûmet kurulmuştur. Ülke, IMF'den ve Avrupa Birliği'nden yardım istemiştir. 2010-2012 Yunanistan protestoları başlamıştır. Ülkede işsiz sayısı rekor düzeye çıkmış, geçinememe yüzünden ırkçılık artmıştır.
-
-
-### Demografi ###
-
-Balkanlar, üzerinde birçok millet ve dinin yaşadığı bir coğrafi bölgedir. Topraklarının tamamı Balkanlar’ın sınırları içinde olan Arnavutluk, Bosna-Hersek, Bulgaristan, Karadağ, Kosova, Kuzey Makedonya ve Yunanistan ülkelerinde yaşayanların toplam nüfusu 28.809.213’tür. Bu sayıya, topraklarının bir kısmı Balkanlar’da yer alan ve Balkan ülkesi sayılan Sırbistan, Hırvatistan, Slovenya, Romanya, Türkiye ve yine Balkanlar'da bir parça toprağı bulunan, ancak tarihi, kültürel, siyasi nedenlerle Balkan ülkesi sayılmayan İtalya’nın ilgili kısımlarındaki nüfus eklendiğinde, Balkanlar’da yaşayan insanların toplam nüfusu 48.437.687 olmaktadır.
-
-
-### Dil ###
-
-Balkanlar, çeşitli kültürlerin bir arada yaşandığı bir bölgedir. Burada birçok din, millet yaşar. Söz konusu konuşulan çok sayıda dil de Balkanlar’ın çeşitli kısımlarında duyulur. Balkan topraklarında yaşayan milletlerin yayılımı ile devlet sınırları denk değildir. Bu yüzden bir dil, tek bir devlet sınırı içinde konuşulmaz; komşu birkaç devlet içinde aynı dil konuşuruna rastlanabilir. Bu yüzden Balkanlar’da yaşayan milletlerin toplam nüfuslarının tespit edilmesi kolay değildir. Balkanlar’da konuşulan diller konuşurlarının sayıları ortalama alınarak şu şekilde sıralanabilir: Yunanca, Türkiye Türkçesi, Bulgarca, Sırpça, Arnavutça, Boşnakça, Hırvatça, Makedonca, Rumence, Romanca, Karadağca, Pomakça, Slovence, İtalyanca, Gagavuz Türkçesi, Ulahça, Yahudi İspanyolcası, Kırım Tatarcası, İstriotça, İstro-Romanca, Megleno-Rumence. Bölge coğrafyasında, yukarıda sayılan diller, kendi ağız grupları ile beraber konuşulurlar.
-Not: İtalik yazılan ülke topraklarının Balkan sınırlarında olan kısmı ölçüme katılmıştır, ülke yüzölçümünün tamamı hesaplanmamıştır.
-
-
-### Din ###
-
-Bölgenin yerleşik dinleri Hristiyanlık (Ortodoks ve Katolik) ve İslam dinleridir.[109] En kalabalık din grubunu Ortodokslar oluşturur. Yunanlar, Sırplar, Bulgarlar, Rumenler, Makedonlar ve Karadağlılar Ortodoks kilisesine bağlıdırlar. Arnavutlar içinde küçük ir kesim de Ortodoks inancı içindedir. Balkanlar’da ikinci büyük din grubunu Müslümanlar oluşturur. Türkler, Arnavutlar (Büyük kısmı), Boşnaklar, Pomaklar, Goralılar, Tatarlar da bölgede Müslüman inancına sahip gruplardır. Üçüncü din grubunu Katolikler oluşturur. Bu inanç grubuna Macarlar, Slovenler, Hırvatlar dâhildir. Arnavutlar arasında da Katolik vardır.[110] Sözü edilen büyük ve yaygın dinler dışında Yahudilik, bölgede bazı küçük kesim veya yerleşim yerlerinde inanırlara sahiptir.
-Hristiyanlığın Ortodoks kolu Balkanlar’ın birçok ülkesinde yaygındır. Bu yaygınlık özellikle yarımadanın güneyinde ve doğusunda daha yoğundur. Bazı ülkelerde de bir kesimin dinidir. En büyük din grubu Ortodoks olan ülkeler şunlardır:
-- Bulgaristan (İslam da ikincil belirgin.)
-- Karadağ (İslam da ikincil belirgin.)
-- Kuzey Makedonya (İslam da ikincil belirgin.)
-- Romanya
-- Sırbistan
-- Yunanistan (İslam da ikincil belirgin.)
-
-
-Balkan topraklarına Osmanlı Türkleri tarafından yayılan Müslümanlık, bölgenin güney kesiminde yaygındır. Kuzey yarısında oldukça seyrektir. En büyük din grubu Müslüman olan ülkeler şunlardır:
-- Arnavutluk (Ortodoksluk da ikincil belirgin.)
-- Bosna-Hersek (Ortodoksluk da ikincil belirgin.)
-- Kosova
-- Türkiye
-
-
-Yarımadanın kuzey kesiminde çoklukla yayılan Katolikliğin en büyük din grubunu oluşturduğu ülkeler şunlardır:
-- Hırvatistan
-- Slovenya
-
-
-- Aziz Sava Katedrali (Belgrad, Sırbistan)
-- Gazi Hüsrev Bey Camii (Saraybosna, Bosna-Hersek)
-- Bigorski Manastırı (Kuzey Makedonya)
-- Alaca Cami  (Kalkandelen, Kuzey Makedonya)
-- Şibenik Katedrali (Şibenik, Hırvatistan)
-- Manastır Sinagogu (Selanik, Yunanistan)
-
-
-
-
-### Siyaset ve ekonomi ###
-
-Günümüzde Balkan ülkelerinin tümü cumhuriyettir. Ancak, II. Dünya Savaşı’na kadar Türkiye dışında kalan ülkelerin tamamı monarşi ile yönetilmişlerdir. Romanya ve Bosna-Hersek yarı başkanlık sistemine, diğer ülkeler parlamenter cumhuriyettirler. Bütün ülkelerde açık serbest piyasa ekonomisi hâkimdir.[111]
-Slovenya, Hırvatistan ve Yunanistan’da 12.000 $ üstü gelir, diğer ülkelerde 4.000 -12.000 $ dolayı gelir söz konusudur. Balkan ülkelerinin çoğu, daha önceleri Doğu Bloku sisteminde bir ekonomik yapıya sahiptiler. Türkiye yıldan yıla artan bir ekonomik gelişme göstermiştir. Sadece Yunanistan ekonomisi 2012 yılında gerilemiştir. Bu ülke ekonomisinin 2013 yılında büyüme gerçekleştireceği düşünülmektedir. Kişi başına düşen Gayrısafî yurt içi hâsıla (Satın alma gücü paritesi) Slovenya ve Yunanistan’da (25 $ üstü) en yüksektir. Bunu Hırvatistan (20 $ üstü); Türkiye, Bulgaristan, Romanya, Karadağ, Sırbistan, Makedonya (10-15 $); Bosna-Hersek, Arnavutluk ve Kosova (10 $ civarı) takip eder.[111]
-1980’lerin sonlarında dünyada yaşanan gelişmelere paralel Balkanlar coğrafyasında meydana gelen rejim değişiklikleri ile hem demokrasiye hem de serbest piyasa ekonomisine geçiş yaşanmıştır. Bu tarihe kadar, Batı Avrupa’daki ekonomik kalkınma modelinden farklı bir sisteme sahip olan bölge ülkeleri, bugün temel dış politika hedeflerinden biri hâline gelen AB’nin temelleri atılırken de doğal olarak bu yapılanmanın dışında kalmıştır. Rejim değişikliğinin hemen ardından ise yüzlerini Batı’ya dönerek, mevcut devletler sistemindeki yeni yerlerini almışlardır. Bu kapsamda, bölge ülkelerinin geçirdiği değişim ve dönüşüm sürecinde ABD ve AB belirleyici aktörler olarak ön plana çıkmış; IMF, Dünya Bankası ve NATO gibi uluslararası örgütler yoğun bir şekilde kullanılmıştır. Gelinen noktada Balkan ülkeleri, 20 yıllık bir süreç içerisinde hem NATO ve AB üyesi olmuş (veya üyelik yolunda ciddi mesafe kat etmiş); hem de dünya politik ekonomisinde önemli bir jeoekonomik geçiş noktasını temsil etmeye başlamıştır.[112]
-Son dönemde bölge ülkelerinin gerek kendi iç ekonomi-politik yapılarının iyileştirilmesinde gerekse dış pazarlara açılmada ciddi adımlar attığı görülmektedir. AB’ye uyum çerçevesinde birçok yasa çıkartılmış ve reformlar gerçekleştirilmiştir. Avrupa’da kurumlar vergisinin en düşük olduğu ülkeler bu coğrafyada yer almaktadır. Henüz AB üyesi olmamalarına rağmen Kosova ve Karadağ para birimi olarak Avro’yu kullanmaktadır. Vergi muafiyetleri, sübvansiyonlar ve bürokrasinin azaltılması gibi devlet tarafından sağlanan teşvikler; ikili ve çok-taraflı serbest ticaret anlaşmaları ve özelleştirmeler bir taraftan yabancı yatırımcıların iştahını kabartırken diğer taraftan da söz konusu ülkelerin ekonomik kalkınması için önemli sıçrama taşlarını oluşturmaktadır. 20. yüzyıl boyunca sürekli çatışmalarla anılmış olan Balkanlar coğrafyası, günümüzde dünya politik ekonomisinin en yeni ve umut vadeden pazarlarını temsil etmektedir. 1990’larda yaşanan rejim değişikliği ile serbest piyasa ekonomisine geçen bu ülkeler, süreç içerisinde hızla gerçekleştirdiği reformlarla yatırımcılar için görece uygun bir zemin sunacak hâle gelmişlerdir. Bu kapsamda, kurumsal yapılanmalarını büyük ölçüde tamamlamış, yatırımcılar karşısındaki bürokrasiyi azaltmış, ticari mevzuatı sadeleştirerek hukuki yapısını bu yönde yeniden düzenlemiştir. İlaveten ikili ve çoklu serbest ticaret anlaşmaları ile vize muafiyeti anlaşmaları imzalama yoluna gitmiştir. Dünyanın ekonomik ağırlık merkezinin yer değiştirdiği günümüzde Balkanlar, jeoekonomik tartışmalar açısından kilit konumda bulunmakta; dolayısıyla bölgenin ekonomik istikrarı büyük bir hinterlandı doğrudan ilgilendirmektedir.[112]
-
-
-### Ülkelerdeki ekonomik gidiş ###
-
-Sırbistan’ın 2009 yılı verilerine göre GSYH’si 43 milyar dolara ulaşmıştır. Kişi başına millî geliri ise 5.6 bin dolar civarındadır. Ülkede, AB ile bütünleşme yolunda kararlı bir ekonomik program uygulanmaktadır. Yapısal reformlar başlığı altında bugüne kadar çıkardığı yasalar ciddi sayılara ulaşmıştır. Ülkede ticari mevzuat sadeleştirilmiş, bürokrasi azaltılmış ve en son Türkiye ile vize muafiyeti ve serbest ticaret anlaşmaları imzalanmıştır.[112]
-Hırvatistan’ın ekonomisi ise 2001-2008 yılları arasında ortalama %4,4 büyümüş; GSYH’si 63 milyar dolar civarında gerçekleşmiştir. Ülkenin, 2005’te başlayan tam üyelik müzakereleri süresince, siyasi ve ekonomik politikalarını Avrupa Birliği ile uyumlandırma çalışmaları yapmış, kurumsal yapısında düzenlemeler gerçekleştirmiştir. Ayrıca, coğrafi konumu itibarıyla de bölge ülkelerine kıyasla oldukça avantajlı durumdadır. Zira Hırvatistan 1777 km ile Adriyatik’e en uzun kıyısı olan ülkedir. Bu noktada, Türk firmalarının Hırvatistan’daki yatırımları içerisinde ülkenin kıyı şeridindeki turizm tesislerinin büyüklük açısından ilk sırada yer aldığı görülmektedir.[112]
-Bosna-Hersek, her ne kadar ülke ekonomisinin istikrarı için gerekli kurumlar AB, NATO, BM, ABD gibi uluslararası aktörlerin teknik ve finansal desteği ile ayakta duruyor olsa ve işsizlik rakamı %45 gibi astronomik seviyelerde dolaşsa da, ülkenin serbest piyasa ekonomisinin sağlıklı işleyebilmesi için dikkate değer çabalar göstermiştir. Ülkenin, siyasi alanda üçlü mekanizma toplantıları başlatması, ekonomik olarak eğitim kurumları (iki üniversite), altyapı çalışmaları, Ziraat Bankası faaliyetleri, çeşitli fabrika yatırımları (kâğıt ve soda fabrikası) şeklinde Türkiye ile büyük sayılabilecek ilişki düzeyi vardır. Ayrıca Bosna-Hersek Havayolları’nın %49’u Türk Hava Yollarına aittir.[112]
-Kuzey Makedonya ise bölgede yatırımcıları bekleyen önemli bir ekonomik potansiyel barındırmaktadır. Bilhassa Türk yatırımcılar için cazibe merkezi konumunda olan bu ülkede, 250’yi aşkın Türk firma faaliyet göstermektedir.[112]
-Bulgaristan ekonomisi, 2012 yılı itibarıyla iyi sayılamayacak bir durumda belirtilmektedir. Bulgar analist Ivan Krastev’e göre, Bulgaristan 20 yıllık büyük umutların ardından Yunanistan gibi kötü durumda olabilir. Uzun zaman öne ülkede ekonomi ve Avro krizi yaşanmış, işsizlik %12’nin üstüne çıkmıştı. 2011 yılında Bulgaristan’da yıllık ekonomik büyüme %1,7 olmuştur. 2008 yılındaki resmî verilere göre ülke ekonomisinin %30 kadarı kayıt dışıdır ve ülke, Avrupa Birliği’nin en fakir ülkesidir.[113]
-Balkanlar’da turizm denildiğinde ilk akla gelen ve bu sektörde en hızlı büyüyen ülkelerden biri olan Karadağ da son dönemde yatırımcılar açısından oldukça ilgi görmektedir. IMF, Dünya Bankası ve Avrupa Yatırım Bankası üyesi olan, AB, NATO ve Dünya Ticaret Örgütü ile ise üyelik müzakerelerine devam eden bu ülke, son dönemde özellikle ulaştırma projeleri ile dikkat çekmektedir. Bu anlamda ülkenin en büyük yatırım projesi 7 ülkeden geçmesi planlanan Adriyatik-İyonya otoyoludur.[112]
-Kosova, uluslararası sistemde tam bir aktör hâline gelememiş ve bu yönüyle devlet inşa sürecini henüz tamamlayamamıştır. Söz konusu durum, ekonomik kalkınmanın önündeki en temel engellerden birini de oluşturmaktadır. Kosova’nın sağlıklı bir şekilde piyasa ekonomisine geçişi, dünya devletleri ile ticaret yapabilmesi ve bu şekilde halkın refahının arttırılması ve yoksulluğun giderilmesi yönündeki uluslararası çabalar devam etmektedir. Tanınma sorunu nedeniyle ekonomik anlamda da izole edilmiş olan Kosova’nın Türkiye ile ticari ilişkileri hayati öneme sahiptir.[112]
-Yunanistan’ın yıllık büyümesi Kasım 2012 itibarıyla %-1,8 ve kişi başına düşen GSYİH 21.750 $ olmuştur. Altı yıllık durgunluğunda ülke ekonomisi, 2013 sonu itibarıyla mevcut durumundan da küçük hâle gelecektir.[114]
-Romanya’da iki yıllık (2010-2011) durgunluk ve tasarrufun ardından ülke ekonomisi 2011’in üçüncü çeyreği itibarıyla %4,4 büyümüştür. Bütün gelirleri, emekli aylıklarını, kiraları, ödeme gücünü geliştirmek için sosyal katılım devam ettirilecektir.[115]
-AB’nin 2004 genişlemesi çerçevesinde Birliğe üye olan Slovenya, ekonomik ve ticari ilişkilerini o tarihten bu yana AB’nin Gümrük Birliği politikaları çerçevesinde yürütmektedir. Özellikle makine, elektrik-elektronik ve otomotiv yan sanayinde oldukça gelişmiş bir endüstriye sahiptir. Avrupa pazarlarına yakınlığı ve üretim maliyetlerinin düşük olması ülkeye birçok doğrudan yabancı yatırımın gelmesini sağlamaktadır. Ayrıca, diğer Orta Avrupa ülkeleri gibi turizm cenneti olan Slovenya, turistik tesisleri ve kapasitesi ile bu sektörde de iddialı olduğunu göstermektedir.[112]
-
-
-### Üyelikler ###
-
-Balkan ülkeleri çeşitli uluslararası üyeliklere sahiptirler. Ülkelerden bir kısmı Avrupa Birliği’ne (AB) üyedirler. Geri kalan ülkeler de üyelik tarihi bekleyenler, adaylar, muhtemel adaylar gibi statülere sahiptirler. Bunun yanında, gümrük statüleri, para alanları, NATO üyeliği gibi düzlemler söz konusudur.
-
-
-### Ulaşım ve turizm ###
-
-Balkan ülkelerinin kendisine has coğrafi özelliklerine bağlı olarak turizm yapısı da değişkenlik gösterir. Bölgenin deniz kıyısı, düzlük ve göl alanları en çok yaz döneminde yoğundur. Adriyatik ve Ege muhitinde yer alan Slovenya, Hırvatistan, Karadağ, Arnavutluk, Yunanistan ülkelerinin sahil yerleri yurt içi ve yurt dışı turizm etkinliklerinin merkez noktalarıdırlar. Deniz ve göl turizmi dışında, yine bölgenin çeşitli ülkelerinde dağ turizmi de yaygındır. Birçok yerde gelişkin kış turizmi alanları, kayak merkezleri vardır.
-Bölge çapında, ülkelerdeki telefon kulübeleri genellikle jetonlu telefonlardır. Posta servisi yeterlidir. İletişim imkânları Slovenya’da, diğer Balkan ülkelerinden daha iyi durumda. 220 volt AC 50 herz yapısına sahip iki delikli silindirik geçmeli priz, Balkanlar’ın tamamında standarttır. Turistler, seyahat güvenliği açısından Arnavutluk, Kosova ve Makedonya’da çatışma, hırsızlık ve halk kargaşası açısından dikkatli olmalıdırlar. Ayrıca, Slovenya ve Sırbistan’da güvenlik endişesi yaratabilecek durumlar, siyasi konularda alınabilecek sert ve hassas tepkilere ilişkindir.[116]
-
-
-### Kara ulaşımı ###
-
-2000 yılı verilerine göre bölgedeki dokuz ülkede (Arnavutluk, Bosna-Hersek, Bulgaristan, Karadağ, Kosova, Hırvatistan, Makedonya, Romanya, Sırbistan) 140.000 kilometreden fazla ana ve yan yol vardır. 1400 km civarı otoyol hattı mevcuttur. Oysa 1970 ve 1980’lerdeki geliştirme çalışmalarına kadar ülke ağları oldukça engebeli idi ve onarım çalışmalarında ciddi yığılmalar vardır.[117]
-Trafik yönü sağdan ilerler. Slovenya ve Sırbistan genelindeki yol standardı üst düzeydedir. Arnavutluk ve Kuzey Makedonya’da belli merkezler arası yollar iyi ancak yol kalitesi yoğun kullanımdan ötürü zayıflamaktadır.[116] Hırvatistan kara ulaşımı bakımından orta-üst sayılabilecek bir seviyededir. Yunanistan’ın kara ulaşımı ağı da geneli bakımından iyi sayılabilir. Kosova’da ana yollar dışındaki karayolları orta seviyededir. Son dönemde yapımına başlanıp Kosova tarafındaki inşaatı hâlen devam eden Arnavutluk-Kosova Otoyolu, Balkanlar’ın bu kesimindeki kara ulaşımına büyük rahatlık getirmiştir. Projenin tamamlanmasıyla Arnavutluk’taki Adriyatik sahili yakınlarından Kosova içlerine kadar otoyol ulaşımı sağlanacaktır. Ekim 2012 itibarıyla ulaşım Kosova ortasına (Suvareka yakınları) kadar sağlanmıştır.
-Balkan sahasında demiryolu ağı, 2000 yılında 25.000 km civarında bir uzunluğa sahipti. Bu demiryolu hatlarının %17’si çift şeritli, %40'ı elektrik tesisatlıdır. Yoğunluk, Arnavutluk, Bosna-Hersek ve Kuzey Makedonya’da düşük fakat diğer sistemlerde Avrupa Birliği ortalaması düzeyindedir. Yenileme çalışmaları devam eden bölgede sinyalizasyon ve iletişim teknolojilerinde bazı yenileştirmeler olmuştur.[117]
-
-
-### Deniz ulaşımı ###
-
-Avrupa’nın ana ulaşım ve taşıma hatlarından olan Tuna, bölge içi gemi taşımacılığını domine eder. Ren-Main-Tuna kanalının 1990’ların başında tamamlanması ile Karadeniz’den Kuzey Denizi’ne doğru ulaşım sağlanır olmuştur. Ancak, ekonomik gerileyiş ve çatışmaların sonucu olarak 2000 yılına kadarki son on yılda trafik, keskin bir düşüş yaşamıştır. Nisan 1999’da Kosova’da yaşanan çatışma sırasında, kilit konumdaki köprülerin tahrip edilmesi sebebiyle Tuna, gemi taşımacılığına kapanmıştı.[117]
-Balkanlar’daki aktarım ve geçiş limanları Adriyatik’in Hırvatistan kesiminde konumlanan Rijeka, Zadar, Split ve Ploče; Karadağ kesiminde Bar; Arnavutluk kesiminde Dıraç limanlarıdır. Karadeniz kıyılarındaki ana liman sahaları ise Bulgaristan’da Burgaz ve Varna; Romanya’da Köstence. Ege kıyısındaki Selanik limanı, Yunanistan dışında, Kosova ve Makedonya için de bir çıkış limanıdır. Bütün limanlar için modernleştirme ve geliştirme gereklidir.[117]
-
-
-### Hava ulaşımı ###
-
-Balkan çapında yaygın bir havalimanı ağı var olup her ülkede uluslararası havalimanı mevcuttur. Havalimanlarında geliştirilme ihtiyacı görülür.[117] Bölgedeki birçok havalimanı için geliştirme çalışmaları yapılmıştır. Bunlardan birkaçı Makedonya’da Üsküp ve Ohri şehirlerinde gerçekleştirilmiştir. Üsküp Havalimanı için 2010 yılında Türkiye firması TAV tarafından başlatılan yenileme 2011 yılında tamamlanmış, havalimanı 8 Eylül 2011 tarihinde operasyonlara başlamıştır.[118] Ohri Havalimanı yenilemesi de Nisan 2011’de tamamlanmıştır.[119] Kosova’daki Priştine Uluslararası Havalimanı da yenileme kapsamındadır. Türk-Fransız konsorsiyumu yüzde 90 Limak ve yüzde 10 Aeroport de Lyon ortaklığı, Mayıs 2010 tarihinde 20 yıl havalimanını işletme sözleşmesi imzaladı. Yatırımların 2012 yılında tamamlanması öngörülüyor.[120][121] Yenileme çalışmaları Makedonya ve Kosova dışındaki birçok ülkede de görülür. Slovenya’da Ljubljana Havalimanı ticaret planına göre havalimanı 2017 yılına kadar geliştirilecek. Bu çalışma Haziran 2012’de başlatılmıştır.[122] Hırvatistan’daki Zagreb Havalimanı için 11 Nisan 2012 tarihinde Aeroports de Paris şirketi ile Hırvatistan Hükûmeti arasında 30 yıllık kullanım anlaşması imzalandı.[123] Bosna-Hersek’teki Saraybosna Uluslararası Havalimanı’nda başlayan geliştirme çalışmalarının 2013 yılında bitmesi planlanıyor.[124] Sırbistan’daki Belgrad Nikola Tesla Havalimanı modernizasyonu kapsamında Şubat 2012’de çalışmalar başlatılmıştır.[125] Türkiye’deki Atatürk Havalimanı’nda TAV Havalimanları, Dış ve İç Hatlar Terminali ile otoparkta yolculara sunulan konfor ile hizmet kalitesinde ve hava yollarına sağlanan hizmette ivme yaratmak amacıyla Şubat 2010’da da yeni bir genişletme projesi gerçekleştirildi. İstanbul Atatürk Havalimanı, mimarisi, yolcu akış hızı ve sunduğu hizmet kalitesiyle sadece Türkiye'nin en büyük havalimanı değil, aynı zamanda tüm Avrupa'da önemli havalimanlarından biri konumunda bulunuyor.[126]
-
-
-### Alışveriş ve tüketim ###
-
-Euro, Kuna, Değiştirilebilir mark, Dinar, Denar, Lek, Lev, Ley bölgede kullanılan para birimleridir.
-Balkan çapındaki alışverişte giyim, el yapımı ve mücevherat, önde gelir. Ülke içi veya ülkeler arası kara ulaşımında otobüs hatları vardır ve bunlar iyi durumdadırlar. Demiryolu ulaşımının kalitesi kesime göre değişiklik gösterir.[116]
-Balkanlar’ın çok kültürlü yapısının sonucu olarak bölgede çeşitli kültür ögeleri vardır. Bölge yemek ve pişirme kültürü, çeşitli mutfakların birleşiminden oluşmuştur. Yemek bölge genelinde ucuzdur. Bölgede su rezervleri iyi düzeydedir. Suların büyük kısmı içilebilirdir ama paketlenmiş su satışı da yaygındır. Alkol kısıtlamaları yoktur. Bunun yanında Müslüman nüfusun yaşadığı kesimlerde alkole karşı tutum görülebilir.[116]
-
-
-### Kültür yapısı ###
-
-
-
-### Edebiyat ###
-
-Balkanlar’da çok kültürlü yapı içerisinde, her kültür-dil dairesi içinde çeşitli edebî faaliyetler yapılmış ve yapılmaya devam edilmektedir. Bu şekilde oluşturulan eserler, ilgili dilin edebiyat dünyası içinde yer almışlardır. Bazı eserler ise, yazıldığı dilin dışında başka bazı dillere de çevrilmiş, Nobel Edebiyat Ödülü gibi ödüller kazanmıştır.[127] Bugünkü Balkan edebiyatı, dil ağacının beş ayrı kolunda yer alan sekiz millî dil ile yazılır. Bu edebiyatı anlamada, Nikos Kazancakis’in “Zorba”sı, Ivo Andrić’in “Drina Köprüsü” adlı meşhur eseri, Yaşar Kemal’in “İnce Memed”i, Fahir İz’in “An Anthology of Modern Turkish Short Stories” adlı antolojisi, Ismail Kadare’nin “Kronikë në gur” (Taştaki Kronik) eseri, Aleksandros Kotzias’ın “Jaguar”ı, “An Anthology of Romanian Women Poets” (Adam J. Sorkin, Kurt W. Treptow) adlı antoloji, Elisaveta Bagryana’nın “Penelope of the Twentieth Century” eseri, Hristo Boyçev’in “Albay Kuş’u yardımcı olabilir.[128]
-Mantık kurgusunu sempatik bir şekilde gösteren ‘kültürel kavşak’, ‘köprü’ tabirleri Balkanlar için edebiyatta en çok kullanılan mecazların başında gelir. Söz konusu mecazlar, bölgeye bir kimlik verir. Balkan edebiyatını açıklamada “dil” ölçüt olarak koyulursa, hata kaçınılmaz olur. Slav dilleri ve dil bilimi yani ‘Balkan dil birliği’ içinde yer alan belirsiz konuşur, okur veya edebiyatta yer alan kişi ve Balkanlar’daki bütün dillerde paylaşılan yüzlerce Türkçe alıntı kelimenin dışında, Balkan dilleri bugün hâlâ yanlış yolda, yabancı ve zordur.[129] Balkan edebiyatı içinde yer alan bazı edebiyatçılar aşağıda belirtilmiştir.
-Arnavut edebiyatçılar:
-- Dritëro Agolli
-- Fatmir Gjata
-- Jakup Mato
-- İsmail Kadare
-
-
-Boşnak edebiyatçılar:
-- Abdulah Sidran
-- Dževad Karahasan
-- Mehmedalija Mak Dizdar
-- Nedžad Ibrišimović
-
-
-Bulgar edebiyatçılar:
-- Alek Popov
-- Hristo Boyçev
-- Lyuben Stoyçev Karavelov
-- Stoyan Zagorçinov
-
-
-Hırvat edebiyatçılar:
-- Ivo Andrić[h]
-- Ivana Brlić-Mažuranić
-- Miro Gavran
-- Predrag Matvejević
-
-
-Macar edebiyatçılar:
-- Arthur Koestler
-- Elie Wiesel
-- Ferenc Herczeg
-- György Tábori
-- Imre Kertész
-- Imre Madách
-- Lajos Zilahy
-
-
-Sırp edebiyatçılar:
-- Branislav Nušić
-- Jovan Jovanović Zmaj
-- Milorad Pavić
-- Vasko Popa
-
-
-Sloven edebiyatçılar:
-- Andrej Blatnik
-- Drago Jančar
-- Tomaž Šalamun
-- Vladimir Bartol
-
-
-Türk edebiyatçılar:
-- Avni Engüllü
-- Enver Baki
-- Fahri Kaya
-- Hacı Ömer Lütfü
-- Hasan Mercan
-- Necati Zekeriya
-- Nusret Dişo Ülkü
-- Süreyya Yusuf
-- Yahya Kemal Beyatlı
-- Zeynel Beksaç
-
-
-Yunan edebiyatçılar:
-- Dido Sotiriyu
-- Nikos Kazancakis
-- Mara Meimaridi
-- Yorgos Leonardos
-
-
-
-
-### Müzik ###
-
-Balkan ülkelerinde yapılan müziğin bölge içinde ortak özellikleri vardır. Balkan müzikleri hareketli ve armoni zenginliği açısından, farklı bir zevk verir. Buna, etnik bir müzik türü de denebilir. Balkanlar’ın hemen hemen tüm ülkelerinde kulağa hitap eden melodiler çok benzer ve coşkuları da aynıdır. Balkan müziğinde Rumeli Türk müziğinin etkisi de vardır. Bunun gibi küçücük etnik grupların renkliliklerini kattıkları koca bir oluşumdur. Dikkat edilirse, yeryüzünün ürettiği müzik birikimlerinin içinde kendini hemen belli eden, hem melodilerinin hem de bunları yorumlayış biçimlerinin çok net karakteristikleri olan bir müzik geleneğidir. Bu özel oluşumun temelinde kabaca, geçmişi Hristiyanlık öncesi döneme denk gelen Slav geleneğiyle Doğu Roma ve Osmanlı’dan ögelerin bir bileşimi yer alır. Slav geleneği, Yunan ögeleri ve Osmanlı ile Bizans’ı kapsayan Anadolu renkleri, özgün bir etkileşim ile bugün Balkan müziği denilen zengin müzik birikimini oluşturmuştur.[130]
-Balkan müziği, Türk kültürüne çok yakındır. Yıllarca aynı topraklarda yaşandığı ve benzer kültürler paylaşıldığı Balkan ve Doğu Avrupa ülkelerinin olduğu kadar, Türkiye’deki Çingenelerin de müziği budur. Balkanlar’daki müzik, Avrupa’nın geri kalanından epey farklılık göstermiştir çünkü Balkan halklarından hepsinin Osmanlı İmparatorluğu ile kültürel geçmişi mevcuttur ve bu müziğin en önemli özelliği karmaşık ritmidir.[131]
-
-
-### Mutfak ###
-
-Balkanlar’ın genelinde belli oranda ortaklıklara sahip bir mutfak kültürüdür. Bu mutfak içinde Balkan ülkelerinin kendisine ait özellikleri vardır ve Akdeniz mutfağından etkilenmiştir.[132] Balkan yemek kültürü Türk, Yunan, İtalyan, Avusturyalı, Macar ve yerel yemek ve pişirme kültürlerinin karışımıdır.[116] Kültürel kimliğin ortaya koyulmasında Balkan mutfağının ciddi bir form olabileceği öne sürülmüştür. Bu mutfakla ilgili iki görüş vardır: 1) Balkan bölgesinde yaygın şekilde paylaşılan bir beslenme yapısı vardır. 2) İnsanlar benzer temel yiyecekleri tüketir. Alexander Kiossev’e göre Balkan kimliğinin varlığını ispat etmek için en az iki yol var; ırk özellikleri ve mutfak. Kiossev’e göre, Balkanlar’ın dışında bulunan bir Balkanlı, başka bir Balkanlı kişiyi yüz özellikleri, yürüyüş tarzı ile genellikle tanır. Mutfak, birçok Balkanlı için bir diğer paylaşılan şeydir.[132]
-
-
-### Kültürel etkileşim ###
-
-Balkanlar’da yaşamış olan ve yaşayan birçok millet, birbirleri ile değişen derecelerde etkileşim içinde olmuşlardır. Bu etkileşim ortak hayat, evlenme, göç, savaş gibi çeşitli olaylarla kurulmuş ve günümüze gelmiştir. Bölgede birçok millet ve bunların kültürel özellikleri içinde bazı kültürler daha baskın olmuşlardır. Bölgede tarihten günümüze dek Slav kültürü, Türk kültürü, Yunan kültürü ağırlıklı yapılar oluşmuştur. Balkan kültürü olarak da belirtilen bu kültür, belli başlı kültürlerin beraberliğinden, harmanından ortaya çıkmış, bugüne ulaşmıştır.
-Kültürel etkileşimin temel taşıyıcısı olan dil, bölgedeki birçok millet üzerinde etkileşimi sağlamıştır. Bu kültürel etkileşimde Türkçe, Osmanlı İmparatorluğu’nun bölgede idaresini kurduğu 14. yüzyıldan itibaren merkezî bir yere sahiptir. Türkçe, bölgedeki birçok dili etkilemiştir.[133]
-Türkçe, bugün yaşayan dillerin en yaşlılarından biridir ve bu tarih derinliği yanında mekânca da geniş bir coğrafyaya sahiptir. Türkçenin konuşucuları, bu geniş tarih ve coğrafya diliminde birçok devlet kurmuşlar, komşuluklarında yer alan kavimlerden birçok bilgi öğrenmişler ve komşularına da birçok bilgi öğretmişlerdir. Türklerin komşularına öğrettikleri ile komşularından öğrendikleri bilgilerin adları, Türkçe ile ona komşu olarak yaşayan başka diller arasında, oldukça zengin bir söz alışverişine yol açmıştır.[133]
-
-
-### Diğer dillerdeki yer adları ###
-
-Balkanlar’da Miladın öncesindeki yıllardan başlayıp çeşitli yoğunluklarla gelişen, Osmanlı devri ile beraber de kökleşen Türk özellikleri, bugün Balkan Türkleri dışında, Balkanlar’da yaşayan diğer halklarda da çeşitli şekillerde görülmektedir. Türkçenin dışında, söz konusu Balkan dilinde kullanılacak kadar içselleşen Türkçe yer adları, bu izlerden birisi sayılır. Balkanlar’da yerleşim birimleri ve yerlerin adlarının Türkçe isimleri, 600 yıl civarındaki siyasi ve sosyal gelişimler olarak oluşmuştur. Burada sözü edilen durum ise, Türkçede kullanılan şekillerden bağımsız olarak, ilgili dilde yaşıyor olmasıdır. Osmanlı İmparatorluğu XX. yüzyıl başlarında Balkanlar’daki topraklarını kaybetti. Bu dönem sonrasında Balkanlar’ın muhtelif bölgelerinde çeşitli devletler kuruldu. Bu devletler, ilgili bölgede egemenliği ele geçiren milletin idaresi şeklinde gelişmiştir. Osmanlı egemenliği sonrasında Balkanlar’da kurulan bu devletlerin yeni idareleri tarafından Osmanlı dönemi toponimlerinin (yer adlarının) bir kısmı değiştirilmiştir. Bu değişiklikler, her bölgede, egemenliği ele geçiren milletin dili veya kültürü yönünde olmuştur. Böylece Balkanlar’da yaşayan milletlerin dillerinde (Türkler dışında) değiştirilmiş yeni toponimler kullanıma girmiş, eski bilgi zamanla hafızalardan silinmiştir. Sonuçta yüzyıllarca kullanıldıktan sonra diğer milletlerce değiştirilen bu toponimler Türk dilinde kalmış, Osmanlı Türkçesinden miras olarak Türkiye Türkçesine gelmiştir.[134]
-Söz konusu Balkan dilindeki şekilleri ile yer adlarına örnek için Sırbistan’da Ada, Adakale, Alibunar, Bor, Kula, Majdanpek, Novi Pazar, Ćuprija, Surduk; Makedonya’da Demir Hisar, Demir Kapija, Kumanovo; Bosna-Hersek’te Sarajevo, Tuzla, Odžak, Čardak; Hırvatistan’da Bakar; Arnavutluk’ta Bayram Curri, Kepenek, Ahmetaj, Elbasan; Bulgaristan’da Harmanli, Kırcaali, Kazanlık, Kula, Pazardzik, Durankulak, Pamukci; Karadağ’da Mahala, Virpazar, Kazanci, Timar, Han, Kula; Kosova’da Türkçe dışındaki şekillerde Elezhan, Ferizaj, Mamusha; Romanya’da Teleorman, Baba Ana, Azaplar, Tuzla, Topalu, Saraiu, Techirghiol, Babadag, Beştepe şeklindedir.
-
-
-### Balkan dillerindeki alışveriş ###
-
-Türk dili ile Macar dili etkileşiminde Türkçedeki Macarca alıntılar varos “şehir” > varoş “şehirlerin sur dışı mahallesi” gibi birkaç kelimeyle sınırlıdır. Macarcadaki Türkçe ögeler ise çeşitli dönemlerde olmuştur. 15. yüzyıla kadar Macarcaya geçen 485 kelime uzun uzun müzakere edilmiştir. Macarcaya Osmanlı döneminde 1312 kelime yanında, 402 şahıs adı ve 224 yer adı bulunmaktadır. Rumencede 1700-3000 arası Türkçe alıntı, Güney Slavlarının dillerinde (Sırp-Hırvatça) 8742 Türkçe kelime alıntılandığı belirtilmiştir. Bulgarcada en az 3500 Türkçe alıntı vardır. Bulgarların yeni dili olan Bulgar Slavcasından Türkçe çete, gocuk, kuluçka gibi birkaç söz geçmiştir. Arnavutçadaki Türkçe unsurları gösteren bir sözlükte varyantlarıyla birlikte 4078 madde yer alır. Olivera Yaşar-Nasteva’nın Makedoncadaki Türkçe unsurları değişik yönleriyle inceleyen eserinde, 3089 Türkçe söz yer almaktadır.[135]
-Yunanca ile Türkçe etkileşiminde Türkçedeki Yunanca unsurların sayısı çeşitli yayınlarda 347-900 arasında belirtilmiştir. Yunancadaki Türkçe unsurların sayısı ise K. Kukkidis’e göre 3000 ve P. Georgidas’a göre 1968’dir.[135]
-
-
-### Ayrıca bakınız ###
-
-- Balkanlar tarihi
-- Balkanlar coğrafyası
-- Balkan dilleri
-- Osmanlı İmparatorluğu kuruluş dönemi
-
-
-
-
-### Notlar ###
-
+Çekirdek sayısı; tek bir bilgi işlem bileşenindeki (yonga ya da çip) bağımsız merkezî işlem birimi sayısını belirten donanım terimidir. İş parçacığı sayısı ile karıştırılmaktadır. Bazen pazarlamacılar tek çekirdekli iki iş parçacıklı işlemcileri "çift çekirdekli" diye tanıtabilmektedir.[1][2]
 
 
 ### Kaynakça ###
 
-- ^ a b İslam Ansiklopedisi (Türkiye Diyanet Vakfı), Cilt 5, s. 25.
-- ^ a b İslam Ansiklopedisi (MEB), Cilt 2, s. 280-281.
-- ^ Türk Dil Kurumu – Büyük Türkçe Sözlük 9 Nisan 2010 tarihinde Wayback Machine sitesinde arşivlendi. "Balkanlar" sözü
-- ^ Türk Dil Kurumu – Büyük Türkçe Sözlük 13 Aralık 2009 tarihinde Wayback Machine sitesinde arşivlendi. "Balkan" sözünün anlamları ve köken bilgisi
-- ^ "Balkans." 7 Temmuz 2014 tarihinde Wayback Machine sitesinde arşivlendi. Online Etimology Dictionary. Erişim: 14 Temmuz 2013
-- ^ Binbaşı M.Nasrullah; Kolağası M.Rüşdi; Mülazım M.Eşref, Osmanlı Atlası - XX. Yüzyıl Başları, (Haz.: Yaşar Baş, Rahmi Tekin), Osmanlı Araştırmaları Vakfı, İstanbul 2003, s. 28-40.
-- ^ Şemseddin Sami, Kamus-ı Türkî, Dersaadet, 1317, s. 275. (Yeniden basımı: Eylül 1998, İstanbul) ISBN 975-316-007-0
-- ^ Prof. Dr. Zeynep Korkmaz, Türkiye Türkçesi Grameri, Şekil Bilgisi, Türk Dil Kurumu Yayınları, Ankara 2007, s. 257-258. ISBN 975-16-1643-3
-- ^ Türk Dil Kurumu 24 Mart 2010 tarihinde Wayback Machine sitesinde arşivlendi. "Rum" sözü
-- ^ Barbara Jelavich, History of the Balkans: Eighteenth and Nineteenth Centuries, Cambridge University Press, Melbourne 1983, s.1. 9 Kasım 2012 tarihinde Wayback Machine sitesinde arşivlendi. ISBN 978-0-521-27458-6 (İngilizce)
-- ^ "Balkanlar" 7 Mart 2013 tarihinde Wayback Machine sitesinde arşivlendi. Coğrafya Dünyası
-- ^ Илия Йовев. Колко е висок връх Мусала? 5 Temmuz 2014 tarihinde Wayback Machine sitesinde arşivlendi. (Bulgarca)
-- ^ Encyclopaedia Britannica "Mount Olympus" 11 Eylül 2012 tarihinde Wayback Machine sitesinde arşivlendi. (İngilizce)
-- ^ Europe  Ultra-Prominences "99 Peaks with Prominence of 1,500 meters or greater" "Vikhren" 9 Haziran 2017 tarihinde Wayback Machine sitesinde arşivlendi. peaklist.org (İngilizce)
-- ^ Bindeshwar Pathak, Shiva Pratap Singh, Bindeshwar Pathak (2010). Glimpses of Europe. Gyan Publishing House. s. 691. 5 Temmuz 2014 tarihinde kaynağından arşivlendi. Erişim tarihi: 1 Aralık 2012. KB1 bakım: Birden fazla ad: yazar listesi (link)
-- ^ a b Flora and Fauna in the Balkan Peninsula 20 Nisan 2013 tarihinde Wayback Machine sitesinde arşivlendi. Europe A Never-ending Journey (İngilizce)
-- ^ Danube Delta 27 Ocak 2008 tarihinde Wayback Machine sitesinde arşivlendi. UNESCO (İngilizce)
-- ^ Golija-Studenica 9 Mart 2013 tarihinde Wayback Machine sitesinde arşivlendi. UNESCO resmî internet sitesi (İngilizce)
-- ^ Albania "natural resources" 24 Aralık 2018 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ CIA The World Factbook: Oil producers 19 Kasım 2012 tarihinde Wayback Machine sitesinde arşivlendi. (İngilizce)
-- ^ "CIA – The World Factbook". 17 Ocak 2010 tarihinde kaynağından arşivlendi. Erişim tarihi: 21 Mart 2010.
-- ^ Bosnia and Herzegovina "natural resources" 15 Mart 2018 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ Bulgaria "natural resources" 3 Şubat 2018 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ Croatia "natural resources" 4 Temmuz 2016 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ Montenegro "natural resources" 12 Eylül 2009 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ Kosovo "natural resources" 6 Mart 2008 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ Regions and territories: Kosovo, BBC News, 20.11.2009 14 Şubat 2009 tarihinde Wayback Machine sitesinde arşivlendi. (İngilizce)
-- ^ Macedonia "natural resources" 28 Ocak 2018 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ Romania "natural resources" 24 Eylül 2014 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ Serbia "natural resources" 24 Aralık 2018 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ Slovenia "natural resources" 21 Temmuz 2018 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ Turkey "natural resources" 20 Eylül 2017 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ Greece "natural resources" 25 Ağustos 2016 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ İtalya Yüzölçümü 11 Şubat 2011 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ a b Arnavutluk Verileri 24 Aralık 2018 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ a b "Censusi i Popullsisë Dhe Banesave Në Shqipëri, Rezultatet Paraprake (2016)". 16 Mart 2013 tarihinde kaynağından arşivlendi. Erişim tarihi: 17 Ocak 2017.
-- ^ a b c d Agencija za statistiku 4 Ağustos 2017 tarihinde Wayback Machine sitesinde arşivlendi. Bosna Hersek Nüfus Enstitüsü 2016
-- ^ a b Bulgaristan Yüzölçümü 3 Şubat 2018 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ a b "Eurostat "Bulgaristan Nüfusu (1.1.2016)"". 21 Ağustos 2011 tarihinde kaynağından arşivlendi. Erişim tarihi: 16 Mart 2010.
-- ^ a b Popis stanovništva, kućanstava i stanova 2011 13 Kasım 2017 tarihinde Wayback Machine sitesinde arşivlendi. Hırvatistan Devlet İstatistik Enstitüsü (Hırvatça)
-- ^ a b Karadağ Yüzölçümü 12 Eylül 2009 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ a b Karadağ Nüfusu 20 Temmuz 2011 tarihinde Wayback Machine sitesinde arşivlendi. 2016 Eurostat
-- ^ a b Kosova Yüzölçümü Bilgisi 6 Mart 2008 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ a b 2016 Nüfus Bilgisi 20 Temmuz 2011 tarihinde Wayback Machine sitesinde arşivlendi. Kosova İstatistik Kurumu Not: 2016 nüfus sayımında Kosova'nın kuzey kesimindeki Zubin Potok, Leposaviç, Zveçan ve Mitroviça'nın kuzeyi belediyeleri sayıma katılmamıştır. Nüfus rakamında bu belediyeler yoktur.
-- ^ a b Makedonya Cumhuriyeti Dışişleri Bakanlığı 14 Kasım 2008 tarihinde Wayback Machine sitesinde arşivlendi. 2002 Bilgileri (2,022,547) (Makedonca)
-- ^ a b "Makedonya Temel Göstergeler" (01.01.2016) 20 Temmuz 2011 tarihinde Wayback Machine sitesinde arşivlendi. Makedonya Devlet İstatistik Enstitüsü (Makedonca)
-- ^ Romanya Yüzölçümü 15 Mayıs 2020 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ Romanya Cumhuriyeti Nüfus Verileri 2 Eylül 2009 tarihinde Wayback Machine sitesinde arşivlendi. 1 Ocak 2009 (Rumence)
-- ^ Serbia 24 Aralık 2018 tarihinde Wayback Machine sitesinde arşivlendi. The World Factbook (İngilizce)
-- ^ Попис Становништва, Домаћинстава и Станова у Републици Србији 2011, Први Резултати, s. 15. 25 Nisan 2012 tarihinde Wayback Machine sitesinde arşivlendi. Sırbistan Cumhuriyeti İstatistik Ofisi (Sırpça)
-- ^ Slovenya Yüzölçümü 16 Mayıs 2010 tarihinde Wayback Machine sitesinde arşivlendi. Europa (İngilizce)
-- ^ Population by groups and sex, Slovenia, 1 July 2012 13 Kasım 2012 tarihinde Wayback Machine sitesinde arşivlendi. Slovenya Cumhuriyeti İstatistik Ofisi (İngilizce)
-- ^ Türkiye Cumhuriyeti Yüzölçümü
-- ^ Adrese Dayalı Nüfus Kayıt Sistemi (ADNKS) Veri Tabanı (2011) 4 Ağustos 2012 tarihinde Wayback Machine sitesinde arşivlendi. Türkiye İstatistik Kurumu
-- ^ a b Yunanistan Yüzölçümü Bilgisi 29 Mart 2010 tarihinde Wayback Machine sitesinde arşivlendi. Interkriti (İngilizce)
-- ^ a b Yunanistan Nüfus Bilgisi (1.1.2016) 20 Temmuz 2011 tarihinde Wayback Machine sitesinde arşivlendi. Eurostat (İngilizce)
-- ^ Peter A. J. Attema, Gert-Jan L. M. Burgers, P. Martijn Van Leusen (2010). Regional Pathways to Complexity: Settlement and Land-Use Dynamics in Early Italy from the Bronze Age to the Republican Period (İngilizce). Amsterdam University Press. ss. 235 sayfa. 5 Temmuz 2014 tarihinde kaynağından arşivlendi. Erişim tarihi: 1 Aralık 2012. KB1 bakım: Birden fazla ad: yazar listesi (link)
-- ^ George A. Christopoulos (1974). Prehistory and protohistory, Volume 1 (İngilizce). Pennsylvania State University Press. ss. 416 sayfa. 5 Temmuz 2014 tarihinde kaynağından arşivlendi. Erişim tarihi: 1 Aralık 2012.
-- ^ a b Greece and the Balkans (200 BC) 7 Aralık 2012 tarihinde Wayback Machine sitesinde arşivlendi. TimeMaps (İngilizce)
-- ^ a b c d e İslam Ansiklopedisi (Türkiye Diyanet Vakfı), Cilt 5, s. 28-29.
-- ^ Prof. Dr. İbrahim Kafesoğlu, Türk Millî Kültürü, Ötüken Neşriyat, İstanbul 2003, s. 72-73. ISBN 975-437-236-5
-- ^ "Dienekes Antropoloji Blogu". 8 Ocak 2016 tarihinde kaynağından arşivlendi. Erişim tarihi: 21 Ekim 2012.
-- ^ Đorđe Janković, The Slavs in the 6th century North Illyricum 23 Ocak 2013 tarihinde Wayback Machine sitesinde arşivlendi. (İngilizce)
-- ^ Cambridge Medieval Encyclopedia, Volume II. (İngilizce)
-- ^ Constantine Porphyrogennetos, (Editör: J. B. Bury), The Early History of the Slavonic Settlements in Dalmatia, Croatia, Serbia, De Administrando Imperio, Chapters 29-36, London 1920, s. vi. 17 Ekim 2012 tarihinde Wayback Machine sitesinde arşivlendi. (İngilizce)
-- ^ James Evans, Allan Stewart, The World of Late Antiquity, The Emperor Justinian and the Byzantine Empire, Greenwood Publishing Group, 2005 1 Kasım 2012 tarihinde Wayback Machine sitesinde arşivlendi. ISBN 0-313-32582-0 (İngilizce)
-- ^ Alexander Sarantis, War and Diplomacy in Pannonia and the Northwest Balkans during the Reign of Justinian: The Gepid Threat and Imperial Responses, Dumbarton Oaks Papers (Washington, DC: Dumbarton Oaks, Trustees for Harvard University), 2009, 63: s. 15-40. 19 Nisan 2016 tarihinde Wayback Machine sitesinde arşivlendi. (İngilizce)
-- ^ Andrew Louth, The Byzantine Empire in the Seventh Century, In Paul Fouracre and Rosamond McKitterick. The New Cambridge Medieval History (Volume I). Cambridge: Cambridge University Press, 2005 ISBN 0-521-36291-1.
-- ^ Μαρία Νυσταζοπουλου-Πελεκιδου, Συμβολὴ εἰς τὴν χρονολόγησιν τῶν Ἀβαρικῶν καὶ Σλαβικῶν ἐπιδρομῶν ἐπὶ Μαυρικίου (582-602) (μετ' ἐπιμέτρου περὶ τῶν Περσικῶν πολέμων) 27 Haziran 2012 tarihinde Wayback Machine sitesinde arşivlendi. (Yunanca)
-- ^ John Haldon, Byzantium in the Seventh Century: The Transformation of a Culture, Cambridge: Cambridge University Press, 1990 28 Ocak 2013 tarihinde Wayback Machine sitesinde arşivlendi. ISBN 0-521-31917-X. (İngilizce)
-- ^ Stephen W. Reinert, Fragmentation (1204–1453), In Cyril Mango. The Oxford History of Byzantium. Oxford: Oxford University Press, 2002, s. 268, 270. 28 Ocak 2013 tarihinde Wayback Machine sitesinde arşivlendi. ISBN 0-19-814098-3. (İngilizce)
-- ^ Prof. Dr. İbrahim Kafesoğlu, Türk Millî Kültürü, Ötüken Neşriyat, İstanbul, 2003, s. 179-180., ISBN 975-437-236-5
-- ^ István Vásáry, (Çeviren: Ali Cevat Akkoyunlu) Kumanlar ve Tatarlar, Osmanlı Öncesi Balkanlar'da Doğulu Askerler (1185-1365), YKY, İstanbul 2008, s. 76-78. ISBN 978-975-08-1310-8
-- ^ István Vásáry, (Çeviren: Ali Cevat Akkoyunlu) Kumanlar ve Tatarlar, Osmanlı Öncesi Balkanlar'da Doğulu Askerler (1185-1365), YKY, İstanbul 2008, s. 175. ISBN 978-975-08-1310-8
-- ^ a b Halil İnalcık, “Türkler ve Balkanlar”, BAL-TAM Türklük Bilgisi 3, Balkan Türkoloji Araştırmaları Merkezi, Prizren 2005, s. 20-21.
-- ^ Halil İnalcık, Devlet-i !Aliyye, Osmanlı İmparatorluğu Üzerine Araştırmalar-I, Klasik Dönem (1302-1606): Siyasal, Kurumsal ve Ekonomik Gelişim, Türkiye İş Bankası Kültür Yayınları, İstanbul 2009, s. 49-53. ISBN 978-9944-88-465-1
-- ^ a b Halil İnalcık, Devlet-i !Aliyye, Osmanlı İmparatorluğu Üzerine Araştırmalar-I, Klasik Dönem (1302-1606): Siyasal, Kurumsal ve Ekonomik Gelişim, Türkiye İş Bankası Kültür Yayınları, İstanbul 2009, s. 64, 105-107. ISBN 978-9944-88-465-1
-- ^ a b Sacit Kutlu, Milliyetçilik ve Emperyalizm Yüzyılında Balkanlar ve Osmanlı Devleti, İstanbul Bilgi Üniversitesi Yayınları, İstanbul 2007, s. 3. ISBN 975-6176-95-5
-- ^ Middle Ages, Oxford Dictionary of English 2e, Oxford University Press, 2003 (İngilizce)
-- ^ Робер Мантран, Историја Османског царства, Клио Београд 2002 (Sırpça)
-- ^ Melissa Snell, The Forgotten Empire, About.com Guide 18 Kasım 2012 tarihinde Wayback Machine sitesinde arşivlendi. (İngilizce)
-- ^ Gábor Ágoston, Treaty of Karlowitz, Encyclopedia of the Ottoman Empire, Infobase Publishing, 2010, s. 309-310. ISBN 978-0816-06259-1. (İngilizce)
-- ^ a b Gail Warrander, Verena Knau, Kosovo, Edition 1, The Bradt Travel Guide, Bucks 2007, s. 7, 9. ISBN 1 84162 199 4 ISBN 978 1 84162 199 9 (İngilizce)
-- ^ İbrahim Artuç, Balkan Savaşı, KASTAŞ Yayınları, İstanbul 1988 ISBN 975-7639-04-4
-- ^ Sacit Kutlu, Milliyetçilik ve Emperyalizm Yüzyılında Balkanlar ve Osmanlı Devleti, İstanbul Bilgi Üniversitesi Yayınları, İstanbul 2007, önsöz ISBN 975-6176-95-5
-- ^ 20. Yüzyıldaki İkincil Savaş ve Zulüm 6 Mayıs 2009 tarihinde Wayback Machine sitesinde arşivlendi. (İngilizce)
-- ^ Tanıl Bora, Milliyetçiliğin Provokasyonu, Birikim Yayınları, İstanbul 1995, s. 71.
-- ^ Alpaslan Işıklı, Kuramlar Boyunca Özyönetim ve Yugoslavya Deneyi, Alan Yayıncılık, İstanbul 1983, s. 142-143.
-- ^ Kosovathanksyou.com 22 Şubat 2011 tarihinde Wayback Machine sitesinde arşivlendi. Kosova Cumhuriyeti'nin uluslararası tanınmasına dair internet sitesi (İngilizce)
-- ^ Становништво, Према Старости И Полу (Општине у Србији, 2010) 9 Nisan 2011 tarihinde Wayback Machine sitesinde arşivlendi. Sırbistan İstatistik Enstitüsü (Sırpça) Not: 2010 yılı Sırbistan resmî belgesinde, Arnavutlar, Boşnaklar, Goralılar gibi İslam inancına mensup grupların yanında “Müslümanlar” (Муслимани) başlığı altında gösterilmiştir. bk.: Становништво, s. 60.
-- ^ Thomas Goltz, Minority Within a Minority- For Ethnic Turks, Serbian War is Another Chapter in a 600 Year Old Story (05-20-99) 15 Mayıs 2011 tarihinde Wayback Machine sitesinde arşivlendi. (İngilizce)
-- ^ Can Karpat, Kosovalı Türkler 4 Eylül 2011 tarihinde Wayback Machine sitesinde arşivlendi. Balkan İncileri
-- ^ 2002 nüfus sayımı sonuçları 8 Temmuz 2007 tarihinde Wayback Machine sitesinde arşivlendi. Makedonya Cumhuriyeti Devlet İstatistik Enstitüsü (Makedonca) (İngilizce)
-- ^ Fred Abrahams, A Threat to "Stability": Human Rights Violations in Macedonia, Human Rights Watch, 1996 ISBN 1564321703
-- ^ Galina Oustinova-Stjepanovic, Religion and Politics of Sufi Turks in Macedonia A pre-field proposal, University College London, London 2008 14 Ekim 2012 tarihinde Wayback Machine sitesinde arşivlendi. (İngilizce)
-- ^ Languages of Greece: “Turkish” 19 Temmuz 2013 tarihinde Wayback Machine sitesinde arşivlendi. Ethnologue
-- ^ "Doç.Dr. İlker Alp, Batı Trakya Türkleri, Atatürk Araştırma Merkezi Dergisi, Sayı 33, Cilt: XI, Kasım 1995". 10 Aralık 2011 tarihinde kaynağından arşivlendi. Erişim tarihi: 28 Eylül 2012.
-- ^ Bulgaristan nüfusu 7 Haziran 2011 tarihinde Wayback Machine sitesinde arşivlendi. Население Болгарии (Rusça)
-- ^ 2001 Bulgaristan 2001 nüfus sayımı sonuçları 27 Mayıs 2012 tarihinde Archive.is sitesinde arşivlendi Население към 01.03.2001 г. по области и етническа група (Bulgarca)
-- ^ Structura etno-demografică pe arii geografice 19 Ocak 2019 tarihinde Wayback Machine sitesinde arşivlendi. Etnokültürel Çeşitlilik Kaynak Merkezi (Rumence)
-- ^ Phinnemore 2006, 157.
-- ^ Constantin, Goschin & Dragusin 2008, 59.
-- ^ Ahmet Halaçoğlu, Balkan Harbi Sırasında Rumeli'den Türk Göçleri, Türk Tarih Kurumu, Ankara 1995 ISBN 975-16-0606-3
-- ^ Nedim İpek, Rumeli'den Anadolu'ya Türk Göçleri, Türk Tarih Kurumu, Ankara 1999 ISBN 9751605962
-- ^ Prof. Dr. İlker Alp, Pomak Türkleri (Kumanlar-Kıpçaklar), Trakya Üniversitesi Sosyal Bilimler Enstitüsü Yayınları: 2008/2
-- ^ Batı Trakya Türk Azınlığı 3 Eylül 2014 tarihinde Wayback Machine sitesinde arşivlendi. Türkiye Cumhuriyeti Dışişleri Bakanlığı resmî internet sitesi
-- ^ http://www.nufusu.com/ 19 Kasım 2016 tarihinde Wayback Machine sitesinde arşivlendi.  2016 Edirne Kırklareli Tekirdağ tamamı İstanbul Avrupa Yakası ve Çanakkale Avrupa Yakası nüfusunu içerir.
-- ^ Romanya Tulça ili ve Köstence ili 2011 nüfusu
-- ^ Robin Okey, Taming Balkan Nationalism, The Habsburg 'Civilizing Mission' in Bosnia 1878-1914, Oxford 20 Kasım 2012 tarihinde Wayback Machine sitesinde arşivlendi. (İngilizce) ISBN13: 9780199213917 ISBN10: 0199213917
-- ^ İslam Ansiklopedisi (Türkiye Diyanet Vakfı), Cilt 5, s. 27.
-- ^ a b Report for Selected Countries and Subjects, IMF, 2009-2016 2 Temmuz 2018 tarihinde Wayback Machine sitesinde arşivlendi. (İngilizce)
-- ^ a b c d e f g h i Muzaffer Vatansever, Balkanların Ekonomik Potansiyeli: 20 Yıllık bir Evrim 28 Ocak 2013 tarihinde Wayback Machine sitesinde arşivlendi. Uluslararası Stratejik Araştırmalar Kurumu
-- ^ Bulgaria’s economy: In a rough region 16 Ocak 2013 tarihinde Wayback Machine sitesinde arşivlendi. The Economist (İngilizce)
-- ^ The world in figures: Greece 20 Şubat 2013 tarihinde Wayback Machine sitesinde arşivlendi. The Economist (İngilizce)
-- ^ Romania’s economy: Buckle up 12 Aralık 2012 tarihinde Wayback Machine sitesinde arşivlendi. The Economist (İngilizce)
-- ^ a b c d e The Balkans 25 Ağustos 2012 tarihinde Wayback Machine sitesinde arşivlendi. emta.org.au (İngilizce)
-- ^ a b c d e Jack Short, “Transport in the Balkan Region” 13 Ağustos 2012 tarihinde Wayback Machine sitesinde arşivlendi. European Conference of Ministers of Transport, International Road Congress for South Eastern Europe (IRF), Sofia (Bulgaria), 18-20 September 2000 (İngilizce)
-- ^ Üsküp Büyük İskender Havalimanı 20 Aralık 2012 tarihinde Wayback Machine sitesinde arşivlendi. TAV Havalimanları
-- ^ Ohri St. Paul The Apostle Havalimanı 16 Kasım 2012 tarihinde Wayback Machine sitesinde arşivlendi. TAV Havalimanları
-- ^ “Limak, Priştine Havalimanı’nı yeniliyor”[ölü/kırık bağlantı] Limak
-- ^ “İş dünyası: Priştine havaalanında trafik arttı” 16 Aralık 2012 tarihinde Wayback Machine sitesinde arşivlendi. SETimes
-- ^ We build for the future 27 Ekim 2012 tarihinde Wayback Machine sitesinde arşivlendi. Ljubljana Havalimanı resmî internet sitesi (İngilizce)
-- ^ “Potpisan Ugovor o koncesiji za izgradnju i upravljanje Zračnom lukom Zagreb” 1 Temmuz 2012 tarihinde Wayback Machine sitesinde arşivlendi. Hırvatistan Hükümeti resmî internet sitesi (Hırvatça)
-- ^ A new shopping experience in Sarajevo! 5 Kasım 2013 tarihinde Wayback Machine sitesinde arşivlendi. Saraybosna Havalimanı Merkezi (İngilizce)
-- ^ “Belgrade Airport overhaul in full force”[ölü/kırık bağlantı] EX-YU Aviation News (İngilizce)
-- ^ İstanbul Atatürk Havalimanı 27 Kasım 2012 tarihinde Wayback Machine sitesinde arşivlendi. TAV Havalimanları
-- ^ Robert D. Kaplan, "A Reader's Guide to the Balkans". New York Times, (April 18, 1993) (İngilizce)
-- ^ Christina Kotchemidova, Balkan Literature[ölü/kırık bağlantı] (İngilizce)
-- ^ Alexandra D. Ioannidou, "The quest for a modern Balkan literature", The Bridge 4 Temmuz 2014 tarihinde Wayback Machine sitesinde arşivlendi. (İngilizce)
-- ^ "Ersin Kaşif, "Balkan Müziği'ne Bir Bakış ve Etnik Etkileşim", Yenidüzen, 24 Haziran 2004". 5 Ocak 2009 tarihinde kaynağından arşivlendi. Erişim tarihi: 15 Kasım 2012.
-- ^ Balkan Folk Müziği 5 Mart 2016 tarihinde Wayback Machine sitesinde arşivlendi. Alternation
-- ^ a b Cristina Bradatan, “Cuisine and Cultural Identity in Balkans”, Anthropology of East Europe Review, Volume 21, Number 1, Pennsylvania State University, s. 43-47. 3 Temmuz 2014 tarihinde Wayback Machine sitesinde arşivlendi. (İngilizce)
-- ^ a b Günay Karaağaç, Türkçe Verintiler Sözlüğü, Türk Dil Kurumu Yayınları, Ankara 2008, LXXIV+957 s. 28 Kasım 2011 tarihinde Wayback Machine sitesinde arşivlendi. ISBN 978-975-16-2021-7
-- ^ Alpay İgci, “Balkanlar’daki Yer Adları ve Bunların Türkçe Şekilleri”, V. Uluslararası Güneydoğu Avrupa Türkolojisi Sempozyumu, BAL-TAM / TDK, Prizren (13-16 Nisan 2011)
-- ^ a b Günay Karaağaç, Türkçe Verintiler Sözlüğü, Türk Dil Kurumu Yayınları, Ankara 2008, s. XXXI-LXVII. 28 Kasım 2011 tarihinde Wayback Machine sitesinde arşivlendi. ISBN 978-975-16-2021-7
 
 
-- g
-- t
-- d
+### Dış bağlantılar ###
 
 
-- Arnavutluk
-- Bosna-Hersek
-- Bulgaristan
-- Hırvatistan*
-- Karadağ
-- Kosova
-- Kuzey Makedonya
-- Romanya*
-- Sırbistan*
-- Slovenya*
-- Türkiye*
-- Yunanistan
 
 
-- Balkanlar
-- Rumeli
-- Balkanlar'daki dağlar
-- Balkanlar'daki nehirler
-- Demirkapı
 
 
-- Tarihöncesi
-- İstanbul'un Fethi
-- Balkan Savaşları
-- I. Dünya Savaşı Balkan Cephesi
-- II. Dünya Savaşı Balkan Cephesi
-- Yugoslavya'nın dağılması
-- Kosova Savaşı
-- NATO'nun Yugoslavya'yı bombalaması
-- 2001 Makedonya çatışması
-- Yunan hükûmeti borç krizi
+
+##########https://www.elitmuzik.com.tr/blog/islemci-nedir-aciklama##########
+
+İşlemci Nedir? Ne Demek? Açıklama
+İşlemci, bilgisayar sistemlerinde temel hesaplama ve veri işleme işlevlerini yerine getiren önemli bir donanım bileşenidir. Aynı zamanda "merkezi işlem birimi" veya kısaca "CPU" olarak da adlandırılır. Bilgisayarın beyni olarak düşünülebilir, çünkü tüm hesaplama görevleri burada gerçekleştirilir. İşlemciler, bir dizi elektronik devre ve transistörden oluşur ve bilgisayarın performansını belirleyen en önemli faktörlerden biridir. Bu blog yazısında, işlemci nedir, nasıl çalışır, işlemci türleri ve bilgisayar performansı üzerindeki etkileri gibi konuları detaylı bir şekilde ele alacağız.
+
+İşlemcinin Temel İşlevi
+İşlemcinin temel işlevi, bilgisayarın gerçekleştirdiği her türlü hesaplama, veri işleme ve komutları yürütme görevlerini yerine getirmektir. İşlemci, bilgisayarın tüm bileşenleri arasında veri akışını düzenler ve kontrol eder. Örneğin, kullanıcının klavyeden girdiği karakterler işlemci tarafından alınır, işlenir ve ekranda görüntülenir.
+
+1. Komut Yürütme
+İşlemci, bilgisayarın belleğindeki komutları alır, yürütür ve sonuçları diğer bileşenlere ileterek işlemi tamamlar. Her komut, işlemcinin mikro işlemcileri tarafından küçük adımlara bölünerek işlenir.
+
+2. Veri İşleme
+İşlemci, bellekteki verileri alır, matematiksel işlemler veya mantıksal operasyonlar uygular ve sonuçları belleğe veya diğer bileşenlere gönderir. Örneğin, iki sayıyı toplama veya mantıksal bir ifadenin doğruluğunu kontrol etme işlemleri işlemci tarafından gerçekleştirilir.
+
+3. Adresleme
+İşlemci, bellekteki verilere erişmek için adresleme mekanizmalarını kullanır. Her bellek hücresi, işlemcinin erişebileceği benzersiz bir adresle tanımlanır ve işlemci bu adresleri kullanarak verilere ulaşır.
+
+4. Kontrol
+İşlemci, bilgisayarın diğer bileşenlerini kontrol eder ve yönlendirir. Örneğin, ekran kartına görüntüyü gönderir, sabit diske veri yazdırır veya klavyeden gelen komutları alır.
+
+İşlemci Nasıl Çalışır?
+İşlemci, elektronik devreler ve tranzistörlerden oluşan oldukça karmaşık bir yapıya sahiptir. İşlemcinin çalışma prensibi şu şekildedir:
+
+1. Komut Alınması
+İşlemci, bilgisayarın belleğinden komutları alır. Bellek, işlemcinin komutları ve verileri işlemesi için gerekli olan bilgileri saklar. İşlemci, komutları bellek hücrelerinden alarak yürütme birimine gönderir.
+
+2. Yürütme Birimi
+Yürütme birimi, işlemcinin temel işlemleri gerçekleştirdiği bölümdür. Komutlar, yürütme biriminde küçük adımlara bölünür ve işlemci tarafından bu adımlar sırasında işlenir.
+
+3. Kaydedici (Register) Kullanımı
+İşlemci, geçici verileri ve sonuçları saklamak için kaydediciler (register) adı verilen küçük hafıza birimlerini kullanır. Bu kaydediciler, işlemci içinde bulunur ve hızlı erişim sağlayarak işlem hızını artırır.
+
+4. Veri ve Kontrol Sinyalleri
+İşlemci, veri ve kontrol sinyalleri kullanarak komutları diğer bileşenlere ileterek işlemi tamamlar. Veri sinyalleri, işlemcinin bellek ve diğer bileşenlerle veri alışverişini sağlar. Kontrol sinyalleri ise diğer bileşenlerin ne zaman işlemciyle etkileşime gireceğini belirler.
+
+İşlemci Türleri
+İşlemciler, çeşitli faktörlere göre farklı türlerde olabilir. İşte yaygın olarak kullanılan işlemci türlerinden bazıları:
+
+1. Tek Çekirdekli İşlemciler
+Tek çekirdekli işlemciler, yalnızca bir işlem çekirdeğine sahip olan işlemcilerdir. Tek çekirdekli işlemciler, temel hesaplama görevlerini seri olarak yürütürler. Bu nedenle, çoklu görevleri aynı anda yürütmek için uygun değillerdir.
+
+2. Çok Çekirdekli İşlemciler
+Çok çekirdekli işlemciler, birden fazla işlem çekirdeğine sahip olan işlemcilerdir. Bu çekirdekler, bağımsız olarak çalışabilir ve birden fazla işlemi aynı anda yürütebilir. Bu sayede, çoklu görevlerde daha iyi performans sağlarlar.
+
+3. APU (Accelerated Processing Unit)
+APU, bir işlemci ve bir grafik işlem biriminin (GPU) birleştirilmiş halidir. Bu tür işlemciler, grafik yoğun uygulamaları daha iyi işlemek için özel olarak tasarlanmıştır.
+
+4. İntegrated Graphics
+Integrated Graphics, ayrı bir grafik kartı olmadan işlemci içine entegre edilmiş grafik işlem birimidir. Bu tür işlemciler, temel grafik ihtiyaçlarını karşılamak için yeterli olabilir, ancak yüksek performanslı oyunlar ve grafik yoğun uygulamalar için yeterli olmayabilir.
+
+İşlemcinin Bilgisayar Performansı Üzerindeki Etkisi
+İşlemci, bilgisayarın performansını büyük ölçüde etkileyen önemli bir faktördür. İyi bir işlemci, bilgisayarın hızlı çalışmasını ve görevleri hızlı bir şekilde tamamlamasını sağlar. Özellikle çoklu çekirdekli işlemciler, çoklu görevleri aynı anda yürüterek daha yüksek performans sunarlar. Ayrıca, işlemcinin saat hızı, veri işleme hızını belirleyen diğer bir önemli faktördür. Yüksek saat hızına sahip işlemciler, daha hızlı hesaplamalar yapabilir ve uygulamaları daha hızlı başlatabilir.
+
+Sonuç
+İşlemci, bilgisayarların temel hesaplama ve veri işleme işlevlerini yerine getiren önemli bir donanım bileşenidir. Bilgisayarın beyni olarak düşünülebilecek işlemci, komutları alır, yürütür ve sonuçları diğer bileşenlere iletir. İşlemci türleri ve performansı, bilgisayarın genel performansını etkileyen önemli faktörlerden biridir. Doğru işlemci seçimi, bilgisayarınızın performansını artırabilir ve daha iyi bir kullanıcı deneyimi sağlayabilir. Bu nedenle, bilgisayar satın alırken veya yükseltirken işlemci seçimine dikkat etmek önemlidir.
 
 
-- Balkan dilleri
-- Balkan dil birliği
-- Balkan müziği • Balkan mutfağı
 
 
-- * Topraklarının bir kısmı Balkanlar’da olan ülke.
+##########https://www.gaming.gen.tr/498421/islemci-cpu-nedir-ne-ise-yarar/##########
 
+Bilgisayarların hayatımızın vazgeçilmez bir parçası haline geldiği bu çağda, onları çalıştıran ve verimli hale getiren temel bileşenlerin önemi de artmıştır. Bu noktada, bilgisayarların beyni olarak adlandırılan işlemciler devreye giriyor. Bu yazıda, işlemcilerin ne olduğunu, işlevlerini, türlerini ve seçim kriterlerini detaylı bir şekilde ele alacağız.
+İşlemci Nedir?
+İşlemci, bilgisayarın merkezi işlem birimi (CPU) olarak tanımlanır. Bilgisayarın tüm işlemlerini gerçekleştiren, veri işleyen ve komutları yürüten bir çip veya çip setidir.
 
-- BNE: XX453055
-- GND: 4004334-4
-- LCCN: sh85011191
-- NARA: 10045631
-- NDL: 00560534
-- NKC: ge134045
-- NLI: 987007282303005171
-- TDVİA: balkanlar
-- VIAF: 252087561
+İşlemcinin İşlevi Nedir?
+İşlemcinin temel işlevleri şunlardır:
+
+Komut İşleme: İşlemci, bilgisayarın işletim sistemi veya kullanıcı tarafından gönderilen komutları işler. Bu komutlar, aritmetiksel veya mantıksal operasyonlar, veri transferi veya diğer işlemleri içerir.
+
+Veri İşleme: İşlemci, veriyi işleyerek matematiksel işlemleri gerçekleştirir. Bu işlemler sayıları toplama, çıkarma, çarpma, bölme gibi temel aritmetik operasyonlarını ve mantıksal operasyonları kapsar.
+
+Bellek Yönetimi: İşlemci, bilgisayarın belleğini yönetir. Veri ve talimatlar bellekten işlenir ve belleğe yazılır. İşlemci, bellekteki veriye erişerek gerekli işlemleri gerçekleştirir.
+
+Yönetim ve Kontrol: İşlemci, bilgisayarın tüm parçalarını yönetir ve koordine eder. Komutları sıralar, zamanlama işlemlerini sağlar, diğer donanım bileşenleriyle iletişim kurar ve bilgisayarın düzgün çalışmasını sağlar.
+
+Güç Yönetimi: Modern işlemciler, enerji verimliliği açısından optimize edilmiştir. İşlemci performansını artırırken enerji tüketimini minimize etmeyi amaçlar. İşlemciler genellikle güç tasarrufu modlarına sahiptir.
+
+Bilgisayarda İşlemcinin Yeri
+Bilgisayarda işlemci, genellikle anakartın üzerindedir. Anakart, bilgisayarın diğer tüm bileşenlerini barındıran ve bunların birbiriyle iletişim kurmasını sağlayan bir temel bileşendir. İşlemci, anakart üzerindeki bir sokete takılır ve buradan diğer bileşenlerle veri alışverişi yapar.
+
+İşlemci Türleri
+Merkezi İşlem Birimi (CPU): Bilgisayarın genel işlem ve hesaplama işlevlerini gerçekleştiren temel işlemci türüdür.
+
+Grafik İşlem Birimi (GPU): Grafik işleme ve 3D hesaplama için tasarlanmış işlemcilerdir. Bilgisayar oyunları, grafik tasarımı, video düzenleme ve yapay zeka gibi alanlarda kullanılır.
+
+Hızlandırıcılar (FPGA, ASIC): Belirli bir uygulama veya algoritma için optimize edilmiş özel amaçlı işlemcilerdir.
+
+Mobil İşlemciler: Akıllı telefonlar, tabletler ve diğer taşınabilir cihazlarda kullanılan işlemcilerdir. Düşük güç tüketimi ve yüksek verimlilik için optimize edilmiştir.
+
+Sunucu İşlemcileri: Veri merkezleri ve büyük ölçekli bilgi işlem uygulamaları için tasarlanmış yüksek performanslı işlemcilerdir.
+
+Entegre İşlemciler (APU, SoC): Merkezi işlem birimi ve grafik işlem birimini tek bir yonga üzerinde birleştiren işlemcilerdir.
+
+İşlemci Seçerken Dikkat Edilmesi Gerekenler
+Performans: İşlemcinin hızı, çekirdek sayısı ve mimarisi performansı belirler. Daha yüksek saat hızları ve çekirdek sayıları genellikle daha iyi performans sağlar.
+
+Kullanım Amacı: Bilgisayarın hangi amaçlarla kullanılacağını dikkate almak önemlidir. Oyun oynamak, video düzenlemek, programlama yapmak veya ofis işleri gibi farklı kullanım senaryoları farklı işlemci gereksinimleri ortaya koyar.
+
+Soket Uyumluluğu: İşlemcinin anakartın soketiyle uyumlu olması gerekir. Bu, sorunsuz bir kurulum sağlar.
+
+Enerji Tüketimi ve Isı Yönetimi: İşlemci seçerken enerji tüketimi ve ısı üretimi gibi faktörler de göz önünde bulundurulmalıdır.
+
+Fiyat ve Performans Oranı: Bütçenize uygun bir işlemci seçmek önemlidir. En pahalı işlemci her zaman en iyi performansı sunmayabilir.
+
+Gelecek Güvenlik ve Uyumluluk: İşlemciyi seçerken gelecekteki güvenlik güncellemeleri ve uyumluluk desteği gibi faktörler de göz önünde bulundurulmalıdır.
+
+İşlemci Hızı Nedir?
+İşlemci hızı, bir işlemcinin birim zamanda gerçekleştirebildiği işlem sayısını ifade eder ve genellikle gigahertz (GHz) cinsinden belirtilir. Yüksek işlemci hızı, işlemcinin daha hızlı çalıştığı ve daha fazla işlemi birim zamanda gerçekleştirebildiği anlamına gelir. Ancak, işlemci hızı tek başına performansı belirleyen bir faktör değildir.
+
+Gelişmiş CPU Özellikleri
+Çoklu Çekirdek Desteği: İşlemciler, birden fazla çekirdek içerebilir, bu da aynı anda birden fazla işi yapabilme anlamına gelir.
+
+Hiper-Threading Teknolojisi: İşlemci çekirdekleri, aynı anda birden fazla iş parçacığını işleme yeteneğine sahiptir.
+
+Bellek Yönetim Birimleri (MMU): Bellek erişimini optimize eden donanım bileşenleridir.
+
+Bellek Önbellekleri: Hızlı belleklerdir ve işlemcinin daha hızlı veri erişimini sağlarlar.
+
+Güç Yönetimi Teknolojileri: Enerji tüketimini azaltarak ve ısı üretimini optimize ederek işlemciyi daha verimli hale getirirler.
+
+Grafik İşlem Birimi (GPU) Entegrasyonu: İşlemci, entegre grafik işlem birimleri içerebilir, bu sayede ayrı bir grafik kartına gerek kalmadan temel grafik işlemleri gerçekleştirilebilir.
+
+Bileşen Entegrasyonu (SoC): İşlemci, diğer bileşenleri (bellek denetleyicisi, grafik işlem birimi vb.) entegre edebilir, bu da sistem maliyetini düşürür ve entegrasyonu artırır.
+
+Bu özellikler, işlemcilerin performansını artıran ve işlevselliğini geliştiren temel unsurlardır.
+
+Bu bilgiler ışığında, bilgisayarınız için en uygun işlemciyi seçerek performansınızı maksimize edebilir ve bilgisayar kullanım deneyiminizi iyileştirebilirsiniz.
 
