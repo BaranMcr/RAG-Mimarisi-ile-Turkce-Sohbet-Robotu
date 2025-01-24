@@ -8,7 +8,7 @@ import numpy as np
 # Flask uygulamasını başlatma
 app = Flask(__name__)
 
-# Llama Türkçe modeli ve tokenizer'ını yükleme
+# Llm modeli ve tokenizer'ını yükleme
 llm_model_name = "asafaya/kanarya-2b"
 tokenizer_llm = AutoTokenizer.from_pretrained(llm_model_name)
 llm_model = AutoModelForCausalLM.from_pretrained(llm_model_name).to("cuda")
@@ -46,7 +46,7 @@ def retrieve(query, paragraphs, paragraph_embeds):
     best_index = similarities.argsort()[0][-1]  # En yüksek skorun indeksini al
     return paragraphs[best_index]  # Sadece en yakın bağlamı döndür
 
-# Llama modeli ile cevap üretme
+# Llm modeli ile cevap üretme
 def generate_answer(input_text, context):
     full_input = (
         f"Bağlam: {context}\n"
