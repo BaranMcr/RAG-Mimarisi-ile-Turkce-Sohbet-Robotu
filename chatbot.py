@@ -51,7 +51,7 @@ def generate_answer(input_text, context):
     full_input = (
         f"Bağlam: {context}\n"
         f"Soru: {input_text}\n"
-        f"Lütfen sadece kısa ve açık bir cevap ver."
+        f"Cevap:"
     )
     inputs = tokenizer_llm(full_input, return_tensors="pt", padding=True, truncation=True, max_length=512).to("cuda")
     with torch.no_grad():
@@ -81,6 +81,7 @@ def home():
         print("Seçilen bağlam: " + context)  # Bağlamı yazdırmak
 
         response = generate_answer(user_input, context)  # Model yanıtını üret
+        print("üretilen cevap: " + response)
         
         # "Cevap:" kelimesinden sonrası alınır ve son noktada kesilir
         if "Cevap:" in response:
